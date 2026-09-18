@@ -1,6 +1,5 @@
 *.iml
 .gradle
-.kotlin
 /local.properties
 /.idea/caches
 /.idea/libraries
@@ -14,13 +13,17 @@
 .externalNativeBuild
 .cxx
 local.properties
-.env
-debug.keystore
-*.jks
-*.keystore
-secrets.properties
+
+# Game Resources
+*.rpf
+*.bin
+*.log
+Config/
+Drivers/
+dxuk-cache/
+save/
+update/
+x64/
 *.apk
 *.aab
-/docs/
-/architecture/
-/diagnostics/
+build/
