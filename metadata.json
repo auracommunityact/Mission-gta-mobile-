@@ -1,0 +1,6 @@
+{
+  "name": "Mission GTA Mobile",
+  "description": "Experimental Mobile Porting Project.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
