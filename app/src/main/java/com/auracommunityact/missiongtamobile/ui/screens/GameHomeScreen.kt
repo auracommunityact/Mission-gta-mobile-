@@ -62,14 +62,14 @@ fun GameHomeScreen(
             verticalArrangement = Arrangement.Center
         ) {
             Text(
-                text = "MISSION",
+                text = "GTA V",
                 color = Color.White,
                 fontSize = 28.sp,
                 fontWeight = FontWeight.Bold,
                 letterSpacing = 2.sp
             )
             Text(
-                text = "GTA MOBILE",
+                text = "MOBILE",
                 color = Color.Gray,
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Medium,
@@ -116,7 +116,7 @@ fun GameHomeScreen(
                     .padding(24.dp)
             ) {
                 Text(
-                    text = "MISSION GTA MOBILE",
+                    text = "GTA V MOBILE",
                     color = Color.White,
                     fontSize = 20.sp,
                     fontWeight = FontWeight.Bold,

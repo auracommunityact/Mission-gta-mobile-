@@ -145,7 +145,7 @@ private fun DiagRow(label: String, value: String) {
 
 private fun copyDiagnostics(context: Context, diagnostics: SystemDiagnostics, resourceStatus: String) {
     val text = """
-        MISSION GTA MOBILE - DIAGNOSTICS
+        GTA V MOBILE - DIAGNOSTICS
         App Version: ${diagnostics.appVersion}
         Android Version: ${diagnostics.androidVersion}
         Device Model: ${diagnostics.deviceModel}

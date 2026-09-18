@@ -43,7 +43,7 @@ fun StartupScreen(onStartupComplete: () -> Unit) {
             modifier = Modifier.padding(32.dp)
         ) {
             Text(
-                text = "MISSION GTA MOBILE",
+                text = "GTA V MOBILE",
                 color = Color.White,
                 fontSize = 42.sp,
                 fontWeight = FontWeight.Bold,
