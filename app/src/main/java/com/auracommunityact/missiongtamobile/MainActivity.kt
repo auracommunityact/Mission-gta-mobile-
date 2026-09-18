@@ -56,6 +56,8 @@ class MainActivity : ComponentActivity() {
                     ) {
                         composable(Screen.Startup.route) {
                             StartupScreen(
+                                runtimeProvider = runtimeProvider,
+                                resourceManager = resourceManager,
                                 onStartupComplete = {
                                     navController.navigate(Screen.Home.route) {
                                         popUpTo(Screen.Startup.route) { inclusive = true }
