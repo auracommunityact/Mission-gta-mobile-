@@ -1,5 +1,6 @@
 package com.auracommunityact.missiongtamobile.ui.screens
 
+import android.app.Activity
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
@@ -10,11 +11,13 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -22,13 +25,28 @@ import androidx.compose.ui.unit.sp
 import com.auracommunityact.missiongtamobile.renderer.GameSurface
 import com.auracommunityact.missiongtamobile.runtime.GameRuntimeProvider
 import com.auracommunityact.missiongtamobile.runtime.GameRuntimeStatus
+import com.auracommunityact.missiongtamobile.storage.GameSettingsManager
 
 @Composable
 fun GameScreen(
     runtimeProvider: GameRuntimeProvider,
-    onNavigateBack: () -> Unit
+    onNavigateBack: () -> Unit,
+    settingsManager: GameSettingsManager = GameSettingsManager.getInstance(LocalContext.current)
 ) {
+    val context = LocalContext.current
     val status by runtimeProvider.status.collectAsState()
+    val forceLandscape by settingsManager.forceLandscape.collectAsState()
+    val landscapeMode by settingsManager.landscapeMode.collectAsState()
+
+    // Enforce landscape orientation during gameplay when setting is enabled
+    DisposableEffect(forceLandscape, landscapeMode) {
+        val activity = context as? Activity
+        settingsManager.applyGameOrientation(activity)
+
+        onDispose {
+            settingsManager.restoreDefaultOrientation(activity)
+        }
+    }
 
     Box(modifier = Modifier.fillMaxSize().background(Color.Black)) {
         if (status == GameRuntimeStatus.PENDING || status == GameRuntimeStatus.ERROR) {
@@ -80,13 +98,19 @@ fun GameScreen(
             }
             
             // Performance Overlay Foundation (Developer Mode)
-            PerformanceOverlay(modifier = Modifier.align(Alignment.TopEnd).padding(16.dp))
+            PerformanceOverlay(
+                orientationStatus = if (forceLandscape) landscapeMode.displayName else "Free Rotation",
+                modifier = Modifier.align(Alignment.TopEnd).padding(16.dp)
+            )
         }
     }
 }
 
 @Composable
-fun PerformanceOverlay(modifier: Modifier = Modifier) {
+fun PerformanceOverlay(
+    orientationStatus: String = "Sensor Landscape",
+    modifier: Modifier = Modifier
+) {
     Column(
         modifier = modifier
             .background(Color(0x88000000))
@@ -101,6 +125,7 @@ fun PerformanceOverlay(modifier: Modifier = Modifier) {
         PerfRow("CPU", "N/A")
         PerfRow("Thermal", "Normal")
         PerfRow("Runtime", "Pending")
+        PerfRow("Orientation", orientationStatus)
     }
 }
 

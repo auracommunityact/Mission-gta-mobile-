@@ -6,27 +6,38 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material3.Divider
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
+import androidx.compose.material.icons.filled.ChevronRight
+import androidx.compose.material.icons.filled.ScreenRotation
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.auracommunityact.missiongtamobile.storage.GameResourceManager
+import com.auracommunityact.missiongtamobile.storage.GameSettingsManager
+import com.auracommunityact.missiongtamobile.storage.LandscapeOrientationMode
 
 @Composable
-fun SettingsScreen(onNavigateBack: () -> Unit, resourceManager: GameResourceManager) {
+fun SettingsScreen(
+    onNavigateBack: () -> Unit,
+    resourceManager: GameResourceManager,
+    settingsManager: GameSettingsManager = GameSettingsManager.getInstance(LocalContext.current)
+) {
     val selectedUri by resourceManager.selectedUri.collectAsState()
-    
+    val forceLandscape by settingsManager.forceLandscape.collectAsState()
+    val landscapeMode by settingsManager.landscapeMode.collectAsState()
+
+    var showOrientationDialog by remember { mutableStateOf(false) }
+
     val documentTreeLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.OpenDocumentTree()
     ) { uri ->
@@ -35,10 +46,21 @@ fun SettingsScreen(onNavigateBack: () -> Unit, resourceManager: GameResourceMana
         }
     }
 
+    if (showOrientationDialog) {
+        LandscapeModeSelectionDialog(
+            currentMode = landscapeMode,
+            onModeSelected = { mode ->
+                settingsManager.setLandscapeMode(mode)
+                showOrientationDialog = false
+            },
+            onDismiss = { showOrientationDialog = false }
+        )
+    }
+
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFF121212))
+            .background(Color(0xFF0F172A)) // Deep Navy Dark
             .padding(24.dp)
     ) {
         Row(
@@ -61,54 +83,74 @@ fun SettingsScreen(onNavigateBack: () -> Unit, resourceManager: GameResourceMana
                 letterSpacing = 1.sp
             )
         }
-        
-        Spacer(modifier = Modifier.height(24.dp))
-        
+
+        Spacer(modifier = Modifier.height(16.dp))
+
         LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
-                .background(Color(0xFF1A1A1A))
-                .padding(24.dp)
+                .clip(RoundedCornerShape(12.dp))
+                .background(Color(0xFF1E293B))
+                .padding(20.dp)
         ) {
             item {
-                SettingsCategory("GAME DATA")
-                SettingsRow("Current Location", selectedUri?.toString() ?: "None configured")
-                
-                if (selectedUri != null) {
-                    ActionRow("Re-scan Resources") { resourceManager.validateResources(selectedUri!!) }
-                }
-                
-                ActionRow("Change Resource Folder") { documentTreeLauncher.launch(null) }
-                
-                if (selectedUri != null) {
-                    ActionRow("Remove Resource Permission", Color.Red) { resourceManager.clearPermission() }
+                SettingsCategory("DISPLAY & ORIENTATION")
+
+                SettingsToggleRow(
+                    title = "Force Landscape in Gameplay",
+                    subtitle = "Lock orientation to landscape mode during gameplay for a consistent control layout and viewport",
+                    checked = forceLandscape,
+                    onCheckedChange = { settingsManager.setForceLandscape(it) },
+                    testTag = "force_landscape_switch"
+                )
+
+                if (forceLandscape) {
+                    SettingsOptionRow(
+                        title = "Landscape Orientation Mode",
+                        currentValue = landscapeMode.displayName,
+                        subtitle = landscapeMode.description,
+                        onClick = { showOrientationDialog = true },
+                        testTag = "landscape_mode_selector"
+                    )
                 }
 
-                Spacer(modifier = Modifier.height(32.dp))
-
-                SettingsCategory("DISPLAY")
+                SettingsRow("Fullscreen Mode", "Enabled")
                 SettingsRow("Resolution Scale", "Coming with runtime integration")
                 SettingsRow("Graphics Quality", "Coming with runtime integration")
                 SettingsRow("FPS Limit", "Coming with runtime integration")
                 SettingsRow("VSync", "Coming with runtime integration")
-                SettingsRow("Fullscreen Mode", "Enabled")
-                
-                Spacer(modifier = Modifier.height(32.dp))
-                
+
+                Spacer(modifier = Modifier.height(28.dp))
+
+                SettingsCategory("GAME DATA")
+                SettingsRow("Current Location", selectedUri?.toString() ?: "None configured")
+
+                if (selectedUri != null) {
+                    ActionRow("Re-scan Resources") { resourceManager.validateResources(selectedUri!!) }
+                }
+
+                ActionRow("Change Resource Folder") { documentTreeLauncher.launch(null) }
+
+                if (selectedUri != null) {
+                    ActionRow("Remove Resource Permission", Color(0xFFEF4444)) { resourceManager.clearPermission() }
+                }
+
+                Spacer(modifier = Modifier.height(28.dp))
+
                 SettingsCategory("PERFORMANCE")
-                SettingsRow("Performance Overlay", "Disabled (Debug Only)")
+                SettingsRow("Performance Overlay", "Enabled (In-Game HUD)")
                 SettingsRow("Texture Quality", "Coming with runtime integration")
                 SettingsRow("Render Scale", "Coming with runtime integration")
-                
-                Spacer(modifier = Modifier.height(32.dp))
-                
+
+                Spacer(modifier = Modifier.height(28.dp))
+
                 SettingsCategory("CONTROLS")
                 SettingsRow("Touch Controls", "Coming with runtime integration")
                 SettingsRow("Controller Support", "Coming with runtime integration")
                 SettingsRow("Sensitivity", "Coming with runtime integration")
-                
-                Spacer(modifier = Modifier.height(32.dp))
-                
+
+                Spacer(modifier = Modifier.height(28.dp))
+
                 SettingsCategory("SYSTEM")
                 SettingsRow("Runtime Status", "Pending")
                 SettingsRow("App Version", "0.1")
@@ -118,7 +160,177 @@ fun SettingsScreen(onNavigateBack: () -> Unit, resourceManager: GameResourceMana
 }
 
 @Composable
-private fun ActionRow(label: String, color: Color = Color(0xFF64B5F6), onClick: () -> Unit) {
+private fun SettingsToggleRow(
+    title: String,
+    subtitle: String? = null,
+    checked: Boolean,
+    onCheckedChange: (Boolean) -> Unit,
+    testTag: String = ""
+) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable { onCheckedChange(!checked) }
+            .padding(vertical = 12.dp),
+        horizontalArrangement = Arrangement.SpaceBetween,
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Column(
+            modifier = Modifier
+                .weight(1f)
+                .padding(end = 16.dp)
+        ) {
+            Text(text = title, color = Color.White, fontSize = 15.sp, fontWeight = FontWeight.SemiBold)
+            if (subtitle != null) {
+                Spacer(modifier = Modifier.height(3.dp))
+                Text(text = subtitle, color = Color(0xFF94A3B8), fontSize = 12.sp, lineHeight = 16.sp)
+            }
+        }
+        Switch(
+            checked = checked,
+            onCheckedChange = onCheckedChange,
+            modifier = if (testTag.isNotEmpty()) Modifier.testTag(testTag) else Modifier,
+            colors = SwitchDefaults.colors(
+                checkedThumbColor = Color.White,
+                checkedTrackColor = Color(0xFF2563EB),
+                uncheckedThumbColor = Color(0xFF94A3B8),
+                uncheckedTrackColor = Color(0xFF0F172A)
+            )
+        )
+    }
+}
+
+@Composable
+private fun SettingsOptionRow(
+    title: String,
+    currentValue: String,
+    subtitle: String? = null,
+    onClick: () -> Unit,
+    testTag: String = ""
+) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onClick)
+            .padding(vertical = 12.dp),
+        horizontalArrangement = Arrangement.SpaceBetween,
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Column(
+            modifier = Modifier
+                .weight(1f)
+                .padding(end = 16.dp)
+        ) {
+            Text(text = title, color = Color.White, fontSize = 15.sp, fontWeight = FontWeight.SemiBold)
+            if (subtitle != null) {
+                Spacer(modifier = Modifier.height(3.dp))
+                Text(text = subtitle, color = Color(0xFF94A3B8), fontSize = 12.sp, lineHeight = 16.sp)
+            }
+        }
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            modifier = if (testTag.isNotEmpty()) Modifier.testTag(testTag) else Modifier
+        ) {
+            Text(
+                text = currentValue,
+                color = Color(0xFF60A5FA),
+                fontSize = 13.sp,
+                fontWeight = FontWeight.Medium
+            )
+            Spacer(modifier = Modifier.width(4.dp))
+            Icon(
+                imageVector = Icons.Default.ChevronRight,
+                contentDescription = null,
+                tint = Color(0xFF60A5FA),
+                modifier = Modifier.size(18.dp)
+            )
+        }
+    }
+}
+
+@Composable
+private fun LandscapeModeSelectionDialog(
+    currentMode: LandscapeOrientationMode,
+    onModeSelected: (LandscapeOrientationMode) -> Unit,
+    onDismiss: () -> Unit
+) {
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        containerColor = Color(0xFF1E293B),
+        title = {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Icon(
+                    imageVector = Icons.Default.ScreenRotation,
+                    contentDescription = null,
+                    tint = Color(0xFF60A5FA),
+                    modifier = Modifier.size(24.dp)
+                )
+                Spacer(modifier = Modifier.width(10.dp))
+                Text(
+                    text = "Select Landscape Mode",
+                    color = Color.White,
+                    fontSize = 18.sp,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+        },
+        text = {
+            Column(modifier = Modifier.fillMaxWidth()) {
+                Text(
+                    text = "Choose how the gameplay orientation behaves when rotating your device:",
+                    color = Color(0xFF94A3B8),
+                    fontSize = 13.sp,
+                    modifier = Modifier.padding(bottom = 14.dp)
+                )
+
+                LandscapeOrientationMode.entries.forEach { mode ->
+                    val isSelected = mode == currentMode
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clip(RoundedCornerShape(8.dp))
+                            .clickable { onModeSelected(mode) }
+                            .padding(vertical = 10.dp, horizontal = 8.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        RadioButton(
+                            selected = isSelected,
+                            onClick = { onModeSelected(mode) },
+                            colors = RadioButtonDefaults.colors(
+                                selectedColor = Color(0xFF3B82F6),
+                                unselectedColor = Color(0xFF64748B)
+                            )
+                        )
+                        Spacer(modifier = Modifier.width(10.dp))
+                        Column {
+                            Text(
+                                text = mode.displayName,
+                                color = if (isSelected) Color.White else Color(0xFFCBD5E1),
+                                fontSize = 14.sp,
+                                fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
+                            )
+                            Spacer(modifier = Modifier.height(2.dp))
+                            Text(
+                                text = mode.description,
+                                color = Color(0xFF94A3B8),
+                                fontSize = 11.sp,
+                                lineHeight = 14.sp
+                            )
+                        }
+                    }
+                }
+            }
+        },
+        confirmButton = {
+            TextButton(onClick = onDismiss) {
+                Text("CANCEL", color = Color(0xFF60A5FA), fontWeight = FontWeight.Bold)
+            }
+        }
+    )
+}
+
+@Composable
+private fun ActionRow(label: String, color: Color = Color(0xFF60A5FA), onClick: () -> Unit) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -127,7 +339,7 @@ private fun ActionRow(label: String, color: Color = Color(0xFF64B5F6), onClick: 
         horizontalArrangement = Arrangement.Start,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Text(text = label, color = color, fontSize = 16.sp, fontWeight = FontWeight.Bold)
+        Text(text = label, color = color, fontSize = 15.sp, fontWeight = FontWeight.Bold)
     }
 }
 
@@ -135,13 +347,13 @@ private fun ActionRow(label: String, color: Color = Color(0xFF64B5F6), onClick: 
 private fun SettingsCategory(name: String) {
     Text(
         text = name,
-        color = Color(0xFFFFB300),
-        fontSize = 14.sp,
+        color = Color(0xFF38BDF8), // Light Sky/Navy accent
+        fontSize = 13.sp,
         fontWeight = FontWeight.Bold,
         letterSpacing = 1.sp,
-        modifier = Modifier.padding(bottom = 8.dp)
+        modifier = Modifier.padding(bottom = 6.dp)
     )
-    Divider(color = Color.DarkGray, modifier = Modifier.padding(bottom = 16.dp))
+    HorizontalDivider(color = Color(0xFF334155), modifier = Modifier.padding(bottom = 12.dp))
 }
 
 @Composable
@@ -149,11 +361,11 @@ private fun SettingsRow(label: String, value: String) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(vertical = 12.dp),
+            .padding(vertical = 11.dp),
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Text(text = label, color = Color.White, fontSize = 16.sp)
-        Text(text = value, color = Color.Gray, fontSize = 14.sp)
+        Text(text = label, color = Color.White, fontSize = 15.sp)
+        Text(text = value, color = Color(0xFF94A3B8), fontSize = 13.sp)
     }
 }

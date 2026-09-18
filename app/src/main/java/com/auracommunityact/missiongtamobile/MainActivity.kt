@@ -16,6 +16,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.auracommunityact.missiongtamobile.runtime.GameRuntimeProvider
 import com.auracommunityact.missiongtamobile.storage.GameResourceManager
+import com.auracommunityact.missiongtamobile.storage.GameSettingsManager
 import com.auracommunityact.missiongtamobile.ui.screens.DiagnosticsScreen
 import com.auracommunityact.missiongtamobile.ui.screens.GameHomeScreen
 import com.auracommunityact.missiongtamobile.ui.screens.GameScreen
@@ -28,11 +29,13 @@ class MainActivity : ComponentActivity() {
     
     private val runtimeProvider = GameRuntimeProvider()
     private lateinit var resourceManager: GameResourceManager
+    private lateinit var settingsManager: GameSettingsManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
         resourceManager = GameResourceManager(applicationContext)
+        settingsManager = GameSettingsManager.getInstance(applicationContext)
 
         // Immersive mode
         enableEdgeToEdge()
@@ -78,6 +81,7 @@ class MainActivity : ComponentActivity() {
                         composable(Screen.Game.route) {
                             GameScreen(
                                 runtimeProvider = runtimeProvider,
+                                settingsManager = settingsManager,
                                 onNavigateBack = { navController.popBackStack() }
                             )
                         }
@@ -91,7 +95,8 @@ class MainActivity : ComponentActivity() {
                         composable(Screen.Settings.route) {
                             SettingsScreen(
                                 onNavigateBack = { navController.popBackStack() },
-                                resourceManager = resourceManager
+                                resourceManager = resourceManager,
+                                settingsManager = settingsManager
                             )
                         }
                     }
