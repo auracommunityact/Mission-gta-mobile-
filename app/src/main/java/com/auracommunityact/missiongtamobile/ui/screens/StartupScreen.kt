@@ -10,15 +10,19 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.auracommunityact.missiongtamobile.R
+import com.auracommunityact.missiongtamobile.device.*
 import com.auracommunityact.missiongtamobile.runtime.GameRuntimeProvider
 import com.auracommunityact.missiongtamobile.storage.GameResourceManager
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 
 @Composable
 fun StartupScreen(
@@ -26,6 +30,7 @@ fun StartupScreen(
     resourceManager: GameResourceManager,
     onStartupComplete: () -> Unit
 ) {
+    val context = LocalContext.current
     var loadingState by remember { mutableStateOf("INITIALIZING") }
     var initializationFailed by remember { mutableStateOf(false) }
     
@@ -34,20 +39,27 @@ fun StartupScreen(
 
     LaunchedEffect(Unit) {
         try {
-            delay(800)
-            loadingState = "LOADING APPLICATION"
-            delay(1000)
+            delay(500)
+            loadingState = "DETECTING DEVICE"
+            val device = withContext(Dispatchers.Default) { DeviceCapabilityProvider.getCapabilities(context) }
+            delay(500)
+            
+            loadingState = "CHECKING GRAPHICS API"
+            val graphics = withContext(Dispatchers.Default) { GraphicsCapabilityProvider.getCapabilities(context) }
+            delay(500)
+            
+            loadingState = "SELECTING PROFILE"
+            val profile = withContext(Dispatchers.Default) { DeviceProfileSelector.select(device, graphics) }
+            delay(500)
             
             loadingState = "CHECKING GAME RUNTIME"
-            delay(800)
-            // We just observe the status. For this shell, runtime is pending/not installed.
+            delay(500)
             
             loadingState = "CHECKING GAME DATA"
-            delay(800)
-            // Resource manager handles data status in real-time
+            delay(500)
             
             loadingState = "READY"
-            delay(800)
+            delay(500)
             
             onStartupComplete()
         } catch (e: Exception) {

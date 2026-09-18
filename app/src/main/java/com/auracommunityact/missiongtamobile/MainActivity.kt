@@ -84,7 +84,8 @@ class MainActivity : ComponentActivity() {
                         composable(Screen.Diagnostics.route) {
                             DiagnosticsScreen(
                                 onNavigateBack = { navController.popBackStack() },
-                                resourceManager = resourceManager
+                                resourceManager = resourceManager,
+                                runtimeProvider = runtimeProvider
                             )
                         }
                         composable(Screen.Settings.route) {

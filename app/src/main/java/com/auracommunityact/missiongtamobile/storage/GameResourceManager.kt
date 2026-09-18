@@ -119,6 +119,10 @@ class GameResourceManager(private val context: Context) {
         }
     }
 
+    fun getGameDirUri(): String? {
+        return prefs.getString("resource_uri", null)
+    }
+
     fun getFile(relativePath: String): DocumentFile? {
         val rootUri = _selectedUri.value ?: return null
         var currentFile: DocumentFile? = DocumentFile.fromTreeUri(context, rootUri)
