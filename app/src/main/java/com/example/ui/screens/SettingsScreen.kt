@@ -1,6 +1,9 @@
 package com.example.ui.screens
 
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.icons.Icons
@@ -10,15 +13,28 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.storage.GameResourceManager
 
 @Composable
-fun SettingsScreen(onNavigateBack: () -> Unit) {
+fun SettingsScreen(onNavigateBack: () -> Unit, resourceManager: GameResourceManager) {
+    val selectedUri by resourceManager.selectedUri.collectAsState()
+    
+    val documentTreeLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.OpenDocumentTree()
+    ) { uri ->
+        if (uri != null) {
+            resourceManager.takePersistableUriPermission(uri)
+        }
+    }
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -55,6 +71,21 @@ fun SettingsScreen(onNavigateBack: () -> Unit) {
                 .padding(24.dp)
         ) {
             item {
+                SettingsCategory("GAME DATA")
+                SettingsRow("Current Location", selectedUri?.toString() ?: "None configured")
+                
+                if (selectedUri != null) {
+                    ActionRow("Re-scan Resources") { resourceManager.validateResources(selectedUri!!) }
+                }
+                
+                ActionRow("Change Resource Folder") { documentTreeLauncher.launch(null) }
+                
+                if (selectedUri != null) {
+                    ActionRow("Remove Resource Permission", Color.Red) { resourceManager.clearPermission() }
+                }
+
+                Spacer(modifier = Modifier.height(32.dp))
+
                 SettingsCategory("DISPLAY")
                 SettingsRow("Resolution Scale", "Coming with runtime integration")
                 SettingsRow("Graphics Quality", "Coming with runtime integration")
@@ -83,6 +114,20 @@ fun SettingsScreen(onNavigateBack: () -> Unit) {
                 SettingsRow("App Version", "0.1")
             }
         }
+    }
+}
+
+@Composable
+private fun ActionRow(label: String, color: Color = Color(0xFF64B5F6), onClick: () -> Unit) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onClick)
+            .padding(vertical = 12.dp),
+        horizontalArrangement = Arrangement.Start,
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Text(text = label, color = color, fontSize = 16.sp, fontWeight = FontWeight.Bold)
     }
 }
 

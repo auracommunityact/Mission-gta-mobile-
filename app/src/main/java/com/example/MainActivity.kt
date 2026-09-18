@@ -15,6 +15,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.runtime.GameRuntimeProvider
+import com.example.storage.GameResourceManager
 import com.example.ui.screens.DiagnosticsScreen
 import com.example.ui.screens.GameHomeScreen
 import com.example.ui.screens.GameScreen
@@ -26,10 +27,13 @@ import com.example.ui.theme.MyApplicationTheme
 class MainActivity : ComponentActivity() {
     
     private val runtimeProvider = GameRuntimeProvider()
+    private lateinit var resourceManager: GameResourceManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
+        resourceManager = GameResourceManager(applicationContext)
+
         // Immersive mode
         enableEdgeToEdge()
         WindowCompat.setDecorFitsSystemWindows(window, false)
@@ -62,6 +66,7 @@ class MainActivity : ComponentActivity() {
                         composable(Screen.Home.route) {
                             GameHomeScreen(
                                 runtimeProvider = runtimeProvider,
+                                resourceManager = resourceManager,
                                 onStartGame = { navController.navigate(Screen.Game.route) },
                                 onDiagnostics = { navController.navigate(Screen.Diagnostics.route) },
                                 onSettings = { navController.navigate(Screen.Settings.route) },
@@ -76,12 +81,14 @@ class MainActivity : ComponentActivity() {
                         }
                         composable(Screen.Diagnostics.route) {
                             DiagnosticsScreen(
-                                onNavigateBack = { navController.popBackStack() }
+                                onNavigateBack = { navController.popBackStack() },
+                                resourceManager = resourceManager
                             )
                         }
                         composable(Screen.Settings.route) {
                             SettingsScreen(
-                                onNavigateBack = { navController.popBackStack() }
+                                onNavigateBack = { navController.popBackStack() },
+                                resourceManager = resourceManager
                             )
                         }
                     }

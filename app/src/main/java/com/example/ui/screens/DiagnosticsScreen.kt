@@ -15,6 +15,8 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -26,11 +28,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.diagnostics.DiagnosticsCollector
 import com.example.diagnostics.SystemDiagnostics
+import com.example.storage.GameResourceManager
+import com.example.storage.ResourceStatus
 
 @Composable
-fun DiagnosticsScreen(onNavigateBack: () -> Unit) {
+fun DiagnosticsScreen(onNavigateBack: () -> Unit, resourceManager: GameResourceManager) {
     val context = LocalContext.current
     val diagnostics = remember { DiagnosticsCollector.collect(context) }
+    val resourceStatus by resourceManager.status.collectAsState()
+    val manifest by resourceManager.manifest.collectAsState()
     
     Column(
         modifier = Modifier
@@ -61,7 +67,7 @@ fun DiagnosticsScreen(onNavigateBack: () -> Unit) {
             Box(
                 modifier = Modifier
                     .background(Color(0xFF333333))
-                    .clickable { copyDiagnostics(context, diagnostics) }
+                    .clickable { copyDiagnostics(context, diagnostics, resourceStatus.displayName) }
                     .padding(horizontal = 16.dp, vertical = 8.dp)
             ) {
                 Text("COPY DIAGNOSTICS", color = Color.White, fontSize = 12.sp, fontWeight = FontWeight.Bold)
@@ -81,6 +87,16 @@ fun DiagnosticsScreen(onNavigateBack: () -> Unit) {
                 DiagRow("App Version", diagnostics.appVersion)
                 DiagRow("Android Version", diagnostics.androidVersion)
                 DiagRow("Runtime Status", "PENDING (Not Installed)")
+                
+                Spacer(modifier = Modifier.height(24.dp))
+                
+                DiagCategory("EXTERNAL RESOURCES")
+                DiagRow("Resource Status", resourceStatus.displayName)
+                if (resourceStatus == ResourceStatus.READY && manifest != null) {
+                    DiagRow("Resource Version", manifest!!.resourceVersion)
+                    DiagRow("Runtime Requirement", manifest!!.runtimeVersion)
+                    DiagRow("Validated Files", "${manifest!!.requiredFiles.size}")
+                }
                 
                 Spacer(modifier = Modifier.height(24.dp))
                 
@@ -133,7 +149,7 @@ private fun DiagRow(label: String, value: String) {
     }
 }
 
-private fun copyDiagnostics(context: Context, diagnostics: SystemDiagnostics) {
+private fun copyDiagnostics(context: Context, diagnostics: SystemDiagnostics, resourceStatus: String) {
     val text = """
         MISSION GTA MOBILE - DIAGNOSTICS
         App Version: ${diagnostics.appVersion}
@@ -145,6 +161,7 @@ private fun copyDiagnostics(context: Context, diagnostics: SystemDiagnostics) {
         Screen Resolution: ${diagnostics.screenResolution}
         Screen Density: ${diagnostics.screenDensity}x
         Runtime Status: PENDING (Not Installed)
+        Resource Status: $resourceStatus
     """.trimIndent()
     
     val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
