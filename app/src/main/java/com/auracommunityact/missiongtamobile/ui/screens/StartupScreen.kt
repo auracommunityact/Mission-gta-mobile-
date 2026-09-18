@@ -139,7 +139,7 @@ fun StartupScreen(
             Spacer(modifier = Modifier.height(24.dp))
             
             Text(
-                text = "Unofficial project. Not affiliated with or endorsed by Rockstar Games.\nGTA V Mobile is an experimental project developed by Aura Community Act.",
+                text = androidx.compose.ui.res.stringResource(id = R.string.disclaimer_text),
                 color = Color.Gray,
                 fontSize = 11.sp,
                 textAlign = TextAlign.Center,
