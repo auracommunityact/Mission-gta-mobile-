@@ -11,9 +11,13 @@ data class DeviceInfo(
     val screenWidth: Int,
     val screenHeight: Int,
     val screenDensity: Float
-)
+) {
+    val isLowMemory: Boolean get() = totalRamMb < 4096L
+}
 
 object DeviceInfoProvider {
+    const val LOW_MEMORY_THRESHOLD_MB = 4096L
+
     fun getDeviceInfo(context: Context): DeviceInfo {
         val activityManager = context.getSystemService(Context.ACTIVITY_SERVICE) as ActivityManager
         val memoryInfo = ActivityManager.MemoryInfo()
@@ -29,5 +33,9 @@ object DeviceInfoProvider {
             screenHeight = displayMetrics.heightPixels,
             screenDensity = displayMetrics.density
         )
+    }
+
+    fun isLowMemoryDevice(context: Context): Boolean {
+        return getDeviceInfo(context).isLowMemory
     }
 }

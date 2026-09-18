@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">GTA V Mobile</string>
     <string name="disclaimer_text">Unofficial project. Not affiliated with or endorsed by Rockstar Games.\nGTA V Mobile is an experimental project developed by Aura Community Act.</string>
+    <string name="startup_title">MISSION GTA MOBILE</string>
+    <string name="startup_subtitle">An Aura Community Act Project</string>
+    <string name="startup_footer">Experimental Android Porting &amp; Optimization Project</string>
 </resources>
