@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
-        resourceManager = GameResourceManager(applicationContext)
+        resourceManager = GameResourceManager(applicationContext, runtimeProvider)
         settingsManager = GameSettingsManager.getInstance(applicationContext)
 
         // Immersive mode

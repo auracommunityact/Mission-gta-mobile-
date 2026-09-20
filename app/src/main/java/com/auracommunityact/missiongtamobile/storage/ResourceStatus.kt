@@ -9,5 +9,6 @@ enum class ResourceStatus(val displayName: String) {
     ACCESS_DENIED("ACCESS DENIED"),
     DIRECTORY_NOT_FOUND("DIRECTORY NOT FOUND"),
     RUNTIME_INCOMPATIBLE("RUNTIME INCOMPATIBLE"),
+    CACHE_CREATION_FAILED("Unable to create runtime cache directory"),
     VALIDATION_ERROR("VALIDATION ERROR")
 }

@@ -18,4 +18,9 @@ class GameRuntimeProvider {
     }
 
     fun getRuntime(): GameRuntime? = activeRuntime
+
+    fun updateStatus(newStatus: GameRuntimeStatus) {
+        _status.value = newStatus
+        (activeRuntime as? PlaceholderGameRuntime)?.updateStatus(newStatus)
+    }
 }

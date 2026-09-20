@@ -61,6 +61,47 @@ class GameSettingsManager(context: Context) {
     )
     val landscapeMode: StateFlow<LandscapeOrientationMode> = _landscapeMode.asStateFlow()
 
+    private val _dpadOpacity = MutableStateFlow(
+        prefs.getFloat(KEY_DPAD_OPACITY, 0.85f)
+    )
+    val dpadOpacity: StateFlow<Float> = _dpadOpacity.asStateFlow()
+
+    private val _dpadSizeDp = MutableStateFlow(
+        prefs.getInt(KEY_DPAD_SIZE_DP, 156)
+    )
+    val dpadSizeDp: StateFlow<Int> = _dpadSizeDp.asStateFlow()
+
+    private val _dpadHaptics = MutableStateFlow(
+        prefs.getBoolean(KEY_DPAD_HAPTICS, true)
+    )
+    val dpadHaptics: StateFlow<Boolean> = _dpadHaptics.asStateFlow()
+
+    /**
+     * Updates D-Pad opacity (between 0.3f and 1.0f).
+     */
+    fun setDpadOpacity(opacity: Float) {
+        val clamped = opacity.coerceIn(0.3f, 1.0f)
+        _dpadOpacity.value = clamped
+        prefs.edit().putFloat(KEY_DPAD_OPACITY, clamped).apply()
+    }
+
+    /**
+     * Updates D-Pad dimension in dp (between 120 and 200).
+     */
+    fun setDpadSizeDp(sizeDp: Int) {
+        val clamped = sizeDp.coerceIn(120, 200)
+        _dpadSizeDp.value = clamped
+        prefs.edit().putInt(KEY_DPAD_SIZE_DP, clamped).apply()
+    }
+
+    /**
+     * Toggles haptic feedback for D-Pad touch inputs.
+     */
+    fun setDpadHaptics(enabled: Boolean) {
+        _dpadHaptics.value = enabled
+        prefs.edit().putBoolean(KEY_DPAD_HAPTICS, enabled).apply()
+    }
+
     /**
      * Enables or disables forcing landscape orientation in the game environment.
      */
@@ -108,6 +149,9 @@ class GameSettingsManager(context: Context) {
         const val PREFS_NAME = "mission_gta_game_settings"
         const val KEY_FORCE_LANDSCAPE = "key_force_landscape"
         const val KEY_LANDSCAPE_MODE = "key_landscape_mode"
+        const val KEY_DPAD_OPACITY = "key_dpad_opacity"
+        const val KEY_DPAD_SIZE_DP = "key_dpad_size_dp"
+        const val KEY_DPAD_HAPTICS = "key_dpad_haptics"
 
         @Volatile
         private var instance: GameSettingsManager? = null

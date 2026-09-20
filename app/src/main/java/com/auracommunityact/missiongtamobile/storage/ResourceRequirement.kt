@@ -2,19 +2,24 @@ package com.auracommunityact.missiongtamobile.storage
 
 data class ResourceRequirement(
     val requiredDirectories: List<String>,
+    val runtimeCacheDirectories: List<String> = listOf("dxuk-cache"),
     val requiredRootFiles: List<String>,
     val ignoredFilesRegex: List<Regex>
 )
 
 object GtaVResourceRequirement {
+    const val DXUK_CACHE_DIR = "dxuk-cache"
+
     val requirement = ResourceRequirement(
         requiredDirectories = listOf(
             "Config",
             "Drivers",
-            "dxuk-cache",
             "save",
             "update",
             "x64"
+        ),
+        runtimeCacheDirectories = listOf(
+            DXUK_CACHE_DIR
         ),
         requiredRootFiles = listOf(
             "common.rpf",

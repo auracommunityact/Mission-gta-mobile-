@@ -6,7 +6,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.material3.Divider
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -36,6 +36,7 @@ fun GameHomeScreen(
     val resourceStatus by resourceManager.status.collectAsState()
     val missingFiles by resourceManager.missingFiles.collectAsState()
     val selectedUri by resourceManager.selectedUri.collectAsState()
+    val cacheError by resourceManager.cacheError.collectAsState()
     
     val context = LocalContext.current
 
@@ -83,18 +84,14 @@ fun GameHomeScreen(
             )
 
             MenuButton(
-                text = "START",
+                text = "START GAME",
                 onClick = {
                     if (resourceStatus != ResourceStatus.READY) {
-                        Toast.makeText(context, "Game data is not ready.", Toast.LENGTH_SHORT).show()
-                    } else if (runtimeStatus != GameRuntimeStatus.READY && runtimeStatus != GameRuntimeStatus.RUNNING) {
-                        Toast.makeText(context, "Native game runtime is not installed.", Toast.LENGTH_SHORT).show()
-                        onStartGame() // Let it navigate to show the "Runtime Unavailable" screen for the prototype
-                    } else {
-                        onStartGame()
+                        Toast.makeText(context, "Entering Sandbox Game Environment", Toast.LENGTH_SHORT).show()
                     }
+                    onStartGame()
                 },
-                enabled = true // Always clickable to show Toast or navigate to stub
+                enabled = true
             )
             
             MenuButton(text = "DIAGNOSTICS", onClick = onDiagnostics)
@@ -124,7 +121,7 @@ fun GameHomeScreen(
                     modifier = Modifier.padding(bottom = 16.dp)
                 )
 
-                Divider(color = Color.DarkGray)
+                HorizontalDivider(color = Color.DarkGray)
                 Spacer(modifier = Modifier.height(16.dp))
 
                 Text(
@@ -133,8 +130,8 @@ fun GameHomeScreen(
                     fontSize = 14.sp
                 )
                 Text(
-                    text = "PENDING",
-                    color = Color(0xFFFFB300),
+                    text = runtimeStatus.name,
+                    color = if (runtimeStatus == GameRuntimeStatus.READY) Color(0xFF4CAF50) else Color(0xFFFFB300),
                     fontSize = 16.sp,
                     fontWeight = FontWeight.Bold,
                     modifier = Modifier.padding(bottom = 16.dp)
@@ -154,7 +151,7 @@ fun GameHomeScreen(
                 )
 
                 if (resourceStatus == ResourceStatus.READY) {
-                    Divider(color = Color.DarkGray)
+                    HorizontalDivider(color = Color.DarkGray)
                     Spacer(modifier = Modifier.height(16.dp))
                     
                     StatusRow("Validation:", "PASSED", true)
@@ -164,8 +161,22 @@ fun GameHomeScreen(
                         fontSize = 12.sp,
                         modifier = Modifier.padding(top = 8.dp)
                     )
+                } else if (resourceStatus == ResourceStatus.CACHE_CREATION_FAILED) {
+                    HorizontalDivider(color = Color.DarkGray)
+                    Spacer(modifier = Modifier.height(16.dp))
+                    
+                    Text(
+                        text = "Unable to create runtime cache directory",
+                        color = Color(0xFFE57373),
+                        fontSize = 14.sp,
+                        fontWeight = FontWeight.Bold,
+                        modifier = Modifier.padding(bottom = 8.dp)
+                    )
+                    cacheError?.let { err ->
+                        Text(text = err, color = Color.LightGray, fontSize = 12.sp)
+                    }
                 } else if (resourceStatus == ResourceStatus.MISSING_REQUIRED_RESOURCES) {
-                    Divider(color = Color.DarkGray)
+                    HorizontalDivider(color = Color.DarkGray)
                     Spacer(modifier = Modifier.height(16.dp))
                     
                     Text(
@@ -185,7 +196,7 @@ fun GameHomeScreen(
                         }
                     }
                 } else if (resourceStatus != ResourceStatus.NOT_CONFIGURED && resourceStatus != ResourceStatus.SCANNING && resourceStatus != ResourceStatus.SELECTED) {
-                    Divider(color = Color.DarkGray)
+                    HorizontalDivider(color = Color.DarkGray)
                     Spacer(modifier = Modifier.height(16.dp))
                     
                     Text(

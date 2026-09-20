@@ -42,6 +42,8 @@ fun DiagnosticsScreen(onNavigateBack: () -> Unit, resourceManager: GameResourceM
     
     val resourceStatus by resourceManager.status.collectAsState()
     val runtimeStatus by runtimeProvider.status.collectAsState()
+    val cacheError by resourceManager.cacheError.collectAsState()
+    val cachePath by resourceManager.cachePath.collectAsState()
     
     val gameDirUri = resourceManager.getGameDirUri()
     val dxukState = remember(gameDirUri) { GraphicsCompatibilityManager.checkDxukCache(context, gameDirUri) }
@@ -150,6 +152,12 @@ fun DiagnosticsScreen(onNavigateBack: () -> Unit, resourceManager: GameResourceM
                 DiagRow("Game Data", resourceStatus.displayName)
                 DiagRow("Drivers", if (driversState.present) (if (driversState.readable) "Usable" else "Unreadable") else "Not detected")
                 DiagRow("dxuk-cache", if (dxukState.present) (if (dxukState.readable) "Readable" else "Unreadable") else "Not detected")
+                if (cachePath != null) {
+                    DiagRow("Cache Path", cachePath!!)
+                }
+                if (cacheError != null) {
+                    DiagRow("Cache Error", cacheError!!)
+                }
                 
                 Spacer(modifier = Modifier.height(24.dp))
                 

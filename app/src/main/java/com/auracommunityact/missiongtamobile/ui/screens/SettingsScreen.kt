@@ -35,6 +35,9 @@ fun SettingsScreen(
     val selectedUri by resourceManager.selectedUri.collectAsState()
     val forceLandscape by settingsManager.forceLandscape.collectAsState()
     val landscapeMode by settingsManager.landscapeMode.collectAsState()
+    val dpadHaptics by settingsManager.dpadHaptics.collectAsState()
+    val dpadSizeDp by settingsManager.dpadSizeDp.collectAsState()
+    val dpadOpacity by settingsManager.dpadOpacity.collectAsState()
 
     var showOrientationDialog by remember { mutableStateOf(false) }
 
@@ -145,9 +148,18 @@ fun SettingsScreen(
                 Spacer(modifier = Modifier.height(28.dp))
 
                 SettingsCategory("CONTROLS")
-                SettingsRow("Touch Controls", "Coming with runtime integration")
-                SettingsRow("Controller Support", "Coming with runtime integration")
-                SettingsRow("Sensitivity", "Coming with runtime integration")
+                SettingsRow("On-Screen D-Pad", "Enabled (8-Way Directional)")
+                SettingsToggleRow(
+                    title = "D-Pad Tactile Haptics",
+                    subtitle = "Trigger tactile haptic ticks when changing directional inputs",
+                    checked = dpadHaptics,
+                    onCheckedChange = { settingsManager.setDpadHaptics(it) },
+                    testTag = "dpad_haptics_switch"
+                )
+                SettingsRow("D-Pad Dimensions", "${dpadSizeDp}dp")
+                SettingsRow("D-Pad Opacity", "${(dpadOpacity * 100).toInt()}%")
+                SettingsRow("Controller Support", "Ready (Standard Gamepad)")
+                SettingsRow("Stick Sensitivity", "1.0x (Standard)")
 
                 Spacer(modifier = Modifier.height(28.dp))
 
