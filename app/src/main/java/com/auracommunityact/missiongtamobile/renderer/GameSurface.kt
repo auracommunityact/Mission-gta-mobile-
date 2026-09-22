@@ -1,10 +1,12 @@
 package com.auracommunityact.missiongtamobile.renderer
 
+import android.view.SurfaceHolder
 import android.view.SurfaceView
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidView
 import com.auracommunityact.missiongtamobile.runtime.GameRuntime
+import com.auracommunityact.missiongtamobile.runtime.GameRuntimeManager
 
 @Composable
 fun GameSurface(
@@ -14,13 +16,14 @@ fun GameSurface(
     AndroidView(
         factory = { context ->
             SurfaceView(context).apply {
-                holder.addCallback(object : android.view.SurfaceHolder.Callback {
-                    override fun surfaceCreated(holder: android.view.SurfaceHolder) {
-                        runtime?.onSurfaceCreated()
+                holder.addCallback(object : SurfaceHolder.Callback {
+                    override fun surfaceCreated(holder: SurfaceHolder) {
+                        (runtime as? GameRuntimeManager)?.onSurfaceCreatedWithSurface(holder.surface)
+                            ?: runtime?.onSurfaceCreated()
                     }
 
                     override fun surfaceChanged(
-                        holder: android.view.SurfaceHolder,
+                        holder: SurfaceHolder,
                         format: Int,
                         width: Int,
                         height: Int
@@ -28,7 +31,7 @@ fun GameSurface(
                         runtime?.onSurfaceChanged(width, height)
                     }
 
-                    override fun surfaceDestroyed(holder: android.view.SurfaceHolder) {
+                    override fun surfaceDestroyed(holder: SurfaceHolder) {
                         runtime?.onSurfaceDestroyed()
                     }
                 })

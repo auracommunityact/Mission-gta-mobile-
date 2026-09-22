@@ -6,22 +6,29 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.auracommunityact.missiongtamobile.runtime.GameRuntimeManager
 import com.auracommunityact.missiongtamobile.runtime.GameRuntimeProvider
-import com.auracommunityact.missiongtamobile.runtime.GameRuntimeStatus
+import com.auracommunityact.missiongtamobile.runtime.state.DriverStatus
+import com.auracommunityact.missiongtamobile.runtime.state.GameDataStatus
+import com.auracommunityact.missiongtamobile.runtime.state.GameStatus
+import com.auracommunityact.missiongtamobile.runtime.state.RendererStatus
+import com.auracommunityact.missiongtamobile.runtime.state.RuntimeStatus
 import com.auracommunityact.missiongtamobile.storage.GameResourceManager
-import com.auracommunityact.missiongtamobile.storage.ResourceStatus
 
 @Composable
 fun GameHomeScreen(
@@ -32,19 +39,24 @@ fun GameHomeScreen(
     onSettings: () -> Unit,
     onExit: () -> Unit
 ) {
-    val runtimeStatus by runtimeProvider.status.collectAsState()
-    val resourceStatus by resourceManager.status.collectAsState()
-    val missingFiles by resourceManager.missingFiles.collectAsState()
-    val selectedUri by resourceManager.selectedUri.collectAsState()
-    val cacheError by resourceManager.cacheError.collectAsState()
-    
     val context = LocalContext.current
+    val runtimeManager = runtimeProvider.runtimeManager
+
+    val runtimeStatus by (runtimeManager?.runtimeStatus ?: remember { kotlinx.coroutines.flow.MutableStateFlow(RuntimeStatus.CHECKING) }).collectAsState()
+    val gameDataStatus by (runtimeManager?.gameDataManager?.status ?: remember { kotlinx.coroutines.flow.MutableStateFlow(GameDataStatus.NOT_SELECTED) }).collectAsState()
+    val driverStatus by (runtimeManager?.driverManager?.status ?: remember { kotlinx.coroutines.flow.MutableStateFlow(DriverStatus.DETECTING) }).collectAsState()
+    val currentDriver by (runtimeManager?.driverManager?.currentDriver ?: remember { kotlinx.coroutines.flow.MutableStateFlow(null) }).collectAsState()
+    val rendererStatus by (runtimeManager?.rendererStatus ?: remember { kotlinx.coroutines.flow.MutableStateFlow(RendererStatus.INITIALIZING) }).collectAsState()
+    val gameStatus by (runtimeManager?.gameStatus ?: remember { kotlinx.coroutines.flow.MutableStateFlow(GameStatus.STOPPED) }).collectAsState()
+    val missingFiles by (runtimeManager?.gameDataManager?.missingFiles ?: remember { kotlinx.coroutines.flow.MutableStateFlow(emptyList()) }).collectAsState()
+    val lastError by (runtimeManager?.lastError ?: remember { kotlinx.coroutines.flow.MutableStateFlow(null) }).collectAsState()
 
     val documentTreeLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.OpenDocumentTree()
     ) { uri ->
         if (uri != null) {
             resourceManager.takePersistableUriPermission(uri)
+            runtimeManager?.gameDataManager?.selectGameDirectory(uri)
         }
     }
 
@@ -86,14 +98,13 @@ fun GameHomeScreen(
             MenuButton(
                 text = "START GAME",
                 onClick = {
-                    if (resourceStatus != ResourceStatus.READY) {
-                        Toast.makeText(context, "Entering Sandbox Game Environment", Toast.LENGTH_SHORT).show()
+                    if (gameDataStatus != GameDataStatus.READY) {
+                        Toast.makeText(context, "Cannot start: Game data not ready (${gameDataStatus.displayName})", Toast.LENGTH_LONG).show()
                     }
                     onStartGame()
-                },
-                enabled = true
+                }
             )
-            
+
             MenuButton(text = "DIAGNOSTICS", onClick = onDiagnostics)
             MenuButton(text = "SETTINGS", onClick = onSettings)
             MenuButton(text = "EXIT", onClick = onExit)
@@ -106,107 +117,107 @@ fun GameHomeScreen(
                 .padding(32.dp),
             contentAlignment = Alignment.Center
         ) {
-            Column(
+            LazyColumn(
                 modifier = Modifier
-                    .fillMaxWidth(0.8f)
+                    .fillMaxWidth(0.85f)
                     .background(Color(0xFF222222))
                     .padding(24.dp)
             ) {
-                Text(
-                    text = "GTA V MOBILE",
-                    color = Color.White,
-                    fontSize = 20.sp,
-                    fontWeight = FontWeight.Bold,
-                    letterSpacing = 1.sp,
-                    modifier = Modifier.padding(bottom = 16.dp)
-                )
-
-                HorizontalDivider(color = Color.DarkGray)
-                Spacer(modifier = Modifier.height(16.dp))
-
-                Text(
-                    text = "Runtime:",
-                    color = Color.Gray,
-                    fontSize = 14.sp
-                )
-                Text(
-                    text = runtimeStatus.name,
-                    color = if (runtimeStatus == GameRuntimeStatus.READY) Color(0xFF4CAF50) else Color(0xFFFFB300),
-                    fontSize = 16.sp,
-                    fontWeight = FontWeight.Bold,
-                    modifier = Modifier.padding(bottom = 16.dp)
-                )
-
-                Text(
-                    text = "Game Data:",
-                    color = Color.Gray,
-                    fontSize = 14.sp
-                )
-                Text(
-                    text = resourceStatus.displayName,
-                    color = if (resourceStatus == ResourceStatus.READY) Color(0xFF4CAF50) else if (resourceStatus == ResourceStatus.NOT_CONFIGURED) Color.Gray else Color(0xFFE57373),
-                    fontSize = 16.sp,
-                    fontWeight = FontWeight.Bold,
-                    modifier = Modifier.padding(bottom = 16.dp)
-                )
-
-                if (resourceStatus == ResourceStatus.READY) {
-                    HorizontalDivider(color = Color.DarkGray)
-                    Spacer(modifier = Modifier.height(16.dp))
-                    
-                    StatusRow("Validation:", "PASSED", true)
+                item {
                     Text(
-                        text = "All required root files and directories are present.",
-                        color = Color.LightGray,
-                        fontSize = 12.sp,
-                        modifier = Modifier.padding(top = 8.dp)
-                    )
-                } else if (resourceStatus == ResourceStatus.CACHE_CREATION_FAILED) {
-                    HorizontalDivider(color = Color.DarkGray)
-                    Spacer(modifier = Modifier.height(16.dp))
-                    
-                    Text(
-                        text = "Unable to create runtime cache directory",
-                        color = Color(0xFFE57373),
-                        fontSize = 14.sp,
+                        text = "GTA V MOBILE LAUNCHER",
+                        color = Color.White,
+                        fontSize = 20.sp,
                         fontWeight = FontWeight.Bold,
-                        modifier = Modifier.padding(bottom = 8.dp)
+                        letterSpacing = 1.sp,
+                        modifier = Modifier.padding(bottom = 16.dp)
                     )
-                    cacheError?.let { err ->
-                        Text(text = err, color = Color.LightGray, fontSize = 12.sp)
-                    }
-                } else if (resourceStatus == ResourceStatus.MISSING_REQUIRED_RESOURCES) {
+
                     HorizontalDivider(color = Color.DarkGray)
                     Spacer(modifier = Modifier.height(16.dp))
-                    
-                    Text(
-                        text = "Missing Files/Directories:",
-                        color = Color(0xFFE57373),
-                        fontSize = 14.sp,
-                        fontWeight = FontWeight.Bold,
-                        modifier = Modifier.padding(bottom = 8.dp)
-                    )
-                    
-                    Column(modifier = Modifier.heightIn(max = 100.dp)) {
-                        missingFiles.take(5).forEach { file ->
-                            Text(text = "- $file", color = Color.LightGray, fontSize = 12.sp)
-                        }
-                        if (missingFiles.size > 5) {
-                            Text(text = "...and ${missingFiles.size - 5} more", color = Color.Gray, fontSize = 12.sp)
-                        }
-                    }
-                } else if (resourceStatus != ResourceStatus.NOT_CONFIGURED && resourceStatus != ResourceStatus.SCANNING && resourceStatus != ResourceStatus.SELECTED) {
+
+                    // Real Status Display (No hardcoded fake "READY" or "PASSED")
+                    SystemStatusRow("Runtime Engine", runtimeStatus.displayName, runtimeStatus == RuntimeStatus.READY)
+                    SystemStatusRow("Game Data", gameDataStatus.displayName, gameDataStatus == GameDataStatus.READY)
+                    SystemStatusRow("GPU Driver", "${driverStatus.displayName} (${currentDriver?.name ?: "Detecting"})", driverStatus == DriverStatus.READY)
+                    SystemStatusRow("Renderer", rendererStatus.displayName, rendererStatus == RendererStatus.READY)
+                    SystemStatusRow("Game Process", gameStatus.displayName, gameStatus == GameStatus.RUNNING)
+
+                    Spacer(modifier = Modifier.height(16.dp))
                     HorizontalDivider(color = Color.DarkGray)
                     Spacer(modifier = Modifier.height(16.dp))
-                    
-                    Text(
-                        text = "Please select a valid game-data folder.",
-                        color = Color.LightGray,
-                        fontSize = 14.sp
-                    )
+
+                    if (gameDataStatus == GameDataStatus.READY) {
+                        Text(
+                            text = "Validation: PASSED",
+                            color = Color(0xFF81C784),
+                            fontSize = 14.sp,
+                            fontWeight = FontWeight.Bold
+                        )
+                        Text(
+                            text = "All required game directories and root resources are verified.",
+                            color = Color.LightGray,
+                            fontSize = 12.sp,
+                            modifier = Modifier.padding(top = 4.dp)
+                        )
+                    } else if (gameDataStatus == GameDataStatus.INVALID) {
+                        Text(
+                            text = "Missing Files/Directories:",
+                            color = Color(0xFFE57373),
+                            fontSize = 14.sp,
+                            fontWeight = FontWeight.Bold,
+                            modifier = Modifier.padding(bottom = 8.dp)
+                        )
+                        missingFiles.take(6).forEach { file ->
+                            Text(text = "- $file", color = Color.LightGray, fontSize = 12.sp, fontFamily = FontFamily.Monospace)
+                        }
+                        if (missingFiles.size > 6) {
+                            Text(text = "...and ${missingFiles.size - 6} more", color = Color.Gray, fontSize = 12.sp)
+                        }
+                    } else if (gameDataStatus == GameDataStatus.NOT_SELECTED) {
+                        Text(
+                            text = "No game data selected. Click 'SELECT GAME DATA' to choose your game directory.",
+                            color = Color.LightGray,
+                            fontSize = 13.sp
+                        )
+                    }
+
+                    if (lastError != null) {
+                        Spacer(modifier = Modifier.height(12.dp))
+                        Text(
+                            text = "Diagnostics Alert:",
+                            color = Color(0xFFF59E0B),
+                            fontSize = 13.sp,
+                            fontWeight = FontWeight.Bold
+                        )
+                        Text(
+                            text = lastError!!,
+                            color = Color.LightGray,
+                            fontSize = 12.sp,
+                            fontFamily = FontFamily.Monospace
+                        )
+                    }
                 }
             }
         }
+    }
+}
+
+@Composable
+private fun SystemStatusRow(label: String, status: String, isOk: Boolean) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = 4.dp),
+        horizontalArrangement = Arrangement.SpaceBetween
+    ) {
+        Text(text = label, color = Color.Gray, fontSize = 14.sp)
+        Text(
+            text = status,
+            color = if (isOk) Color(0xFF4CAF50) else Color(0xFFFFB300),
+            fontSize = 14.sp,
+            fontWeight = FontWeight.Bold
+        )
     }
 }
 
@@ -224,24 +235,6 @@ fun MenuButton(text: String, onClick: () -> Unit, enabled: Boolean = true) {
             fontSize = 18.sp,
             fontWeight = FontWeight.SemiBold,
             letterSpacing = 1.sp
-        )
-    }
-}
-
-@Composable
-fun StatusRow(label: String, status: String, isReady: Boolean) {
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(vertical = 4.dp),
-        horizontalArrangement = Arrangement.SpaceBetween
-    ) {
-        Text(text = label, color = Color.LightGray, fontSize = 14.sp)
-        Text(
-            text = status,
-            color = if (isReady) Color(0xFF81C784) else Color(0xFFE57373),
-            fontSize = 14.sp,
-            fontWeight = FontWeight.Bold
         )
     }
 }

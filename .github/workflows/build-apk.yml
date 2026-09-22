@@ -1,4 +1,4 @@
-name: Build Debug APK
+name: Build and Verify Debug APK (ARM64-v8a)
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up JDK
+      - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -37,11 +37,21 @@ jobs:
             -validity 10000 \
             -dname "CN=Android Debug,O=Android,C=US"
 
-      - name: Build Debug APK
-        run: ./gradlew assembleDebug
+      - name: Run Unit Tests
+        run: ./gradlew testDebugUnitTest --no-daemon
+
+      - name: Build ARM64 Debug APK
+        run: ./gradlew assembleDebug --no-daemon
+
+      - name: Confirm APK Exists
+        run: |
+          echo "Verifying generated APK files:"
+          ls -lh app/build/outputs/apk/debug/*.apk
+          test -f app/build/outputs/apk/debug/app-debug.apk || test -n "$(ls -A app/build/outputs/apk/debug/*.apk 2>/dev/null)"
 
       - name: Upload Debug APK
         uses: actions/upload-artifact@v4
         with:
-          name: GTA-V-Mobile-debug-apk
+          name: GTA-V-Mobile-ARM64-debug-apk
           path: app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error

@@ -14,6 +14,7 @@ import androidx.core.view.WindowInsetsControllerCompat
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.auracommunityact.missiongtamobile.runtime.GameRuntimeManager
 import com.auracommunityact.missiongtamobile.runtime.GameRuntimeProvider
 import com.auracommunityact.missiongtamobile.storage.GameResourceManager
 import com.auracommunityact.missiongtamobile.storage.GameSettingsManager
@@ -28,12 +29,15 @@ import com.auracommunityact.missiongtamobile.ui.theme.MyApplicationTheme
 class MainActivity : ComponentActivity() {
     
     private val runtimeProvider = GameRuntimeProvider()
+    private lateinit var runtimeManager: GameRuntimeManager
     private lateinit var resourceManager: GameResourceManager
     private lateinit var settingsManager: GameSettingsManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
+        runtimeManager = GameRuntimeManager(applicationContext)
+        runtimeProvider.setRuntimeManager(runtimeManager)
         resourceManager = GameResourceManager(applicationContext, runtimeProvider)
         settingsManager = GameSettingsManager.getInstance(applicationContext)
 
