@@ -1,0 +1,549 @@
+{
+  "version": 3,
+  "id": "62d270fd-f3be-4be9-975c-093bbd5e4b91",
+  "fields": {
+    "id": "62d270fd-f3be-4be9-975c-093bbd5e4b91",
+    "name": "Mobile · Motorcycle",
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:pause"
+        ],
+        "tapHold": [],
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "camera",
+      "source": "camera",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:camera"
+        ],
+        "tapHold": [],
+        "requiredActions": 2,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "calibrate_steering",
+      "source": "calibrate_steering",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "action:calibrate_steering"
+        ],
+        "tapHold": [],
+        "requiredActions": 512,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "character_switch",
+      "source": "character_switch",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "action:character_switch"
+        ],
+        "tapHold": [],
+        "requiredActions": 2199023255552,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "move",
+      "source": "move",
+      "fields": {
+        "label": "Steering / balance",
+        "runLockY": -2.799999952316284,
+        "requiredActions": 512,
+        "type": "stick_left",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [],
+        "tapHold": [],
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "accelerate",
+      "source": "accelerate",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:accelerate"
+        ],
+        "tapHold": [],
+        "requiredActions": 1024,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "brake_reverse",
+      "source": "brake_reverse",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:brake_reverse"
+        ],
+        "tapHold": [],
+        "requiredActions": 2048,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "horn",
+      "source": "horn",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:horn"
+        ],
+        "tapHold": [],
+        "requiredActions": 1024,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "handbrake",
+      "source": "handbrake",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:handbrake"
+        ],
+        "tapHold": [],
+        "requiredActions": 4096,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "headlight",
+      "source": "headlight",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:headlight"
+        ],
+        "tapHold": [],
+        "requiredActions": 512,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "vehicle_attack",
+      "source": "attack",
+      "fields": {
+        "requiredActions": 16384,
+        "bindings": [
+          "native:vehicle_attack"
+        ],
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "tapHold": [],
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "vehicle_aim",
+      "source": "aim",
+      "fields": {
+        "requiredActions": 549755813888,
+        "bindings": [
+          "native:vehicle_aim"
+        ],
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "tapHold": [],
+        "excludedActions": 17592186044416,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "reload",
+      "source": "reload",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:reload"
+        ],
+        "tapHold": [],
+        "requiredActions": 17179869184,
+        "excludedActions": 17592186044416,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "next_weapon",
+      "source": "weapon_wheel",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:next_weapon"
+        ],
+        "tapHold": [],
+        "requiredActions": 274877906944,
+        "excludedActions": 0,
+        "layer": "world",
+        "label": "Change weapon",
+        "behavior": "hold",
+        "repeatMs": 120
+      }
+    },
+    {
+      "id": "vehicle_jump",
+      "source": "vehicle_jump",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:vehicle_jump"
+        ],
+        "tapHold": [],
+        "requiredActions": 536870912,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "boost",
+      "source": "boost",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:boost"
+        ],
+        "tapHold": [],
+        "requiredActions": 1073741824,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "roof",
+      "source": "roof",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:roof"
+        ],
+        "tapHold": [],
+        "requiredActions": 268435456,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "transform",
+      "source": "transform",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:transform"
+        ],
+        "tapHold": [],
+        "requiredActions": 4294967296,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "vehicle_parachute",
+      "source": "vehicle_parachute",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:vehicle_parachute"
+        ],
+        "tapHold": [],
+        "requiredActions": 2147483648,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "ability",
+      "source": "ability",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:ability"
+        ],
+        "tapHold": [],
+        "requiredActions": 8589934592,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "detonate",
+      "source": "detonate",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:detonate"
+        ],
+        "tapHold": [],
+        "requiredActions": 4398046511104,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "interact",
+      "source": "interact",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "action:interact_primary"
+        ],
+        "tapHold": [],
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "interaction_more",
+      "source": "interaction_more",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "action:interact_more"
+        ],
+        "tapHold": [],
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "activity_panel",
+      "source": "activity_panel",
+      "fields": {
+        "type": "panel",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [],
+        "tapHold": [],
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "activity"
+      }
+    },
+    {
+      "id": "vehicle_tools",
+      "source": "",
+      "fields": {
+        "label": "Vehicle functions",
+        "type": "button",
+        "icon": "mobile/tool",
+        "shape": "circle",
+        "output": "mouse",
+        "width": 0.15000000596046448,
+        "height": 0.25,
+        "corner": 0.15000000596046448,
+        "mouseMode": "relative",
+        "sensitivity": 1,
+        "tapHold": [],
+        "runLockX": 0,
+        "runLockY": -2.799999952316284,
+        "visible": true,
+        "inputEnabled": true,
+        "anchor": "right_top",
+        "anchorX": 0.699999988079071,
+        "anchorY": 0.08500000089406967,
+        "minTouchDp": 48,
+        "hitPadding": 0,
+        "edgeMargin": 12,
+        "lookDrag": false,
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "world",
+        "appearance": {
+          "background": true,
+          "border": true,
+          "label": true,
+          "icon": true,
+          "stickCap": true,
+          "stickLabel": false,
+          "pressFeedback": true,
+          "smoothIcon": true,
+          "pressedImageOnly": true,
+          "backgroundColor": "#58131C23",
+          "borderColor": "#B8FFFFFF",
+          "textColor": "#fffafdfc",
+          "pressedBackground": "#9b0d1214",
+          "pressedBorder": "#ff63e4b5",
+          "pressedText": "#fffafdfc",
+          "pressedIcon": "",
+          "iconFit": "contain",
+          "borderWidth": 1.5,
+          "iconScale": 0.6200000047683716,
+          "textScale": 0.18000000715255737,
+          "textX": 0,
+          "textY": 0.8600000143051147
+        },
+        "behavior": "hold",
+        "repeatMs": 120,
+        "x": 0.6818181872367859,
+        "y": 0.08500000089406967,
+        "radius": 0.04399999976158142,
+        "opacity": 82,
+        "bindings": [
+          "action:vehicle_tools"
+        ]
+      }
+    },
+    {
+      "id": "close_vehicle_tools",
+      "source": "",
+      "fields": {
+        "label": "Return to driving",
+        "type": "button",
+        "icon": "mobile/back",
+        "shape": "circle",
+        "output": "mouse",
+        "width": 0.15000000596046448,
+        "height": 0.25,
+        "corner": 0.15000000596046448,
+        "mouseMode": "relative",
+        "sensitivity": 1,
+        "tapHold": [],
+        "runLockX": 0,
+        "runLockY": -2.799999952316284,
+        "visible": true,
+        "inputEnabled": true,
+        "anchor": "right_bottom",
+        "anchorX": 0.1599999964237213,
+        "anchorY": 0.11999999731779099,
+        "minTouchDp": 48,
+        "hitPadding": 0,
+        "edgeMargin": 12,
+        "lookDrag": false,
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "world",
+        "appearance": {
+          "background": true,
+          "border": true,
+          "label": true,
+          "icon": true,
+          "stickCap": true,
+          "stickLabel": false,
+          "pressFeedback": true,
+          "smoothIcon": true,
+          "pressedImageOnly": true,
+          "backgroundColor": "#58131C23",
+          "borderColor": "#B8FFFFFF",
+          "textColor": "#fffafdfc",
+          "pressedBackground": "#9b0d1214",
+          "pressedBorder": "#ff63e4b5",
+          "pressedText": "#fffafdfc",
+          "pressedIcon": "",
+          "iconFit": "contain",
+          "borderWidth": 1.5,
+          "iconScale": 0.6200000047683716,
+          "textScale": 0.18000000715255737,
+          "textX": 0,
+          "textY": 0.8600000143051147
+        },
+        "behavior": "hold",
+        "repeatMs": 120,
+        "x": 0.9272727370262146,
+        "y": 0.8799999952316284,
+        "radius": 0.057999998331069946,
+        "opacity": 82,
+        "bindings": [
+          "action:close_vehicle_tools"
+        ]
+      }
+    },
+    {
+      "id": "trainer_shortcut",
+      "source": "trainer_shortcut",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "action:trainer"
+        ],
+        "tapHold": [],
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": [
+    "pedal",
+    "sprint",
+    "front_brake",
+    "rear_brake"
+  ]
+}

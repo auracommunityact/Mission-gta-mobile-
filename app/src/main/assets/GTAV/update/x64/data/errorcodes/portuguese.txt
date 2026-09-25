@@ -1,0 +1,643 @@
+{ generated file - do not edit }
+
+[ERR_SYS_TIMER_RDTSC]
+A CPU não suporta a instrução rdtsc.
+
+[ERR_SYS_STREAMERREAD]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SYS_SETTINGS]
+O computador não atende aos requisitos mínimos necessários.
+
+[ERR_SYS_PURE]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_SYS_PARAM_PREFIX]
+Parâmetro da linha de comando inválido. Para mais informações, visite: https://support.rockstargames.com/hc/articles/202518358
+
+[ERR_SYS_PARAM_FORMAT]
+Formato do parâmetro da linha de comando inválido. Para mais informações, visite: https://support.rockstargames.com/hc/articles/202518358
+
+[ERR_SYS_PAR_3]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SYS_PAR_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SYS_PAR_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SYS_NOSTREAMINGHANDLES]
+Handle de arquivos insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_SYS_NOFILEHANDLES_3]
+Handle de arquivos insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_SYS_NOFILEHANDLES_2]
+Handle de arquivos insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_SYS_NOFILEHANDLES_1]
+Handle de arquivos insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_SYS_MINREQ_VID_MEM]
+O seu computador não atende às especificações mínimas recomendadas de Memória de Vídeo. Se continuar, o jogo poderá apresentar problemas. Para mais informações, visite: https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_MINREQ_URL]
+https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_MINREQ_TITLE]
+Falha na Verificação de Requisitos Mínimos de Hardware Recomendado.
+
+[ERR_SYS_MINREQ_MEM]
+O seu computador não atende às especificações mínimas recomendadas de Memória (RAM). Se continuar, o jogo poderá apresentar problemas. Para mais informações, visite: https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_MINREQ_CPU_CORE]
+O seu computador não atende às especificações mínimas recomendadas de CPU. Se continuar, o jogo poderá apresentar problemas. Para mais informações, visite: https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_INVALIDRESOURCE_5]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SYS_INVALIDRESOURCE_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SYS_INVALIDRESOURCE_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SYS_INVALIDFILE]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SYS_INSTALLER]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SYS_FILELOAD]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_STR_PACK_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_STR_PACK_1]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_STR_MOD_INFO]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_STR_MOD]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_STR_MISSING]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_STR_INVALID_DATA_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_STR_INVALID_DATA_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_STR_INFO_3]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_STR_INFO_2]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_STR_INFO_1]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_STR_FAILURE_4]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_STR_FAILURE_3]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_STR_FAILURE_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_STR_FAILURE_1]
+Erro de conexão. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_STR_CACHE_3]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_STR_CACHE_2]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_STR_CACHE_1]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_SCR_THREAD_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SCR_THREAD_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SCR_TEXT_MEM_4]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_SCR_TEXT_MEM_3]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_SCR_TEXT_MEM_2]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_SCR_TEXT_MEM_1]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_SCR_PROG_9]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SCR_PROG_8]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SCR_PROG_7]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SCR_PROG_6]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SCR_PROG_5]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SCR_PROG_4]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SCR_PROG_3]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SCR_PROG_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SCR_PROG_10]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SCR_PROG_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SCR_LAUNCH_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_SCR_LAUNCH_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PHY_POOL_2]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_PHY_POOL_1]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_PHY_GEOM]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PHY_BOUND]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PHY_ARCH]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PAR_INVALID_9]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PAR_INVALID_8]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PAR_INVALID_7]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PAR_INVALID_6]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PAR_INVALID_5]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PAR_INVALID_4]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PAR_INVALID_3]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PAR_INVALID_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PAR_INVALID_12]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PAR_INVALID_11]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PAR_INVALID_10]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PAR_INVALID_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_PAR_COLL]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_NO_LAUNCHER]
+Por favor, execute o Grand Theft Auto V usando o PlayGTAV.exe.
+
+[ERR_NET_WINSOCK_4]
+Erro de recebimento do WinSock. Por favor, reinicie o sistema e, em seguida, o jogo. Código de retorno:
+
+[ERR_NET_WINSOCK_3]
+Erro de envio do WinSock. Por favor, reinicie o sistema e, em seguida, o jogo. Código de retorno:
+
+[ERR_NET_WINSOCK_2]
+Versão inválida do DLL do WinSock. Tente reinstalar o Windows.
+
+[ERR_NET_WINSOCK_1]
+Erro no WinSock. Por favor, reinicie o sistema e, em seguida, o jogo. Código de retorno:
+
+[ERR_NET_MEM]
+Erro de conexão. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_NET_EVENT]
+Erro de conexão. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_NET_ARRAY]
+Erro de conexão. Versões incompatíveis do GTA V.
+
+[ERR_MEM_VIRTUAL_3]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_VIRTUAL_2]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_VIRTUAL_1]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_TINY_RESIZE_2]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_TINY_RESIZE_1]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_TINY_FREE_2]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_TINY_FREE_1]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_TINY_2]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_TINY_1]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_SYSTEM]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_SPARSEALLOC_FREE_3]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_SPARSEALLOC_FREE_2]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_SPARSEALLOC_FREE_1]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_SPARSEALLOC_ALLOC]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_POOLALLOC_FREE_2]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_POOLALLOC_FREE_1]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_POOLALLOC_ALLOC_5]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_POOLALLOC_ALLOC_4]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_POOLALLOC_ALLOC_3]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_POOLALLOC_ALLOC_2]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_POOLALLOC_ALLOC_1]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_MULTIALLOC_RESIZE]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_MULTIALLOC_FREE]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_MIN_ALLOC]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_EXTALLOC_ALLOC]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_3]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_2]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_1]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_EMBEDDEDALLOC_INIT_1]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_5]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_4]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_3]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_2]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_1]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_3]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_2]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_1]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_EMBEDDEDALLOC_ALLOC]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_CONT_3]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_CONT_2]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_CONT_1]
+Memória do jogo insuficiente. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_BESTALLOC_FREE_2]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_MEM_BESTALLOC_FREE_1]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GUI_SF_MEM_2]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GUI_SF_MEM_1]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GUI_MENU_VER]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GUI_CHILD]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GUI_ACTIVE_PANEL]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_WIN]
+Falha ao criar janela. Por favor, reinicie e verifique se o seu dispositivo gráfico está funcionando corretamente. Erro de Sistema:
+
+[ERR_GFX_STATE]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GFX_SHADER_VAR]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_SHADER_TYP]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_RENDERTHREAD_TXD]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_RENDERTHREAD]
+Falha ao inicializar o thread. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GFX_RENDERTARGET]
+Falha ao criar alvo de renderização. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GFX_PFX_2]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GFX_PFX_1]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GFX_MORPH_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_MORPH_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_INVALID_SHADER]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_INIT]
+Falha ao inicializar o dispositivo gráfico. Por favor, reinicie ou reinstale o runtime do DirectX mais atualizado.
+
+[ERR_GFX_IM]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GFX_EFFECT_INVALID_STATE_5]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_EFFECT_INVALID_STATE_4]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_EFFECT_INVALID_STATE_3]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_EFFECT_INVALID_STATE_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_EFFECT_INVALID_STATE_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_EFFECT_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_EFFECT_1]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GFX_DRAW_ROPE_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_DRAW_ROPE_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_DRAW_GLASS_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_DRAW_GLASS_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_DRAW_DATA]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_D3D_VER_1]
+Não foi encontrado o adaptador ou o runtime para DirectX 10 ou 11. Por favor, instale o runtime do DirectX mais atualizado ou instale uma placa de vídeo compatível com DirectX 10 ou 11.
+
+[ERR_GFX_D3D_SWAPCHAIN_ALLOC_2]
+Não foi encontrado o adaptador ou o runtime para DirectX 10 ou 11. Por favor, instale o runtime do DirectX mais atualizado ou instale uma placa de vídeo compatível com DirectX 10 ou 11.
+
+[ERR_GFX_D3D_SHADER_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_D3D_SHADER_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_D3D_NOFEATURELEVEL_2]
+Não foi encontrado o adaptador ou o runtime para DirectX 10 ou 11. Por favor, instale o runtime do DirectX mais atualizado ou instale uma placa de vídeo compatível com DirectX 10 ou 11.
+
+[ERR_GFX_D3D_NOFEATURELEVEL_1]
+Não foi encontrado o adaptador ou o runtime para DirectX 10 ou 11. Por favor, instale o runtime do DirectX mais atualizado ou instale uma placa de vídeo compatível com DirectX 10 ou 11.
+
+[ERR_GFX_D3D_NOD3D1X_4]
+Não foi encontrado o adaptador ou o runtime para DirectX 10 ou 11. Por favor, instale o runtime do DirectX mais atualizado ou instale uma placa de vídeo compatível com DirectX 10 ou 11.
+
+[ERR_GFX_D3D_NOD3D1X_2]
+Não foi encontrado o adaptador ou o runtime para DirectX 10 ou 11. Por favor, instale o runtime do DirectX mais atualizado ou instale uma placa de vídeo compatível com DirectX 10 ou 11.
+
+[ERR_GFX_D3D_INIT]
+Falha na inicialização. Por favor, reinicie o sistema e, em seguida, o jogo. Tente reinstalar o jogo se o problema persistir.
+
+[ERR_GFX_D3D_DEFERRED_MEM]
+Erro do DirectX. Memória insuficiente. Por favor, reinicie o sistema, feche outros aplicativos e certifique-se de que seu computador atenda aos requisitos mínimos necessários. Para mais informações, visite: https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_GFX_D3D_DEFERRED]
+Erro do DirectX. Por favor, certifique-se de que sua placa de vídeo esteja instalada adequadamente com os drivers mais atualizados. Verifique sua instalação do DirectX e reinicie seu sistema. Código de retorno:
+
+[ERR_GFX_CHECK_PROC_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GFX_CHECK_PROC_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GEN_ZLIB_2]
+Falha na chamada do zlib. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GEN_ZLIB_1]
+Falha ao inicializar o zlib. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GEN_SCENARIO]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GEN_POOL_3]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GEN_POOL_2]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GEN_POOL_1]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GEN_PAGE_1]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GEN_NAV]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GEN_MAP]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GEN_INVALID]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GEN_INTERIOR_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GEN_INPUT_2]
+Erro no DirectInput. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GEN_INPUT_1]
+Há muitos dispositivos de entrada. Por favor, remova alguns dispositivos, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GEN_ENT_TRANS]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GEN_ENT_CONT_3]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GEN_ENT_CONT_2]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GEN_ENT_CONT_1]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_GEN_CUT_2]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GEN_CUT_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_GEN_CODEC_1]
+Erro no codec de conversação de voz. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_FIL_ZIP_3]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_FIL_ZIP_2]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_FIL_ZIP_1]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_FIL_PACK_3]
+Dados de jogo corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_FIL_PACK_2]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_FIL_PACK_1]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_FIL_DISK]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_FIL_COMMON]
+Erro no jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_DEFAULT]
+Erro fatal. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_AUD_SOUND_2]
+Erro de áudio. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_AUD_SOUND_1]
+Erro de áudio. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_AUD_MUSIC_INIT]
+Erro ao inicializar o áudio. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_AUD_MIXER_INIT]
+Erro ao inicializar o áudio. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_AUD_INVALIDRESOURCE]
+Dados de áudio corrompidos. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_AUD_INIT_2]
+Erro ao inicializar o áudio. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_AUD_INIT_1]
+Erro ao inicializar o áudio. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_AUD_HARDWARE_DS_INIT]
+Erro ao inicializar o hardware de áudio. Talvez precise reinstalar seus drivers de áudio ou o DirectX. Certifique-se também de que seu dispositivo de áudio esteja funcionando corretamente. Código de retorno:
+
+[ERR_AUD_HARDWARE_DS_BUFFER]
+Erro ao criar buffer de áudio. Talvez precise reinstalar seus drivers de áudio ou o DirectX. Certifique-se também de que seu dispositivo de áudio esteja funcionando corretamente. Código de retorno:
+
+[ERR_AUD_HARDWARE]
+Erro ao inicializar o hardware de áudio. Por favor, certifique-se de que o seu dispositivo de áudio esteja funcionando corretamente.
+
+[ERR_AUD_GTA_ONLINE_LOAD]
+Erro ao carregar dados de áudio. Por favor, reinicie ou reinstale o jogo.
+
+[ERR_ANI_POOL_2]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.
+
+[ERR_ANI_POOL_1]
+Erro na memória do jogo. Por favor, reinicie o sistema e, em seguida, o jogo.

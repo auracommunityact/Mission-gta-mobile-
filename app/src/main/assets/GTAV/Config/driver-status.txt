@@ -1,0 +1,5 @@
+Requested driver: custom
+ZIP: 8100 ultra driver.zip
+Package: Dimensity 8100 Ultra
+Hook directory: /data/app/~~OrGocyykOUAiqAIFXszi6A==/com.xhynph.v.rebase-yaELqTPA9dKse0jtnaFF1A==/lib/arm64
+Status: system (fallback: custom driver requires an Adreno KGSL device)

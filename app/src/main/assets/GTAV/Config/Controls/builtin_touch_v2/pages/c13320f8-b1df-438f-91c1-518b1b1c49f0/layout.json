@@ -1,0 +1,167 @@
+{
+  "version": 3,
+  "id": "c13320f8-b1df-438f-91c1-518b1b1c49f0",
+  "fields": {
+    "id": "c13320f8-b1df-438f-91c1-518b1b1c49f0",
+    "name": "Land vehicles · Category base layout",
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {}
+    },
+    {
+      "id": "camera",
+      "source": "camera",
+      "fields": {}
+    },
+    {
+      "id": "calibrate_steering",
+      "source": "calibrate_steering",
+      "fields": {}
+    },
+    {
+      "id": "character_switch",
+      "source": "character_switch",
+      "fields": {}
+    },
+    {
+      "id": "move",
+      "source": "move",
+      "fields": {}
+    },
+    {
+      "id": "accelerate",
+      "source": "accelerate",
+      "fields": {}
+    },
+    {
+      "id": "brake_reverse",
+      "source": "brake_reverse",
+      "fields": {}
+    },
+    {
+      "id": "horn",
+      "source": "horn",
+      "fields": {}
+    },
+    {
+      "id": "handbrake",
+      "source": "handbrake",
+      "fields": {}
+    },
+    {
+      "id": "headlight",
+      "source": "headlight",
+      "fields": {}
+    },
+    {
+      "id": "attack",
+      "source": "attack",
+      "fields": {}
+    },
+    {
+      "id": "aim",
+      "source": "aim",
+      "fields": {}
+    },
+    {
+      "id": "reload",
+      "source": "reload",
+      "fields": {}
+    },
+    {
+      "id": "weapon_wheel",
+      "source": "weapon_wheel",
+      "fields": {}
+    },
+    {
+      "id": "vehicle_jump",
+      "source": "vehicle_jump",
+      "fields": {}
+    },
+    {
+      "id": "boost",
+      "source": "boost",
+      "fields": {}
+    },
+    {
+      "id": "roof",
+      "source": "roof",
+      "fields": {}
+    },
+    {
+      "id": "transform",
+      "source": "transform",
+      "fields": {}
+    },
+    {
+      "id": "vehicle_parachute",
+      "source": "vehicle_parachute",
+      "fields": {}
+    },
+    {
+      "id": "ability",
+      "source": "ability",
+      "fields": {}
+    },
+    {
+      "id": "detonate",
+      "source": "detonate",
+      "fields": {}
+    },
+    {
+      "id": "interact",
+      "source": "interact",
+      "fields": {}
+    },
+    {
+      "id": "interaction_more",
+      "source": "interaction_more",
+      "fields": {}
+    },
+    {
+      "id": "activity_panel",
+      "source": "activity_panel",
+      "fields": {}
+    },
+    {
+      "id": "trainer_shortcut",
+      "source": "trainer_shortcut",
+      "fields": {}
+    },
+    {
+      "id": "pedal",
+      "source": "pedal",
+      "fields": {}
+    },
+    {
+      "id": "sprint",
+      "source": "sprint",
+      "fields": {}
+    },
+    {
+      "id": "front_brake",
+      "source": "front_brake",
+      "fields": {}
+    },
+    {
+      "id": "rear_brake",
+      "source": "rear_brake",
+      "fields": {}
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": [
+    "yaw_left",
+    "yaw_right",
+    "gear",
+    "flight_mode",
+    "ascend",
+    "descend"
+  ]
+}

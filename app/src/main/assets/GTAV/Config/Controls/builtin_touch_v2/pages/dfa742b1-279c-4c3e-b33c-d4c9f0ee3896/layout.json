@@ -1,0 +1,179 @@
+{
+  "version": 3,
+  "id": "dfa742b1-279c-4c3e-b33c-d4c9f0ee3896",
+  "fields": {
+    "id": "dfa742b1-279c-4c3e-b33c-d4c9f0ee3896",
+    "name": "Watercraft · Category base layout",
+    "touch": {
+      "x": 0.41999998688697815,
+      "y": 0.15000000596046448
+    },
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {}
+    },
+    {
+      "id": "camera",
+      "source": "camera",
+      "fields": {}
+    },
+    {
+      "id": "calibrate_steering",
+      "source": "calibrate_steering",
+      "fields": {}
+    },
+    {
+      "id": "character_switch",
+      "source": "character_switch",
+      "fields": {}
+    },
+    {
+      "id": "move",
+      "source": "move",
+      "fields": {}
+    },
+    {
+      "id": "accelerate",
+      "source": "accelerate",
+      "fields": {}
+    },
+    {
+      "id": "brake_reverse",
+      "source": "brake_reverse",
+      "fields": {}
+    },
+    {
+      "id": "horn",
+      "source": "horn",
+      "fields": {}
+    },
+    {
+      "id": "attack",
+      "source": "attack",
+      "fields": {}
+    },
+    {
+      "id": "aim",
+      "source": "aim",
+      "fields": {}
+    },
+    {
+      "id": "reload",
+      "source": "reload",
+      "fields": {}
+    },
+    {
+      "id": "weapon_wheel",
+      "source": "weapon_wheel",
+      "fields": {}
+    },
+    {
+      "id": "vehicle_jump",
+      "source": "vehicle_jump",
+      "fields": {}
+    },
+    {
+      "id": "boost",
+      "source": "boost",
+      "fields": {}
+    },
+    {
+      "id": "roof",
+      "source": "roof",
+      "fields": {}
+    },
+    {
+      "id": "transform",
+      "source": "transform",
+      "fields": {}
+    },
+    {
+      "id": "vehicle_parachute",
+      "source": "vehicle_parachute",
+      "fields": {}
+    },
+    {
+      "id": "ability",
+      "source": "ability",
+      "fields": {}
+    },
+    {
+      "id": "detonate",
+      "source": "detonate",
+      "fields": {}
+    },
+    {
+      "id": "interact",
+      "source": "interact",
+      "fields": {}
+    },
+    {
+      "id": "interaction_more",
+      "source": "interaction_more",
+      "fields": {}
+    },
+    {
+      "id": "activity_panel",
+      "source": "activity_panel",
+      "fields": {}
+    },
+    {
+      "id": "trainer_shortcut",
+      "source": "trainer_shortcut",
+      "fields": {}
+    },
+    {
+      "id": "ascend",
+      "source": "ascend",
+      "fields": {}
+    },
+    {
+      "id": "descend",
+      "source": "descend",
+      "fields": {}
+    },
+    {
+      "id": "yaw_left",
+      "source": "yaw_left",
+      "fields": {
+        "label": "Sharp left",
+        "anchor": "left_bottom",
+        "anchorX": 0.10000000149011612,
+        "anchorY": 0.44999998807907104,
+        "requiredActions": 262144,
+        "x": 0.04545454680919647,
+        "y": 0.550000011920929
+      }
+    },
+    {
+      "id": "yaw_right",
+      "source": "yaw_right",
+      "fields": {
+        "label": "Sharp right",
+        "anchor": "left_bottom",
+        "anchorX": 0.25999999046325684,
+        "anchorY": 0.44999998807907104,
+        "requiredActions": 262144,
+        "x": 0.11818180978298187,
+        "y": 0.550000011920929
+      }
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": [
+    "handbrake",
+    "headlight",
+    "pedal",
+    "sprint",
+    "front_brake",
+    "rear_brake",
+    "gear",
+    "flight_mode"
+  ]
+}

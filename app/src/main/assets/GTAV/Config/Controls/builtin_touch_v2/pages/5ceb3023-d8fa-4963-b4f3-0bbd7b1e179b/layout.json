@@ -1,0 +1,105 @@
+{
+  "version": 3,
+  "id": "5ceb3023-d8fa-4963-b4f3-0bbd7b1e179b",
+  "fields": {
+    "id": "5ceb3023-d8fa-4963-b4f3-0bbd7b1e179b",
+    "name": "Parachuting · Free fall",
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {}
+    },
+    {
+      "id": "camera",
+      "source": "camera",
+      "fields": {}
+    },
+    {
+      "id": "calibrate_steering",
+      "source": "calibrate_steering",
+      "fields": {}
+    },
+    {
+      "id": "character_switch",
+      "source": "character_switch",
+      "fields": {}
+    },
+    {
+      "id": "move",
+      "source": "move",
+      "fields": {}
+    },
+    {
+      "id": "detonate",
+      "source": "detonate",
+      "fields": {}
+    },
+    {
+      "id": "interact",
+      "source": "interact",
+      "fields": {}
+    },
+    {
+      "id": "interaction_more",
+      "source": "interaction_more",
+      "fields": {}
+    },
+    {
+      "id": "activity_panel",
+      "source": "activity_panel",
+      "fields": {}
+    },
+    {
+      "id": "trainer_shortcut",
+      "source": "trainer_shortcut",
+      "fields": {}
+    },
+    {
+      "id": "input_mode",
+      "source": "input_mode",
+      "fields": {}
+    },
+    {
+      "id": "deploy",
+      "source": "deploy",
+      "fields": {}
+    },
+    {
+      "id": "detach",
+      "source": "detach",
+      "fields": {}
+    },
+    {
+      "id": "chute_brake_left",
+      "source": "chute_brake_left",
+      "fields": {}
+    },
+    {
+      "id": "chute_brake_right",
+      "source": "chute_brake_right",
+      "fields": {}
+    },
+    {
+      "id": "chute_brake_both",
+      "source": "chute_brake_both",
+      "fields": {}
+    },
+    {
+      "id": "vehicle_tools",
+      "source": "vehicle_tools",
+      "fields": {}
+    },
+    {
+      "id": "close_vehicle_tools",
+      "source": "close_vehicle_tools",
+      "fields": {}
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": []
+}

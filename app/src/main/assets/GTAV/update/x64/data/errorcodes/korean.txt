@@ -1,0 +1,643 @@
+{ generated file - do not edit }
+
+[ERR_SYS_TIMER_RDTSC]
+CPU가 RDTSC 명령을 지원하지 않습니다.
+
+[ERR_SYS_STREAMERREAD]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SYS_SETTINGS]
+컴퓨터가 최소 사양을 충족하지 않습니다.
+
+[ERR_SYS_PURE]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_SYS_PARAM_PREFIX]
+잘못된 명령줄 매개 변수. 추가 정보를 얻으려면 다음 페이지를 방문하십시오: https://support.rockstargames.com/hc/articles/202518358
+
+[ERR_SYS_PARAM_FORMAT]
+잘못된 명령줄 매개 변수 형식. 추가 정보를 얻으려면 다음 페이지를 방문하십시오: https://support.rockstargames.com/hc/articles/202518358
+
+[ERR_SYS_PAR_3]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SYS_PAR_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SYS_PAR_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SYS_NOSTREAMINGHANDLES]
+파일 핸들 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_SYS_NOFILEHANDLES_3]
+파일 핸들 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_SYS_NOFILEHANDLES_2]
+파일 핸들 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_SYS_NOFILEHANDLES_1]
+파일 핸들 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_SYS_MINREQ_VID_MEM]
+사용자의 컴퓨터가 최소 권장 비디오 메모리 사양을 충족하지 않습니다. 계속 진행하면 실행에 문제가 있을 수 있습니다. 추가 정보를 얻으려면 다음 페이지를 방문하십시오: https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_MINREQ_URL]
+https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_MINREQ_TITLE]
+최소 권장 하드웨어 확인 실패
+
+[ERR_SYS_MINREQ_MEM]
+사용자의 컴퓨터가 최소 권장 메모리(RAM) 사양을 충족하지 않습니다. 계속 진행하면 실행에 문제가 있을 수 있습니다. 추가 정보를 얻으려면 다음 페이지를 방문하십시오: https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_MINREQ_CPU_CORE]
+사용자의 컴퓨터가 최소 권장 CPU 코어 사양을 충족하지  않습니다. 계속 진행하면 실행에 문제가 있을 수 있습니다. 추가 정보를 얻으려면 다음 페이지를 방문하십시오: https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_INVALIDRESOURCE_5]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SYS_INVALIDRESOURCE_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SYS_INVALIDRESOURCE_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SYS_INVALIDFILE]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SYS_INSTALLER]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SYS_FILELOAD]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_STR_PACK_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_STR_PACK_1]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_STR_MOD_INFO]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_STR_MOD]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_STR_MISSING]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_STR_INVALID_DATA_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_STR_INVALID_DATA_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_STR_INFO_3]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_STR_INFO_2]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_STR_INFO_1]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_STR_FAILURE_4]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_STR_FAILURE_3]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_STR_FAILURE_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_STR_FAILURE_1]
+네트워크 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_STR_CACHE_3]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_STR_CACHE_2]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_STR_CACHE_1]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_SCR_THREAD_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SCR_THREAD_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SCR_TEXT_MEM_4]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_SCR_TEXT_MEM_3]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_SCR_TEXT_MEM_2]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_SCR_TEXT_MEM_1]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_SCR_PROG_9]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SCR_PROG_8]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SCR_PROG_7]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SCR_PROG_6]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SCR_PROG_5]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SCR_PROG_4]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SCR_PROG_3]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SCR_PROG_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SCR_PROG_10]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SCR_PROG_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SCR_LAUNCH_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_SCR_LAUNCH_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PHY_POOL_2]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_PHY_POOL_1]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_PHY_GEOM]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PHY_BOUND]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PHY_ARCH]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PAR_INVALID_9]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PAR_INVALID_8]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PAR_INVALID_7]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PAR_INVALID_6]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PAR_INVALID_5]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PAR_INVALID_4]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PAR_INVALID_3]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PAR_INVALID_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PAR_INVALID_12]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PAR_INVALID_11]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PAR_INVALID_10]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PAR_INVALID_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_PAR_COLL]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_NO_LAUNCHER]
+PlayGTAV.exe를 사용해 Grand Theft Auto V를 실행하십시오.
+
+[ERR_NET_WINSOCK_4]
+WinSock 수신 오류. 다시 부팅하고 게임을 다시 시작하십시오. 반환 코드:
+
+[ERR_NET_WINSOCK_3]
+WinSock 전송 오류. 다시 부팅하고 게임을 다시 시작하십시오. 반환 코드:
+
+[ERR_NET_WINSOCK_2]
+잘못된 WinSock DLL 버전. Windows를 다시 설치해 보십시오.
+
+[ERR_NET_WINSOCK_1]
+WinSock 오류. 다시 부팅하고 게임을 다시 시작하십시오. 반환 코드:
+
+[ERR_NET_MEM]
+네트워크 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_NET_EVENT]
+네트워크 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_NET_ARRAY]
+네트워크 오류. 호환되지 않는 GTA V 버전입니다.
+
+[ERR_MEM_VIRTUAL_3]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_VIRTUAL_2]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_VIRTUAL_1]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_TINY_RESIZE_2]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_TINY_RESIZE_1]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_TINY_FREE_2]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_TINY_FREE_1]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_TINY_2]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_TINY_1]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_SYSTEM]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_SPARSEALLOC_FREE_3]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_SPARSEALLOC_FREE_2]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_SPARSEALLOC_FREE_1]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_SPARSEALLOC_ALLOC]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_POOLALLOC_FREE_2]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_POOLALLOC_FREE_1]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_POOLALLOC_ALLOC_5]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_POOLALLOC_ALLOC_4]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_POOLALLOC_ALLOC_3]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_POOLALLOC_ALLOC_2]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_POOLALLOC_ALLOC_1]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_MULTIALLOC_RESIZE]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_MULTIALLOC_FREE]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_MIN_ALLOC]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_EXTALLOC_ALLOC]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_3]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_2]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_1]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_EMBEDDEDALLOC_INIT_1]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_5]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_4]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_3]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_2]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_1]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_3]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_2]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_1]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_EMBEDDEDALLOC_ALLOC]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_CONT_3]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_CONT_2]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_CONT_1]
+게임 메모리 부족. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_BESTALLOC_FREE_2]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_MEM_BESTALLOC_FREE_1]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GUI_SF_MEM_2]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GUI_SF_MEM_1]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GUI_MENU_VER]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GUI_CHILD]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GUI_ACTIVE_PANEL]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_WIN]
+창 생성 실패. 다시 부팅하고 그래픽 장치가 올바로 작동하는지 확인하십시오. 시스템 오류:
+
+[ERR_GFX_STATE]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GFX_SHADER_VAR]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_SHADER_TYP]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_RENDERTHREAD_TXD]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_RENDERTHREAD]
+스레드 초기화 실패. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GFX_RENDERTARGET]
+렌더링 대상 생성 실패. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GFX_PFX_2]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GFX_PFX_1]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GFX_MORPH_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_MORPH_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_INVALID_SHADER]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_INIT]
+그래픽 장치 초기화 실패. 다시 부팅하거나 최신 DirectX 런타임을 다시 설치하십시오.
+
+[ERR_GFX_IM]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GFX_EFFECT_INVALID_STATE_5]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_EFFECT_INVALID_STATE_4]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_EFFECT_INVALID_STATE_3]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_EFFECT_INVALID_STATE_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_EFFECT_INVALID_STATE_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_EFFECT_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_EFFECT_1]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GFX_DRAW_ROPE_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_DRAW_ROPE_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_DRAW_GLASS_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_DRAW_GLASS_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_DRAW_DATA]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_D3D_VER_1]
+Direct 10 또는 11의 어탭터나 런타임을 찾을 수 없음. 최신 DirectX 런타임을 설치하거나 DirectX 10 또는 11 호환 비디오 카드를 설치하십시오.
+
+[ERR_GFX_D3D_SWAPCHAIN_ALLOC_2]
+Direct 10 또는 11의 어탭터나 런타임을 찾을 수 없음. 최신 DirectX 런타임을 설치하거나 DirectX 10 또는 11 호환 비디오 카드를 설치하십시오.
+
+[ERR_GFX_D3D_SHADER_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_D3D_SHADER_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_D3D_NOFEATURELEVEL_2]
+Direct 10 또는 11의 어탭터나 런타임을 찾을 수 없음. 최신 DirectX 런타임을 설치하거나 DirectX 10 또는 11 호환 비디오 카드를 설치하십시오.
+
+[ERR_GFX_D3D_NOFEATURELEVEL_1]
+Direct 10 또는 11의 어탭터나 런타임을 찾을 수 없음. 최신 DirectX 런타임을 설치하거나 DirectX 10 또는 11 호환 비디오 카드를 설치하십시오.
+
+[ERR_GFX_D3D_NOD3D1X_4]
+Direct 10 또는 11의 어탭터나 런타임을 찾을 수 없음. 최신 DirectX 런타임을 설치하거나 DirectX 10 또는 11 호환 비디오 카드를 설치하십시오.
+
+[ERR_GFX_D3D_NOD3D1X_2]
+Direct 10 또는 11의 어탭터나 런타임을 찾을 수 없음. 최신 DirectX 런타임을 설치하거나 DirectX 10 또는 11 호환 비디오 카드를 설치하십시오.
+
+[ERR_GFX_D3D_INIT]
+초기화 실패. 다시 부팅하고 게임을 다시 시작하십시오. 문제가 계속되면 게임을 다시 설치해 보십시오.
+
+[ERR_GFX_D3D_DEFERRED_MEM]
+DirectX 오류. 메모리 부족. 다시 부팅하고, 다른 응용 프로그램을 닫고, 컴퓨터가 최소 사양 이상인지 확인하십시오. 추가 정보를 얻으려면 다음 페이지를 방문하십시오: https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_GFX_D3D_DEFERRED]
+DirectX 오류. 비디오 카드가 최신 드라이버와 함께 제대로 설치되었는지 확인하십시오. DirectX 설치 상태를 확인하고 본체를 다시 부팅하십시오. 반환 코드:
+
+[ERR_GFX_CHECK_PROC_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GFX_CHECK_PROC_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GEN_ZLIB_2]
+zlib 호출 실패. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GEN_ZLIB_1]
+zlib 초기화 실패. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GEN_SCENARIO]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GEN_POOL_3]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GEN_POOL_2]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GEN_POOL_1]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GEN_PAGE_1]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GEN_NAV]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GEN_MAP]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GEN_INVALID]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GEN_INTERIOR_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GEN_INPUT_2]
+DirectInput 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GEN_INPUT_1]
+입력 장치가 너무 많음. 일부 장치를 제거한 후 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GEN_ENT_TRANS]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GEN_ENT_CONT_3]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GEN_ENT_CONT_2]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GEN_ENT_CONT_1]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_GEN_CUT_2]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GEN_CUT_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_GEN_CODEC_1]
+음성 채팅 코덱 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_FIL_ZIP_3]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_FIL_ZIP_2]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_FIL_ZIP_1]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_FIL_PACK_3]
+게임 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_FIL_PACK_2]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_FIL_PACK_1]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_FIL_DISK]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_FIL_COMMON]
+게임 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_DEFAULT]
+치명적 오류. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_AUD_SOUND_2]
+오디오 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_AUD_SOUND_1]
+오디오 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_AUD_MUSIC_INIT]
+오디오 초기화 실패. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_AUD_MIXER_INIT]
+오디오 초기화 실패. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_AUD_INVALIDRESOURCE]
+오디오 데이터 손상. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_AUD_INIT_2]
+오디오 초기화 실패. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_AUD_INIT_1]
+오디오 초기화 실패. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_AUD_HARDWARE_DS_INIT]
+오디오 하드웨어 초기화 실패. 오디오 드라이버 또는 DirectX를 다시 설치해야 할 수 있습니다. 또한, 오디오 장치가 올바로 작동하고 있는지 확인하십시오. 반환 코드:
+
+[ERR_AUD_HARDWARE_DS_BUFFER]
+오디오 버퍼 생성 실패. 오디오 드라이버 또는 DirectX를 다시 설치해야 할 수 있습니다. 또한, 오디오 장치가 올바로 작동하고 있는지 확인하십시오. 반환 코드:
+
+[ERR_AUD_HARDWARE]
+오디오 하드웨어 초기화 실패. 오디오 장치가 올바로 작동하고 있는지 확인하십시오.
+
+[ERR_AUD_GTA_ONLINE_LOAD]
+오디오 데이터 불러오기 실패. 다시 부팅하거나 게임을 다시 설치하십시오.
+
+[ERR_ANI_POOL_2]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.
+
+[ERR_ANI_POOL_1]
+게임 메모리 오류. 다시 부팅하고 게임을 다시 시작하십시오.

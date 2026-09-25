@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "id": "4772c4a9-18c2-4270-bce4-5f75fbcddbd1",
+  "fields": {
+    "id": "4772c4a9-18c2-4270-bce4-5f75fbcddbd1",
+    "name": "Passengers & taxis · Category base layout",
+    "touch": {
+      "x": 0.41999998688697815,
+      "y": 0.15000000596046448
+    },
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {}
+    },
+    {
+      "id": "camera",
+      "source": "camera",
+      "fields": {}
+    },
+    {
+      "id": "calibrate_steering",
+      "source": "calibrate_steering",
+      "fields": {}
+    },
+    {
+      "id": "character_switch",
+      "source": "character_switch",
+      "fields": {}
+    },
+    {
+      "id": "attack",
+      "source": "attack",
+      "fields": {}
+    },
+    {
+      "id": "aim",
+      "source": "aim",
+      "fields": {}
+    },
+    {
+      "id": "reload",
+      "source": "reload",
+      "fields": {}
+    },
+    {
+      "id": "weapon_wheel",
+      "source": "weapon_wheel",
+      "fields": {}
+    },
+    {
+      "id": "ability",
+      "source": "ability",
+      "fields": {}
+    },
+    {
+      "id": "detonate",
+      "source": "detonate",
+      "fields": {}
+    },
+    {
+      "id": "interact",
+      "source": "interact",
+      "fields": {}
+    },
+    {
+      "id": "interaction_more",
+      "source": "interaction_more",
+      "fields": {}
+    },
+    {
+      "id": "activity_panel",
+      "source": "activity_panel",
+      "fields": {}
+    },
+    {
+      "id": "trainer_shortcut",
+      "source": "trainer_shortcut",
+      "fields": {}
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": [
+    "move",
+    "accelerate",
+    "brake_reverse",
+    "horn",
+    "handbrake",
+    "headlight",
+    "vehicle_jump",
+    "boost",
+    "roof",
+    "transform",
+    "vehicle_parachute",
+    "pedal",
+    "sprint",
+    "front_brake",
+    "rear_brake",
+    "yaw_left",
+    "yaw_right",
+    "gear",
+    "flight_mode",
+    "ascend",
+    "descend"
+  ]
+}

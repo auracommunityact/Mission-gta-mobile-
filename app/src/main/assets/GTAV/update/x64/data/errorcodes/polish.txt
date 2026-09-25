@@ -1,0 +1,643 @@
+{ generated file - do not edit }
+
+[ERR_SYS_TIMER_RDTSC]
+Procesor nie obsługuje instrukcji RDTSC.
+
+[ERR_SYS_STREAMERREAD]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SYS_SETTINGS]
+Komputer nie spełnia minimalnych wymagań sprzętowych.
+
+[ERR_SYS_PURE]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_SYS_PARAM_PREFIX]
+Błędny parametr wiersza poleceń. Aby dowiedzieć się więcej, odwiedź stronę: https://support.rockstargames.com/hc/articles/202518358.
+
+[ERR_SYS_PARAM_FORMAT]
+Błędny format parametrów wiersza poleceń. Aby dowiedzieć się więcej, odwiedź stronę: https://support.rockstargames.com/hc/articles/202518358.
+
+[ERR_SYS_PAR_3]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SYS_PAR_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SYS_PAR_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SYS_NOSTREAMINGHANDLES]
+Błędne uchwyty pliku. Uruchom ponownie komputer i grę.
+
+[ERR_SYS_NOFILEHANDLES_3]
+Błędne uchwyty pliku. Uruchom ponownie komputer i grę.
+
+[ERR_SYS_NOFILEHANDLES_2]
+Błędne uchwyty pliku. Uruchom ponownie komputer i grę.
+
+[ERR_SYS_NOFILEHANDLES_1]
+Błędne uchwyty pliku. Uruchom ponownie komputer i grę.
+
+[ERR_SYS_MINREQ_VID_MEM]
+Twój komputer nie spełnia minimalnych wymagań w zakresie ilości posiadanej pamięci na karcie graficznej. Jeśli mimo to uruchomisz grę, może ona nie działać optymalnie. Aby dowiedzieć się więcej, odwiedź stronę https://support.rockstargames.com/hc/articles/203160297.
+
+[ERR_SYS_MINREQ_URL]
+https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_MINREQ_TITLE]
+Komputer nie spełnia minimalnych wymagań sprzętowych
+
+[ERR_SYS_MINREQ_MEM]
+Twój komputer nie spełnia minimalnych wymagań w zakresie ilości posiadanej pamięci RAM. Jeśli mimo to uruchomisz grę, może ona nie działać optymalnie. Aby dowiedzieć się więcej, odwiedź stronę https://support.rockstargames.com/hc/articles/203160297.
+
+[ERR_SYS_MINREQ_CPU_CORE]
+Twój komputer nie spełnia minimalnych wymagań w zakresie liczby posiadanych rdzeni procesora bądź jego mocy obliczeniowej. Jeśli mimo to uruchomisz grę, może ona nie działać optymalnie. Aby dowiedzieć się więcej, odwiedź stronę https://support.rockstargames.com/hc/articles/203160297.
+
+[ERR_SYS_INVALIDRESOURCE_5]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SYS_INVALIDRESOURCE_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SYS_INVALIDRESOURCE_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SYS_INVALIDFILE]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SYS_INSTALLER]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SYS_FILELOAD]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_STR_PACK_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_STR_PACK_1]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_STR_MOD_INFO]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_STR_MOD]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_STR_MISSING]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_STR_INVALID_DATA_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_STR_INVALID_DATA_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_STR_INFO_3]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_STR_INFO_2]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_STR_INFO_1]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_STR_FAILURE_4]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_STR_FAILURE_3]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_STR_FAILURE_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_STR_FAILURE_1]
+Błąd sieci. Uruchom ponownie komputer i grę.
+
+[ERR_STR_CACHE_3]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_STR_CACHE_2]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_STR_CACHE_1]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_SCR_THREAD_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SCR_THREAD_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SCR_TEXT_MEM_4]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_SCR_TEXT_MEM_3]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_SCR_TEXT_MEM_2]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_SCR_TEXT_MEM_1]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_SCR_PROG_9]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SCR_PROG_8]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SCR_PROG_7]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SCR_PROG_6]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SCR_PROG_5]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SCR_PROG_4]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SCR_PROG_3]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SCR_PROG_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SCR_PROG_10]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SCR_PROG_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SCR_LAUNCH_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_SCR_LAUNCH_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PHY_POOL_2]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_PHY_POOL_1]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_PHY_GEOM]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PHY_BOUND]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PHY_ARCH]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PAR_INVALID_9]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PAR_INVALID_8]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PAR_INVALID_7]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PAR_INVALID_6]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PAR_INVALID_5]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PAR_INVALID_4]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PAR_INVALID_3]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PAR_INVALID_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PAR_INVALID_12]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PAR_INVALID_11]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PAR_INVALID_10]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PAR_INVALID_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_PAR_COLL]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_NO_LAUNCHER]
+Uruchom Grand Theft Auto V za pomocą pliku PlayGTAV.exe.
+
+[ERR_NET_WINSOCK_4]
+Błąd odbierania WinSock. Uruchom ponownie komputer i grę. Kod błędu:
+
+[ERR_NET_WINSOCK_3]
+Błąd wysyłania WinSock. Uruchom ponownie komputer i grę. Kod błędu:
+
+[ERR_NET_WINSOCK_2]
+Błędna wersja biblioteki WinSock DLL. Zaleca się ponowną instalację systemu Windows.
+
+[ERR_NET_WINSOCK_1]
+Błąd WinSock. Uruchom ponownie komputer i grę. Kod błędu:
+
+[ERR_NET_MEM]
+Błąd sieci. Uruchom ponownie komputer i grę.
+
+[ERR_NET_EVENT]
+Błąd sieci. Uruchom ponownie komputer i grę.
+
+[ERR_NET_ARRAY]
+Błąd sieci. Niekompatybilne wersje GTA V.
+
+[ERR_MEM_VIRTUAL_3]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_VIRTUAL_2]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_VIRTUAL_1]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_TINY_RESIZE_2]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_TINY_RESIZE_1]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_TINY_FREE_2]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_TINY_FREE_1]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_TINY_2]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_TINY_1]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_SYSTEM]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_SPARSEALLOC_FREE_3]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_SPARSEALLOC_FREE_2]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_SPARSEALLOC_FREE_1]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_SPARSEALLOC_ALLOC]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_POOLALLOC_FREE_2]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_POOLALLOC_FREE_1]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_POOLALLOC_ALLOC_5]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_POOLALLOC_ALLOC_4]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_POOLALLOC_ALLOC_3]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_POOLALLOC_ALLOC_2]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_POOLALLOC_ALLOC_1]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_MULTIALLOC_RESIZE]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_MULTIALLOC_FREE]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_MIN_ALLOC]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_EXTALLOC_ALLOC]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_3]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_2]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_1]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_EMBEDDEDALLOC_INIT_1]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_5]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_4]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_3]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_2]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_1]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_3]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_2]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_1]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_EMBEDDEDALLOC_ALLOC]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_CONT_3]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_CONT_2]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_CONT_1]
+Zbyt mało pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_BESTALLOC_FREE_2]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_MEM_BESTALLOC_FREE_1]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_GUI_SF_MEM_2]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_GUI_SF_MEM_1]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_GUI_MENU_VER]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GUI_CHILD]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GUI_ACTIVE_PANEL]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_WIN]
+Nie udało się utworzyć okna. Uruchom ponownie komputer i upewnij się, że karta graficznie działa poprawnie. Błąd systemowy:
+
+[ERR_GFX_STATE]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_GFX_SHADER_VAR]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_SHADER_TYP]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_RENDERTHREAD_TXD]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_RENDERTHREAD]
+Nie udało się załadować wątku. Uruchom ponownie komputer i grę.
+
+[ERR_GFX_RENDERTARGET]
+Nie udało się stworzyć celu renderowania. Uruchom ponownie komputer i grę.
+
+[ERR_GFX_PFX_2]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_GFX_PFX_1]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_GFX_MORPH_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_MORPH_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_INVALID_SHADER]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_INIT]
+Nie udało się włączyć urządzenia graficznego. Uruchom ponownie komputer lub zainstaluj najnowsze sterowniki DirectX.
+
+[ERR_GFX_IM]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_GFX_EFFECT_INVALID_STATE_5]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_EFFECT_INVALID_STATE_4]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_EFFECT_INVALID_STATE_3]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_EFFECT_INVALID_STATE_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_EFFECT_INVALID_STATE_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_EFFECT_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_EFFECT_1]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_GFX_DRAW_ROPE_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_DRAW_ROPE_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_DRAW_GLASS_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_DRAW_GLASS_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_DRAW_DATA]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_D3D_VER_1]
+Nie znaleziono sterowników DirectX 10 lub 11 ani urządzenia, które je obsługuje. Zainstaluj najnowszą wersję DirectX lub kartę graficzną obsługującą DirectX 10 lub 11.
+
+[ERR_GFX_D3D_SWAPCHAIN_ALLOC_2]
+Nie znaleziono sterowników DirectX 10 lub 11 ani urządzenia, które je obsługuje. Zainstaluj najnowszą wersję DirectX lub kartę graficzną obsługującą DirectX 10 lub 11.
+
+[ERR_GFX_D3D_SHADER_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_D3D_SHADER_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_D3D_NOFEATURELEVEL_2]
+Nie znaleziono sterowników DirectX 10 lub 11 ani urządzenia, które je obsługuje. Zainstaluj najnowszą wersję DirectX lub kartę graficzną obsługującą DirectX 10 lub 11.
+
+[ERR_GFX_D3D_NOFEATURELEVEL_1]
+Nie znaleziono sterowników DirectX 10 lub 11 ani urządzenia, które je obsługuje. Zainstaluj najnowszą wersję DirectX lub kartę graficzną obsługującą DirectX 10 lub 11.
+
+[ERR_GFX_D3D_NOD3D1X_4]
+Nie znaleziono sterowników DirectX 10 lub 11 ani urządzenia, które je obsługuje. Zainstaluj najnowszą wersję DirectX lub kartę graficzną obsługującą DirectX 10 lub 11.
+
+[ERR_GFX_D3D_NOD3D1X_2]
+Nie znaleziono sterowników DirectX 10 lub 11 ani urządzenia, które je obsługuje. Zainstaluj najnowszą wersję DirectX lub kartę graficzną obsługującą DirectX 10 lub 11.
+
+[ERR_GFX_D3D_INIT]
+Błąd uruchamiania. Uruchom ponownie komputer i grę. Jeśli problem będzie się powtarzać, zainstaluj ponownie grę.
+
+[ERR_GFX_D3D_DEFERRED_MEM]
+Błąd DirectX – zbyt mało pamięci. Uruchom ponownie komputer, zamknij nieużywane programy i upewnij się, że komputer spełnia minimalne wymagania sprzętowe. Aby dowiedzieć się więcej, odwiedź stronę https://support.rockstargames.com/hc/articles/203160297.
+
+[ERR_GFX_D3D_DEFERRED]
+Błąd DirectX. Upewnij się, że karta graficzna została poprawnie zainstalowana i że posiadasz najnowsze sterowniki. Sprawdź, czy poprawnie zainstalowano DirectX, i uruchom ponownie komputer. Kod błędu:
+
+[ERR_GFX_CHECK_PROC_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GFX_CHECK_PROC_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GEN_ZLIB_2]
+Błąd biblioteki zlib. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GEN_ZLIB_1]
+Nie udało się załadować biblioteki zlib. Uruchom ponownie komputer i grę.
+
+[ERR_GEN_SCENARIO]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_GEN_POOL_3]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_GEN_POOL_2]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_GEN_POOL_1]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_GEN_PAGE_1]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_GEN_NAV]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GEN_MAP]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_GEN_INVALID]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GEN_INTERIOR_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GEN_INPUT_2]
+Błąd DirectInput. Uruchom ponownie komputer i grę.
+
+[ERR_GEN_INPUT_1]
+Zbyt wiele urządzeń wejściowych. Odłącz część urządzeń, a następnie uruchom ponownie komputer i grę.
+
+[ERR_GEN_ENT_TRANS]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_GEN_ENT_CONT_3]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_GEN_ENT_CONT_2]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_GEN_ENT_CONT_1]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_GEN_CUT_2]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GEN_CUT_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_GEN_CODEC_1]
+Błąd kodeka rozmowy głosowej. Uruchom ponownie komputer i grę.
+
+[ERR_FIL_ZIP_3]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_FIL_ZIP_2]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_FIL_ZIP_1]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_FIL_PACK_3]
+Błędne dane gry. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_FIL_PACK_2]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_FIL_PACK_1]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_FIL_DISK]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_FIL_COMMON]
+Błąd gry. Uruchom ponownie komputer i grę.
+
+[ERR_DEFAULT]
+Błąd krytyczny. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_AUD_SOUND_2]
+Błąd audio. Uruchom ponownie komputer i grę.
+
+[ERR_AUD_SOUND_1]
+Błąd audio. Uruchom ponownie komputer i grę.
+
+[ERR_AUD_MUSIC_INIT]
+Nie udało się załadować dźwięku. Uruchom ponownie komputer i grę.
+
+[ERR_AUD_MIXER_INIT]
+Nie udało się załadować dźwięku. Uruchom ponownie komputer i grę.
+
+[ERR_AUD_INVALIDRESOURCE]
+Błędne dane audio. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_AUD_INIT_2]
+Nie udało się załadować dźwięku. Uruchom ponownie komputer i grę.
+
+[ERR_AUD_INIT_1]
+Nie udało się załadować dźwięku. Uruchom ponownie komputer i grę.
+
+[ERR_AUD_HARDWARE_DS_INIT]
+Nie udało się włączyć urządzenia audio. Wymagane może być ponowne zainstalowanie sterowników audio lub DirectX. Sprawdź, czy urządzenie audio działa poprawnie. Kod błędu:
+
+[ERR_AUD_HARDWARE_DS_BUFFER]
+Nie udało się utworzyć bufora audio. Wymagane może być ponowne zainstalowanie sterowników audio lub DirectX. Sprawdź, czy urządzenie audio działa poprawnie. Kod błędu:
+
+[ERR_AUD_HARDWARE]
+Nie udało się włączyć urządzenia audio. Sprawdź, czy urządzenie audio działa poprawnie.
+
+[ERR_AUD_GTA_ONLINE_LOAD]
+Nie udało się załadować danych audio. Uruchom ponownie komputer lub przeinstaluj grę.
+
+[ERR_ANI_POOL_2]
+Błąd pamięci. Uruchom ponownie komputer i grę.
+
+[ERR_ANI_POOL_1]
+Błąd pamięci. Uruchom ponownie komputer i grę.

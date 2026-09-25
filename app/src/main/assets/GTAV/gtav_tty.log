@@ -1,0 +1,62 @@
+[android-zlib] provider=zlib-ng version=2.2.5
+[android-zlib] provider=zlib-ng version=2.2.5
+=== Android log rotation: previous run is /storage/emulated/0/Games/GTAV/gtav_tty.previous.log ===
+=== SDL_main entered, engine TTY follows ===
+=== Android entry build: Sep 19 2026 01:00:43 ===
+=== Vulkan driver: system (fallback: custom driver requires an Adreno KGSL device) ===
+=== DXVK shader cache: /data/data/com.xhynph.v.rebase/cache/xhyn-renderer/bundled-5fff767a ===
+=== Android game profile=Master bank=0 final=1 master=1 ===
+=== Android display 2408x1080; using persisted render resolution ===
+=== Android debug bar off (config /storage/emulated/0/Games/GTAV/Config/android.ini) ===
+=== Android benchmark enabled=0 frameTimes=1 iterations=1 pass=4 ===
+=== Android HDR supported=1 requested=0 enabled=0 types=28 max=500.000 avg=500.000 min=0.000 sdrRatio=-1.000 ===
+info:  Game: app_process64
+info:  DXVK-GPLALL: 2.6.8
+info:  Build: aarch64 clang 18.0.4
+info:  Found config file: /data/data/com.xhynph.v.rebase/files/xhyn-effective-dxvk.conf
+info:  Effective configuration:
+info:    dxvk.numCompilerThreads = 2
+info:    dxvk.gtaAsyncInterop = True
+info:    dxvk.gtaDescriptorCacheStats = False
+info:    dxvk.gtaDescriptorCache = False
+info:  Vulkan: Using Android loader libgtav_vulkan.so
+info:  Built-in extension providers:
+info:    Platform WSI
+info:  Enabled instance extensions:
+info:    VK_KHR_android_surface
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:  Mali-G615 MC2:
+info:    Driver : Mali-G615 MC2 44.1.0
+info:    Memory Heap[0]: 
+info:      Size: 7473 MiB
+info:      Flags: 0x1
+info:      Memory Type[0]: Property Flags = 0x7
+info:      Memory Type[1]: Property Flags = 0xb
+info:      Memory Type[2]: Property Flags = 0x11
+info:    Memory Heap[1]: 
+info:      Size: 100 MiB
+info:      Flags: 0x1
+info:      Memory Type[3]: Property Flags = 0x21
+warn:  DXGI: Found monitors not associated with any adapter, using fallback
+info:  Adapter LUID 0: 0:1
+err:   getMonitorEdid not implemented on this platform.
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+info:  Mali-G615 MC2:
+info:    Driver : Mali-G615 MC2 44.1.0
+info:    Memory Heap[0]: 
+info:      Size: 7473 MiB
+info:      Flags: 0x1
+info:      Memory Type[0]: Property Flags = 0x7
+info:      Memory Type[1]: Property Flags = 0xb
+info:      Memory Type[2]: Property Flags = 0x11
+info:    Memory Heap[1]: 
+info:      Size: 100 MiB
+info:      Flags: 0x1
+info:      Memory Type[3]: Property Flags = 0x21
+warn:  DXGI: Found monitors not associated with any adapter, using fallback
+info:  D3D11InternalCreateDevice: Maximum supported feature level: 0
+err:   D3D11InternalCreateDevice: Minimum required feature level D3D_FEATURE_LEVEL_10_0 not supported
+info:  D3D11InternalCreateDevice: Maximum supported feature level: 0
+err:   D3D11InternalCreateDevice: Minimum required feature level D3D_FEATURE_LEVEL_10_0 not supported
+[android-lifecycle] surfaceChanged 2408x1079 state=7

@@ -1,0 +1,691 @@
+{
+  "version": 3,
+  "id": "8aec68db-901e-40de-a9ee-d42ec5c85de3",
+  "fields": {
+    "id": "8aec68db-901e-40de-a9ee-d42ec5c85de3",
+    "name": "General scene interaction",
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {}
+    },
+    {
+      "id": "camera",
+      "source": "camera",
+      "fields": {}
+    },
+    {
+      "id": "phone",
+      "source": "phone",
+      "fields": {}
+    },
+    {
+      "id": "calibrate_steering",
+      "source": "calibrate_steering",
+      "fields": {}
+    },
+    {
+      "id": "character_switch",
+      "source": "character_switch",
+      "fields": {}
+    },
+    {
+      "id": "move",
+      "source": "move",
+      "fields": {}
+    },
+    {
+      "id": "attack",
+      "source": "attack",
+      "fields": {}
+    },
+    {
+      "id": "aim",
+      "source": "aim",
+      "fields": {}
+    },
+    {
+      "id": "jump",
+      "source": "jump",
+      "fields": {}
+    },
+    {
+      "id": "duck",
+      "source": "duck",
+      "fields": {}
+    },
+    {
+      "id": "sprint",
+      "source": "sprint",
+      "fields": {}
+    },
+    {
+      "id": "cover",
+      "source": "cover",
+      "fields": {}
+    },
+    {
+      "id": "reload",
+      "source": "reload",
+      "fields": {}
+    },
+    {
+      "id": "weapon_wheel",
+      "source": "weapon_wheel",
+      "fields": {}
+    },
+    {
+      "id": "ability",
+      "source": "ability",
+      "fields": {}
+    },
+    {
+      "id": "cancel_run",
+      "source": "cancel_run",
+      "fields": {}
+    },
+    {
+      "id": "detonate",
+      "source": "detonate",
+      "fields": {}
+    },
+    {
+      "id": "scope_zoom_in",
+      "source": "scope_zoom_in",
+      "fields": {}
+    },
+    {
+      "id": "scope_zoom_out",
+      "source": "scope_zoom_out",
+      "fields": {}
+    },
+    {
+      "id": "melee_heavy",
+      "source": "melee_heavy",
+      "fields": {}
+    },
+    {
+      "id": "melee_block",
+      "source": "melee_block",
+      "fields": {}
+    },
+    {
+      "id": "weapon_attachment",
+      "source": "weapon_attachment",
+      "fields": {}
+    },
+    {
+      "id": "melee_alternate",
+      "source": "melee_alternate",
+      "fields": {}
+    },
+    {
+      "id": "weapon_prev",
+      "source": "weapon_prev",
+      "fields": {}
+    },
+    {
+      "id": "weapon_next",
+      "source": "weapon_next",
+      "fields": {}
+    },
+    {
+      "id": "weapon_confirm",
+      "source": "weapon_confirm",
+      "fields": {}
+    },
+    {
+      "id": "weapon_cancel",
+      "source": "weapon_cancel",
+      "fields": {}
+    },
+    {
+      "id": "weapon_status",
+      "source": "weapon_status",
+      "fields": {}
+    },
+    {
+      "id": "trainer_shortcut",
+      "source": "trainer_shortcut",
+      "fields": {}
+    },
+    {
+      "id": "input_mode",
+      "source": "input_mode",
+      "fields": {}
+    },
+    {
+      "id": "vehicle_tools",
+      "source": "vehicle_tools",
+      "fields": {}
+    },
+    {
+      "id": "close_vehicle_tools",
+      "source": "close_vehicle_tools",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_0",
+      "source": "",
+      "fields": {
+        "label": "Scene action 1",
+        "type": "button",
+        "icon": "mobile/interact",
+        "shape": "circle",
+        "output": "mouse",
+        "width": 0.15000000596046448,
+        "height": 0.25,
+        "corner": 0.15000000596046448,
+        "mouseMode": "relative",
+        "sensitivity": 1,
+        "tapHold": [],
+        "runLockX": 0,
+        "runLockY": -2.799999952316284,
+        "visible": true,
+        "inputEnabled": true,
+        "anchor": "right_bottom",
+        "anchorX": 0.699999988079071,
+        "anchorY": 0.7699999809265137,
+        "minTouchDp": 48,
+        "hitPadding": 0,
+        "edgeMargin": 12,
+        "lookDrag": false,
+        "requiredActions": 70368744177664,
+        "excludedActions": 0,
+        "layer": "world",
+        "appearance": {
+          "background": true,
+          "border": true,
+          "label": true,
+          "icon": true,
+          "stickCap": true,
+          "stickLabel": false,
+          "pressFeedback": true,
+          "smoothIcon": true,
+          "pressedImageOnly": true,
+          "backgroundColor": "#58131C23",
+          "borderColor": "#B8FFFFFF",
+          "textColor": "#fffafdfc",
+          "pressedBackground": "#9b0d1214",
+          "pressedBorder": "#ff63e4b5",
+          "pressedText": "#fffafdfc",
+          "pressedIcon": "",
+          "iconFit": "contain",
+          "borderWidth": 1.5,
+          "iconScale": 0.6200000047683716,
+          "textScale": 0.18000000715255737,
+          "textX": 0,
+          "textY": 0.8600000143051147
+        },
+        "behavior": "hold",
+        "repeatMs": 120,
+        "x": 0.6818181872367859,
+        "y": 0.23000001907348633,
+        "radius": 0.06199999898672104,
+        "opacity": 82,
+        "bindings": [
+          "native:interact"
+        ]
+      }
+    },
+    {
+      "id": "interaction_slot_1",
+      "source": "",
+      "fields": {
+        "label": "Scene action 2",
+        "type": "button",
+        "icon": "mobile/interact",
+        "shape": "circle",
+        "output": "mouse",
+        "width": 0.15000000596046448,
+        "height": 0.25,
+        "corner": 0.15000000596046448,
+        "mouseMode": "relative",
+        "sensitivity": 1,
+        "tapHold": [],
+        "runLockX": 0,
+        "runLockY": -2.799999952316284,
+        "visible": true,
+        "inputEnabled": true,
+        "anchor": "right_bottom",
+        "anchorX": 0.2800000011920929,
+        "anchorY": 0.7699999809265137,
+        "minTouchDp": 48,
+        "hitPadding": 0,
+        "edgeMargin": 12,
+        "lookDrag": false,
+        "requiredActions": 140737488355328,
+        "excludedActions": 0,
+        "layer": "world",
+        "appearance": {
+          "background": true,
+          "border": true,
+          "label": true,
+          "icon": true,
+          "stickCap": true,
+          "stickLabel": false,
+          "pressFeedback": true,
+          "smoothIcon": true,
+          "pressedImageOnly": true,
+          "backgroundColor": "#58131C23",
+          "borderColor": "#B8FFFFFF",
+          "textColor": "#fffafdfc",
+          "pressedBackground": "#9b0d1214",
+          "pressedBorder": "#ff63e4b5",
+          "pressedText": "#fffafdfc",
+          "pressedIcon": "",
+          "iconFit": "contain",
+          "borderWidth": 1.5,
+          "iconScale": 0.6200000047683716,
+          "textScale": 0.18000000715255737,
+          "textX": 0,
+          "textY": 0.8600000143051147
+        },
+        "behavior": "hold",
+        "repeatMs": 120,
+        "x": 0.8727272748947144,
+        "y": 0.23000001907348633,
+        "radius": 0.06199999898672104,
+        "opacity": 82,
+        "bindings": [
+          "interaction:1"
+        ]
+      }
+    },
+    {
+      "id": "interaction_slot_2",
+      "source": "",
+      "fields": {
+        "label": "Scene action 3",
+        "type": "button",
+        "icon": "mobile/interact",
+        "shape": "circle",
+        "output": "mouse",
+        "width": 0.15000000596046448,
+        "height": 0.25,
+        "corner": 0.15000000596046448,
+        "mouseMode": "relative",
+        "sensitivity": 1,
+        "tapHold": [],
+        "runLockX": 0,
+        "runLockY": -2.799999952316284,
+        "visible": true,
+        "inputEnabled": true,
+        "anchor": "right_bottom",
+        "anchorX": 0.699999988079071,
+        "anchorY": 0.5699999928474426,
+        "minTouchDp": 48,
+        "hitPadding": 0,
+        "edgeMargin": 12,
+        "lookDrag": false,
+        "requiredActions": 281474976710656,
+        "excludedActions": 0,
+        "layer": "world",
+        "appearance": {
+          "background": true,
+          "border": true,
+          "label": true,
+          "icon": true,
+          "stickCap": true,
+          "stickLabel": false,
+          "pressFeedback": true,
+          "smoothIcon": true,
+          "pressedImageOnly": true,
+          "backgroundColor": "#58131C23",
+          "borderColor": "#B8FFFFFF",
+          "textColor": "#fffafdfc",
+          "pressedBackground": "#9b0d1214",
+          "pressedBorder": "#ff63e4b5",
+          "pressedText": "#fffafdfc",
+          "pressedIcon": "",
+          "iconFit": "contain",
+          "borderWidth": 1.5,
+          "iconScale": 0.6200000047683716,
+          "textScale": 0.18000000715255737,
+          "textX": 0,
+          "textY": 0.8600000143051147
+        },
+        "behavior": "hold",
+        "repeatMs": 120,
+        "x": 0.6818181872367859,
+        "y": 0.4300000071525574,
+        "radius": 0.06199999898672104,
+        "opacity": 82,
+        "bindings": [
+          "interaction:2"
+        ]
+      }
+    },
+    {
+      "id": "interaction_slot_3",
+      "source": "",
+      "fields": {
+        "label": "Scene action 4",
+        "type": "button",
+        "icon": "mobile/interact",
+        "shape": "circle",
+        "output": "mouse",
+        "width": 0.15000000596046448,
+        "height": 0.25,
+        "corner": 0.15000000596046448,
+        "mouseMode": "relative",
+        "sensitivity": 1,
+        "tapHold": [],
+        "runLockX": 0,
+        "runLockY": -2.799999952316284,
+        "visible": true,
+        "inputEnabled": true,
+        "anchor": "right_bottom",
+        "anchorX": 0.2800000011920929,
+        "anchorY": 0.5699999928474426,
+        "minTouchDp": 48,
+        "hitPadding": 0,
+        "edgeMargin": 12,
+        "lookDrag": false,
+        "requiredActions": 562949953421312,
+        "excludedActions": 0,
+        "layer": "world",
+        "appearance": {
+          "background": true,
+          "border": true,
+          "label": true,
+          "icon": true,
+          "stickCap": true,
+          "stickLabel": false,
+          "pressFeedback": true,
+          "smoothIcon": true,
+          "pressedImageOnly": true,
+          "backgroundColor": "#58131C23",
+          "borderColor": "#B8FFFFFF",
+          "textColor": "#fffafdfc",
+          "pressedBackground": "#9b0d1214",
+          "pressedBorder": "#ff63e4b5",
+          "pressedText": "#fffafdfc",
+          "pressedIcon": "",
+          "iconFit": "contain",
+          "borderWidth": 1.5,
+          "iconScale": 0.6200000047683716,
+          "textScale": 0.18000000715255737,
+          "textX": 0,
+          "textY": 0.8600000143051147
+        },
+        "behavior": "hold",
+        "repeatMs": 120,
+        "x": 0.8727272748947144,
+        "y": 0.4300000071525574,
+        "radius": 0.06199999898672104,
+        "opacity": 82,
+        "bindings": [
+          "interaction:3"
+        ]
+      }
+    },
+    {
+      "id": "interaction_slot_4",
+      "source": "",
+      "fields": {
+        "label": "Scene action 5",
+        "type": "button",
+        "icon": "mobile/interact",
+        "shape": "circle",
+        "output": "mouse",
+        "width": 0.15000000596046448,
+        "height": 0.25,
+        "corner": 0.15000000596046448,
+        "mouseMode": "relative",
+        "sensitivity": 1,
+        "tapHold": [],
+        "runLockX": 0,
+        "runLockY": -2.799999952316284,
+        "visible": true,
+        "inputEnabled": true,
+        "anchor": "right_bottom",
+        "anchorX": 0.699999988079071,
+        "anchorY": 0.3699999749660492,
+        "minTouchDp": 48,
+        "hitPadding": 0,
+        "edgeMargin": 12,
+        "lookDrag": false,
+        "requiredActions": 1125899906842624,
+        "excludedActions": 0,
+        "layer": "world",
+        "appearance": {
+          "background": true,
+          "border": true,
+          "label": true,
+          "icon": true,
+          "stickCap": true,
+          "stickLabel": false,
+          "pressFeedback": true,
+          "smoothIcon": true,
+          "pressedImageOnly": true,
+          "backgroundColor": "#58131C23",
+          "borderColor": "#B8FFFFFF",
+          "textColor": "#fffafdfc",
+          "pressedBackground": "#9b0d1214",
+          "pressedBorder": "#ff63e4b5",
+          "pressedText": "#fffafdfc",
+          "pressedIcon": "",
+          "iconFit": "contain",
+          "borderWidth": 1.5,
+          "iconScale": 0.6200000047683716,
+          "textScale": 0.18000000715255737,
+          "textX": 0,
+          "textY": 0.8600000143051147
+        },
+        "behavior": "hold",
+        "repeatMs": 120,
+        "x": 0.6818181872367859,
+        "y": 0.6299999952316284,
+        "radius": 0.06199999898672104,
+        "opacity": 82,
+        "bindings": [
+          "interaction:4"
+        ]
+      }
+    },
+    {
+      "id": "interaction_slot_5",
+      "source": "",
+      "fields": {
+        "label": "Scene action 6",
+        "type": "button",
+        "icon": "mobile/interact",
+        "shape": "circle",
+        "output": "mouse",
+        "width": 0.15000000596046448,
+        "height": 0.25,
+        "corner": 0.15000000596046448,
+        "mouseMode": "relative",
+        "sensitivity": 1,
+        "tapHold": [],
+        "runLockX": 0,
+        "runLockY": -2.799999952316284,
+        "visible": true,
+        "inputEnabled": true,
+        "anchor": "right_bottom",
+        "anchorX": 0.2800000011920929,
+        "anchorY": 0.3699999749660492,
+        "minTouchDp": 48,
+        "hitPadding": 0,
+        "edgeMargin": 12,
+        "lookDrag": false,
+        "requiredActions": 2251799813685248,
+        "excludedActions": 0,
+        "layer": "world",
+        "appearance": {
+          "background": true,
+          "border": true,
+          "label": true,
+          "icon": true,
+          "stickCap": true,
+          "stickLabel": false,
+          "pressFeedback": true,
+          "smoothIcon": true,
+          "pressedImageOnly": true,
+          "backgroundColor": "#58131C23",
+          "borderColor": "#B8FFFFFF",
+          "textColor": "#fffafdfc",
+          "pressedBackground": "#9b0d1214",
+          "pressedBorder": "#ff63e4b5",
+          "pressedText": "#fffafdfc",
+          "pressedIcon": "",
+          "iconFit": "contain",
+          "borderWidth": 1.5,
+          "iconScale": 0.6200000047683716,
+          "textScale": 0.18000000715255737,
+          "textX": 0,
+          "textY": 0.8600000143051147
+        },
+        "behavior": "hold",
+        "repeatMs": 120,
+        "x": 0.8727272748947144,
+        "y": 0.6299999952316284,
+        "radius": 0.06199999898672104,
+        "opacity": 82,
+        "bindings": [
+          "interaction:5"
+        ]
+      }
+    },
+    {
+      "id": "interaction_slot_6",
+      "source": "",
+      "fields": {
+        "label": "Scene action 7",
+        "type": "button",
+        "icon": "mobile/interact",
+        "shape": "circle",
+        "output": "mouse",
+        "width": 0.15000000596046448,
+        "height": 0.25,
+        "corner": 0.15000000596046448,
+        "mouseMode": "relative",
+        "sensitivity": 1,
+        "tapHold": [],
+        "runLockX": 0,
+        "runLockY": -2.799999952316284,
+        "visible": true,
+        "inputEnabled": true,
+        "anchor": "right_bottom",
+        "anchorX": 0.699999988079071,
+        "anchorY": 0.16999995708465576,
+        "minTouchDp": 48,
+        "hitPadding": 0,
+        "edgeMargin": 12,
+        "lookDrag": false,
+        "requiredActions": 4503599627370496,
+        "excludedActions": 0,
+        "layer": "world",
+        "appearance": {
+          "background": true,
+          "border": true,
+          "label": true,
+          "icon": true,
+          "stickCap": true,
+          "stickLabel": false,
+          "pressFeedback": true,
+          "smoothIcon": true,
+          "pressedImageOnly": true,
+          "backgroundColor": "#58131C23",
+          "borderColor": "#B8FFFFFF",
+          "textColor": "#fffafdfc",
+          "pressedBackground": "#9b0d1214",
+          "pressedBorder": "#ff63e4b5",
+          "pressedText": "#fffafdfc",
+          "pressedIcon": "",
+          "iconFit": "contain",
+          "borderWidth": 1.5,
+          "iconScale": 0.6200000047683716,
+          "textScale": 0.18000000715255737,
+          "textX": 0,
+          "textY": 0.8600000143051147
+        },
+        "behavior": "hold",
+        "repeatMs": 120,
+        "x": 0.6818181872367859,
+        "y": 0.8300000429153442,
+        "radius": 0.06199999898672104,
+        "opacity": 82,
+        "bindings": [
+          "interaction:6"
+        ]
+      }
+    },
+    {
+      "id": "interaction_slot_7",
+      "source": "",
+      "fields": {
+        "label": "Scene action 8",
+        "type": "button",
+        "icon": "mobile/interact",
+        "shape": "circle",
+        "output": "mouse",
+        "width": 0.15000000596046448,
+        "height": 0.25,
+        "corner": 0.15000000596046448,
+        "mouseMode": "relative",
+        "sensitivity": 1,
+        "tapHold": [],
+        "runLockX": 0,
+        "runLockY": -2.799999952316284,
+        "visible": true,
+        "inputEnabled": true,
+        "anchor": "right_bottom",
+        "anchorX": 0.2800000011920929,
+        "anchorY": 0.16999995708465576,
+        "minTouchDp": 48,
+        "hitPadding": 0,
+        "edgeMargin": 12,
+        "lookDrag": false,
+        "requiredActions": 9007199254740992,
+        "excludedActions": 0,
+        "layer": "world",
+        "appearance": {
+          "background": true,
+          "border": true,
+          "label": true,
+          "icon": true,
+          "stickCap": true,
+          "stickLabel": false,
+          "pressFeedback": true,
+          "smoothIcon": true,
+          "pressedImageOnly": true,
+          "backgroundColor": "#58131C23",
+          "borderColor": "#B8FFFFFF",
+          "textColor": "#fffafdfc",
+          "pressedBackground": "#9b0d1214",
+          "pressedBorder": "#ff63e4b5",
+          "pressedText": "#fffafdfc",
+          "pressedIcon": "",
+          "iconFit": "contain",
+          "borderWidth": 1.5,
+          "iconScale": 0.6200000047683716,
+          "textScale": 0.18000000715255737,
+          "textX": 0,
+          "textY": 0.8600000143051147
+        },
+        "behavior": "hold",
+        "repeatMs": 120,
+        "x": 0.8727272748947144,
+        "y": 0.8300000429153442,
+        "radius": 0.06199999898672104,
+        "opacity": 82,
+        "bindings": [
+          "interaction:7"
+        ]
+      }
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": [
+    "interact",
+    "interaction_more",
+    "activity_panel"
+  ]
+}

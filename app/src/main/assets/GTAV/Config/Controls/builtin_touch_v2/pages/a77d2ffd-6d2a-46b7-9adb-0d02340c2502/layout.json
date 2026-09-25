@@ -1,0 +1,51 @@
+{
+  "version": 3,
+  "id": "a77d2ffd-6d2a-46b7-9adb-0d02340c2502",
+  "fields": {
+    "id": "a77d2ffd-6d2a-46b7-9adb-0d02340c2502",
+    "name": "Mobile · Map",
+    "touch": {
+      "enabled": false
+    },
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "cancel",
+      "source": "cancel",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:cancel"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {
+        "label": "Close menu",
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:pause"
+        ],
+        "tapHold": [],
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": []
+}

@@ -1,0 +1,62 @@
+{
+  "version": 3,
+  "id": "50f4330f-1137-447f-99a5-75b242e84345",
+  "fields": {
+    "id": "50f4330f-1137-447f-99a5-75b242e84345",
+    "name": "Game menus · Category base layout",
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {}
+    },
+    {
+      "id": "accept",
+      "source": "accept",
+      "fields": {}
+    },
+    {
+      "id": "cancel",
+      "source": "cancel",
+      "fields": {}
+    },
+    {
+      "id": "up",
+      "source": "up",
+      "fields": {}
+    },
+    {
+      "id": "down",
+      "source": "down",
+      "fields": {}
+    },
+    {
+      "id": "left",
+      "source": "left",
+      "fields": {}
+    },
+    {
+      "id": "right",
+      "source": "right",
+      "fields": {}
+    },
+    {
+      "id": "prev_tab",
+      "source": "prev_tab",
+      "fields": {}
+    },
+    {
+      "id": "next_tab",
+      "source": "next_tab",
+      "fields": {}
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": [
+    "move"
+  ]
+}

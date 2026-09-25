@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "id": "5b9eeb6f-61b5-4088-a66c-10559c77c9c4",
+  "fields": {
+    "id": "5b9eeb6f-61b5-4088-a66c-10559c77c9c4",
+    "name": "Arcade minigames",
+    "inputMode": "legacy",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "input_mode",
+      "source": "input_mode",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_stick_left",
+      "source": "gamepad_stick_left",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_stick_right",
+      "source": "gamepad_stick_right",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_a",
+      "source": "gamepad_a",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_b",
+      "source": "gamepad_b",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_x",
+      "source": "gamepad_x",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_y",
+      "source": "gamepad_y",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_l1",
+      "source": "gamepad_l1",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_r1",
+      "source": "gamepad_r1",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_back",
+      "source": "gamepad_back",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_start",
+      "source": "gamepad_start",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_l3",
+      "source": "gamepad_l3",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_r3",
+      "source": "gamepad_r3",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_up",
+      "source": "gamepad_up",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_down",
+      "source": "gamepad_down",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_left",
+      "source": "gamepad_left",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_right",
+      "source": "gamepad_right",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_l2",
+      "source": "gamepad_l2",
+      "fields": {}
+    },
+    {
+      "id": "gamepad_r2",
+      "source": "gamepad_r2",
+      "fields": {}
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": []
+}

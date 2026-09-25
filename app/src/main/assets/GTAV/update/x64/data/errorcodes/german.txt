@@ -1,0 +1,643 @@
+{ generated file - do not edit }
+
+[ERR_SYS_TIMER_RDTSC]
+CPU unterstützt rdtsc-Anweisung nicht.
+
+[ERR_SYS_STREAMERREAD]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SYS_SETTINGS]
+Der Computer erfüllt die Mindestanforderungen nicht.
+
+[ERR_SYS_PURE]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_SYS_PARAM_PREFIX]
+Ungültige Befehlszeilen-Parameter. Weitere Informationen unter: https://support.rockstargames.com/hc/articles/202518358
+
+[ERR_SYS_PARAM_FORMAT]
+Ungültiges Format der Befehlszeilen-Parameter. Weitere Informationen unter: https://support.rockstargames.com/hc/articles/202518358
+
+[ERR_SYS_PAR_3]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SYS_PAR_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SYS_PAR_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SYS_NOSTREAMINGHANDLES]
+Keine Dateihandler mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_SYS_NOFILEHANDLES_3]
+Keine Dateihandler mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_SYS_NOFILEHANDLES_2]
+Keine Dateihandler mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_SYS_NOFILEHANDLES_1]
+Keine Dateihandler mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_SYS_MINREQ_VID_MEM]
+Die Grafikkarte erfüllt die empfohlenen Mindestanforderungen nicht. Das Spiel könnte beim Laufen Probleme haben, wenn du fortfährst. Weitere Informationen unter: https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_MINREQ_URL]
+https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_MINREQ_TITLE]
+Fehler bei der Überprüfung der Hardware-Mindestanforderungen
+
+[ERR_SYS_MINREQ_MEM]
+Der Hauptspeicher (RAM) des Computers erfüllt die empfohlenen Mindestanforderungen nicht. Das Spiel könnte beim Laufen Probleme haben, wenn du fortfährst. Weitere Informationen unter: https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_MINREQ_CPU_CORE]
+Die CPU des Computer erfüllt die empfohlenen Mindestanforderungen nicht. Das Spiel könnte beim Laufen Probleme haben, wenn du fortfährst. Weitere Informationen unter: https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_INVALIDRESOURCE_5]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SYS_INVALIDRESOURCE_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SYS_INVALIDRESOURCE_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SYS_INVALIDFILE]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SYS_INSTALLER]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SYS_FILELOAD]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_STR_PACK_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_STR_PACK_1]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_STR_MOD_INFO]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_STR_MOD]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_STR_MISSING]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_STR_INVALID_DATA_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_STR_INVALID_DATA_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_STR_INFO_3]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_STR_INFO_2]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_STR_INFO_1]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_STR_FAILURE_4]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_STR_FAILURE_3]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_STR_FAILURE_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_STR_FAILURE_1]
+Netzwerkfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_STR_CACHE_3]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_STR_CACHE_2]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_STR_CACHE_1]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_SCR_THREAD_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SCR_THREAD_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SCR_TEXT_MEM_4]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_SCR_TEXT_MEM_3]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_SCR_TEXT_MEM_2]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_SCR_TEXT_MEM_1]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_SCR_PROG_9]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SCR_PROG_8]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SCR_PROG_7]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SCR_PROG_6]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SCR_PROG_5]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SCR_PROG_4]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SCR_PROG_3]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SCR_PROG_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SCR_PROG_10]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SCR_PROG_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SCR_LAUNCH_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_SCR_LAUNCH_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PHY_POOL_2]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_PHY_POOL_1]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_PHY_GEOM]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PHY_BOUND]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PHY_ARCH]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PAR_INVALID_9]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PAR_INVALID_8]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PAR_INVALID_7]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PAR_INVALID_6]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PAR_INVALID_5]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PAR_INVALID_4]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PAR_INVALID_3]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PAR_INVALID_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PAR_INVALID_12]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PAR_INVALID_11]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PAR_INVALID_10]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PAR_INVALID_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_PAR_COLL]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_NO_LAUNCHER]
+Bitte starte Grand Theft Auto V mit der Datei PlayGTAV.exe.
+
+[ERR_NET_WINSOCK_4]
+WinSock-Empfangsfehler. Bitte rebooten und das Spiel neu starten. Fehlercode:
+
+[ERR_NET_WINSOCK_3]
+WinSock-Sendefehler. Bitte rebooten und das Spiel neu starten. Fehlercode:
+
+[ERR_NET_WINSOCK_2]
+Ungültige Version von WinSock DLL. Du wirst Windows neu installieren müssen.
+
+[ERR_NET_WINSOCK_1]
+WinSock-Fehler. Bitte rebooten und das Spiel neu starten. Fehlercode:
+
+[ERR_NET_MEM]
+Netzwerkfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_NET_EVENT]
+Netzwerkfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_NET_ARRAY]
+Netzwerkfehler. Nicht kompatible Versionen von GTA V.
+
+[ERR_MEM_VIRTUAL_3]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_VIRTUAL_2]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_VIRTUAL_1]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_TINY_RESIZE_2]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_TINY_RESIZE_1]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_TINY_FREE_2]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_TINY_FREE_1]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_TINY_2]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_TINY_1]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_SYSTEM]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_SPARSEALLOC_FREE_3]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_SPARSEALLOC_FREE_2]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_SPARSEALLOC_FREE_1]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_SPARSEALLOC_ALLOC]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_POOLALLOC_FREE_2]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_POOLALLOC_FREE_1]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_POOLALLOC_ALLOC_5]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_POOLALLOC_ALLOC_4]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_POOLALLOC_ALLOC_3]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_POOLALLOC_ALLOC_2]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_POOLALLOC_ALLOC_1]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_MULTIALLOC_RESIZE]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_MULTIALLOC_FREE]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_MIN_ALLOC]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_EXTALLOC_ALLOC]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_3]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_2]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_1]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_EMBEDDEDALLOC_INIT_1]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_5]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_4]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_3]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_2]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_1]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_3]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_2]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_1]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_EMBEDDEDALLOC_ALLOC]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_CONT_3]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_CONT_2]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_CONT_1]
+Kein Spielspeicher mehr. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_BESTALLOC_FREE_2]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_MEM_BESTALLOC_FREE_1]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GUI_SF_MEM_2]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GUI_SF_MEM_1]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GUI_MENU_VER]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GUI_CHILD]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GUI_ACTIVE_PANEL]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_WIN]
+Erstellung des Fensters fehlgeschlagen. Bitte rebooten und sicherstellen, dass die Grafikkarte korrekt funktioniert. Systemfehler:
+
+[ERR_GFX_STATE]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GFX_SHADER_VAR]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_SHADER_TYP]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_RENDERTHREAD_TXD]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_RENDERTHREAD]
+Initialisierung des Threads fehlgeschlagen. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GFX_RENDERTARGET]
+Erstellung des Renderziels fehlgeschlagen. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GFX_PFX_2]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GFX_PFX_1]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GFX_MORPH_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_MORPH_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_INVALID_SHADER]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_INIT]
+Initialisierung des Grafikgeräts fehlgeschlagen. Bitte rebooten oder die neueste DirectX-Runtime-Datei installieren.
+
+[ERR_GFX_IM]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GFX_EFFECT_INVALID_STATE_5]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_EFFECT_INVALID_STATE_4]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_EFFECT_INVALID_STATE_3]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_EFFECT_INVALID_STATE_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_EFFECT_INVALID_STATE_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_EFFECT_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_EFFECT_1]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GFX_DRAW_ROPE_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_DRAW_ROPE_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_DRAW_GLASS_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_DRAW_GLASS_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_DRAW_DATA]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_D3D_VER_1]
+Kein Adapter für DirectX 10 oder 11 gefunden. Bitte die neueste DirectX-Runtime-Datei installieren oder aber eine Grafikkarte, die mit DirectX 10 oder 11 kompatible ist.
+
+[ERR_GFX_D3D_SWAPCHAIN_ALLOC_2]
+Kein Adapter für DirectX 10 oder 11 gefunden. Bitte die neueste DirectX-Runtime-Datei installieren oder aber eine Grafikkarte, die mit DirectX 10 oder 11 kompatible ist.
+
+[ERR_GFX_D3D_SHADER_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_D3D_SHADER_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_D3D_NOFEATURELEVEL_2]
+Kein Adapter für DirectX 10 oder 11 gefunden. Bitte die neueste DirectX-Runtime-Datei installieren oder aber eine Grafikkarte, die mit DirectX 10 oder 11 kompatible ist.
+
+[ERR_GFX_D3D_NOFEATURELEVEL_1]
+Kein Adapter für DirectX 10 oder 11 gefunden. Bitte die neueste DirectX-Runtime-Datei installieren oder aber eine Grafikkarte, die mit DirectX 10 oder 11 kompatible ist.
+
+[ERR_GFX_D3D_NOD3D1X_4]
+Kein Adapter für DirectX 10 oder 11 gefunden. Bitte die neueste DirectX-Runtime-Datei installieren oder aber eine Grafikkarte, die mit DirectX 10 oder 11 kompatible ist.
+
+[ERR_GFX_D3D_NOD3D1X_2]
+Kein Adapter für DirectX 10 oder 11 gefunden. Bitte die neueste DirectX-Runtime-Datei installieren oder aber eine Grafikkarte, die mit DirectX 10 oder 11 kompatible ist.
+
+[ERR_GFX_D3D_INIT]
+Initialisierung fehlgeschlagen. Bitte rebooten und das Spiel neu starten. Falls der Fehler weiter auftritt, Spiel neu installieren.
+
+[ERR_GFX_D3D_DEFERRED_MEM]
+DirectX-Fehler. Kein Speicher mehr frei. Bitte rebooten, andere Anwendungen schließen und überprüfen, oder der Computerspeicher den Mindestanforderungen genügt. Weitere Informationen unter: https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_GFX_D3D_DEFERRED]
+DirectX-Fehler. Bitte sicherstellen, dass die Grafikkarte richtig eingebaut und mit den aktuellsten Treibern versehen ist. Bitte DirectX-Installation überprüfen und das System rebooten. Fehlercode:
+
+[ERR_GFX_CHECK_PROC_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GFX_CHECK_PROC_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GEN_ZLIB_2]
+Aufruf von zlib fehlgeschlagen. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GEN_ZLIB_1]
+Initialisierung von zlib fehlgeschlagen. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GEN_SCENARIO]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GEN_POOL_3]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GEN_POOL_2]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GEN_POOL_1]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GEN_PAGE_1]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GEN_NAV]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GEN_MAP]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GEN_INVALID]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GEN_INTERIOR_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GEN_INPUT_2]
+DirectInput-Fehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GEN_INPUT_1]
+Zu viele Eingabegeräte. Bitte einige Geräte entfernen, rebooten und das Spiel neu starten.
+
+[ERR_GEN_ENT_TRANS]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GEN_ENT_CONT_3]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GEN_ENT_CONT_2]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GEN_ENT_CONT_1]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_GEN_CUT_2]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GEN_CUT_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_GEN_CODEC_1]
+Sprachchat-Codecfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_FIL_ZIP_3]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_FIL_ZIP_2]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_FIL_ZIP_1]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_FIL_PACK_3]
+Spieldaten defekt. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_FIL_PACK_2]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_FIL_PACK_1]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_FIL_DISK]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_FIL_COMMON]
+Spielfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_DEFAULT]
+Absturzfehler. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_AUD_SOUND_2]
+Audiofehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_AUD_SOUND_1]
+Audiofehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_AUD_MUSIC_INIT]
+Konnte Audio nicht initialisieren. Bitte rebooten und das Spiel neu starten.
+
+[ERR_AUD_MIXER_INIT]
+Konnte Audio nicht initialisieren. Bitte rebooten und das Spiel neu starten.
+
+[ERR_AUD_INVALIDRESOURCE]
+Defekte Audiodaten. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_AUD_INIT_2]
+Konnte Audio nicht initialisieren. Bitte rebooten und das Spiel neu starten.
+
+[ERR_AUD_INIT_1]
+Konnte Audio nicht initialisieren. Bitte rebooten und das Spiel neu starten.
+
+[ERR_AUD_HARDWARE_DS_INIT]
+Konnte Audiohardware nicht initialisieren. Eventuell musst du deine Audiotreiber oder DirectX neu installieren. Bitte vergewissere dich auch, dass dein Audiogerät einwandfrei funktioniert. Fehlercode:
+
+[ERR_AUD_HARDWARE_DS_BUFFER]
+Konnte Audiopuffer nicht anlegen. Eventuell musst du deine Audiotreiber oder DirectX neu installieren. Bitte vergewissere dich auch, dass dein Audiogerät einwandfrei funktioniert. Fehlercode:
+
+[ERR_AUD_HARDWARE]
+Konnte Audiohardware nicht initialisieren. Bitte vergewissere dich, dass dein Audiogerät einwandfrei funktioniert.
+
+[ERR_AUD_GTA_ONLINE_LOAD]
+Konnte Audiodaten nicht laden. Bitte rebooten oder das Spiel neu installieren.
+
+[ERR_ANI_POOL_2]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.
+
+[ERR_ANI_POOL_1]
+Spielspeicherfehler. Bitte rebooten und das Spiel neu starten.

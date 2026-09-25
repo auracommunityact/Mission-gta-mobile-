@@ -1,0 +1,3 @@
+Selected pair: Bundled renderer (new China base)
+Loaded before engine: bundled
+Confirm the active version with the DXVK version HUD.

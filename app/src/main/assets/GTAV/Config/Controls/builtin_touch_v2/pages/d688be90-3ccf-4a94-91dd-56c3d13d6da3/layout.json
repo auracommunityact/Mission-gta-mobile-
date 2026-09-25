@@ -1,0 +1,37 @@
+{
+  "version": 3,
+  "id": "d688be90-3ccf-4a94-91dd-56c3d13d6da3",
+  "fields": {
+    "id": "d688be90-3ccf-4a94-91dd-56c3d13d6da3",
+    "name": "Map · Category base layout",
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "cancel",
+      "source": "cancel",
+      "fields": {
+        "x": 0.9227272868156433,
+        "y": 0.9100000262260437
+      }
+    },
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {}
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": [
+    "accept",
+    "up",
+    "down",
+    "left",
+    "right",
+    "prev_tab",
+    "next_tab",
+    "move"
+  ]
+}

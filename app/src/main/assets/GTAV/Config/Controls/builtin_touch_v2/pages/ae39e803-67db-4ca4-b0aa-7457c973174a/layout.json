@@ -1,0 +1,190 @@
+{
+  "version": 3,
+  "id": "ae39e803-67db-4ca4-b0aa-7457c973174a",
+  "fields": {
+    "id": "ae39e803-67db-4ca4-b0aa-7457c973174a",
+    "name": "On foot · Throwables",
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {}
+    },
+    {
+      "id": "camera",
+      "source": "camera",
+      "fields": {}
+    },
+    {
+      "id": "phone",
+      "source": "phone",
+      "fields": {}
+    },
+    {
+      "id": "calibrate_steering",
+      "source": "calibrate_steering",
+      "fields": {}
+    },
+    {
+      "id": "character_switch",
+      "source": "character_switch",
+      "fields": {}
+    },
+    {
+      "id": "move",
+      "source": "move",
+      "fields": {}
+    },
+    {
+      "id": "attack",
+      "source": "attack",
+      "fields": {}
+    },
+    {
+      "id": "aim",
+      "source": "aim",
+      "fields": {}
+    },
+    {
+      "id": "jump",
+      "source": "jump",
+      "fields": {}
+    },
+    {
+      "id": "duck",
+      "source": "duck",
+      "fields": {}
+    },
+    {
+      "id": "sprint",
+      "source": "sprint",
+      "fields": {}
+    },
+    {
+      "id": "cover",
+      "source": "cover",
+      "fields": {}
+    },
+    {
+      "id": "reload",
+      "source": "reload",
+      "fields": {}
+    },
+    {
+      "id": "weapon_wheel",
+      "source": "weapon_wheel",
+      "fields": {}
+    },
+    {
+      "id": "ability",
+      "source": "ability",
+      "fields": {}
+    },
+    {
+      "id": "cancel_run",
+      "source": "cancel_run",
+      "fields": {}
+    },
+    {
+      "id": "detonate",
+      "source": "detonate",
+      "fields": {}
+    },
+    {
+      "id": "scope_zoom_in",
+      "source": "scope_zoom_in",
+      "fields": {}
+    },
+    {
+      "id": "scope_zoom_out",
+      "source": "scope_zoom_out",
+      "fields": {}
+    },
+    {
+      "id": "melee_heavy",
+      "source": "melee_heavy",
+      "fields": {}
+    },
+    {
+      "id": "melee_block",
+      "source": "melee_block",
+      "fields": {}
+    },
+    {
+      "id": "weapon_attachment",
+      "source": "weapon_attachment",
+      "fields": {}
+    },
+    {
+      "id": "melee_alternate",
+      "source": "melee_alternate",
+      "fields": {}
+    },
+    {
+      "id": "interact",
+      "source": "interact",
+      "fields": {}
+    },
+    {
+      "id": "interaction_more",
+      "source": "interaction_more",
+      "fields": {}
+    },
+    {
+      "id": "activity_panel",
+      "source": "activity_panel",
+      "fields": {}
+    },
+    {
+      "id": "weapon_prev",
+      "source": "weapon_prev",
+      "fields": {}
+    },
+    {
+      "id": "weapon_next",
+      "source": "weapon_next",
+      "fields": {}
+    },
+    {
+      "id": "weapon_confirm",
+      "source": "weapon_confirm",
+      "fields": {}
+    },
+    {
+      "id": "weapon_cancel",
+      "source": "weapon_cancel",
+      "fields": {}
+    },
+    {
+      "id": "weapon_status",
+      "source": "weapon_status",
+      "fields": {}
+    },
+    {
+      "id": "trainer_shortcut",
+      "source": "trainer_shortcut",
+      "fields": {}
+    },
+    {
+      "id": "input_mode",
+      "source": "input_mode",
+      "fields": {}
+    },
+    {
+      "id": "vehicle_tools",
+      "source": "vehicle_tools",
+      "fields": {}
+    },
+    {
+      "id": "close_vehicle_tools",
+      "source": "close_vehicle_tools",
+      "fields": {}
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": []
+}

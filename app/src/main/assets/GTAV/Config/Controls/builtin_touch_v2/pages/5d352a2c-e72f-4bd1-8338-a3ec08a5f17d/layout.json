@@ -1,0 +1,42 @@
+{
+  "version": 3,
+  "id": "5d352a2c-e72f-4bd1-8338-a3ec08a5f17d",
+  "fields": {
+    "id": "5d352a2c-e72f-4bd1-8338-a3ec08a5f17d",
+    "name": "Mobile · Phone browser",
+    "touch": {
+      "enabled": false
+    },
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "cancel",
+      "source": "cancel",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:cancel"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": [
+    "move",
+    "pause",
+    "accept",
+    "up",
+    "down",
+    "left",
+    "right"
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "version": 3,
+  "id": "5dcd705a-e4f9-4442-8a26-ed2374f186fd",
+  "fields": {
+    "id": "5dcd705a-e4f9-4442-8a26-ed2374f186fd",
+    "name": "Mobile · Menus",
+    "touch": {
+      "enabled": false
+    },
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {
+        "label": "Close menu",
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:pause"
+        ],
+        "tapHold": [],
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "accept",
+      "source": "accept",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:accept"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "cancel",
+      "source": "cancel",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:cancel"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "up",
+      "source": "up",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:up"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "down",
+      "source": "down",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:down"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "left",
+      "source": "left",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:left"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "right",
+      "source": "right",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:right"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "prev_tab",
+      "source": "prev_tab",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:prev_tab"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "next_tab",
+      "source": "next_tab",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:next_tab"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": []
+}

@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "id": "f88343c0-2b25-4fec-b88b-441e737be514",
+  "fields": {
+    "id": "f88343c0-2b25-4fec-b88b-441e737be514",
+    "name": "Aircraft · Category base layout",
+    "touch": {
+      "x": 0.41999998688697815,
+      "y": 0.15000000596046448
+    },
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {}
+    },
+    {
+      "id": "camera",
+      "source": "camera",
+      "fields": {}
+    },
+    {
+      "id": "calibrate_steering",
+      "source": "calibrate_steering",
+      "fields": {}
+    },
+    {
+      "id": "character_switch",
+      "source": "character_switch",
+      "fields": {}
+    },
+    {
+      "id": "move",
+      "source": "move",
+      "fields": {
+        "label": "Roll / pitch",
+        "requiredActions": 32768
+      }
+    },
+    {
+      "id": "accelerate",
+      "source": "accelerate",
+      "fields": {
+        "label": "Increase thrust",
+        "requiredActions": 131072
+      }
+    },
+    {
+      "id": "brake_reverse",
+      "source": "brake_reverse",
+      "fields": {
+        "label": "Reduce thrust",
+        "requiredActions": 131072
+      }
+    },
+    {
+      "id": "yaw_left",
+      "source": "yaw_left",
+      "fields": {}
+    },
+    {
+      "id": "yaw_right",
+      "source": "yaw_right",
+      "fields": {}
+    },
+    {
+      "id": "gear",
+      "source": "gear",
+      "fields": {}
+    },
+    {
+      "id": "flight_mode",
+      "source": "flight_mode",
+      "fields": {}
+    },
+    {
+      "id": "attack",
+      "source": "attack",
+      "fields": {
+        "label": "Weapons",
+        "requiredActions": 34359738368,
+        "bindings": [
+          "native:flight_attack"
+        ]
+      }
+    },
+    {
+      "id": "boost",
+      "source": "boost",
+      "fields": {}
+    },
+    {
+      "id": "weapon_wheel",
+      "source": "weapon_wheel",
+      "fields": {}
+    },
+    {
+      "id": "detonate",
+      "source": "detonate",
+      "fields": {}
+    },
+    {
+      "id": "interact",
+      "source": "interact",
+      "fields": {}
+    },
+    {
+      "id": "interaction_more",
+      "source": "interaction_more",
+      "fields": {}
+    },
+    {
+      "id": "activity_panel",
+      "source": "activity_panel",
+      "fields": {}
+    },
+    {
+      "id": "trainer_shortcut",
+      "source": "trainer_shortcut",
+      "fields": {}
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": [
+    "horn",
+    "handbrake",
+    "headlight",
+    "aim",
+    "reload",
+    "vehicle_jump",
+    "roof",
+    "transform",
+    "vehicle_parachute",
+    "ability",
+    "pedal",
+    "sprint",
+    "front_brake",
+    "rear_brake",
+    "ascend",
+    "descend"
+  ]
+}

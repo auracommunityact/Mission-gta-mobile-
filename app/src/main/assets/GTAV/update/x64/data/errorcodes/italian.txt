@@ -1,0 +1,643 @@
+{ generated file - do not edit }
+
+[ERR_SYS_TIMER_RDTSC]
+La CPU non supporta l'istruzione rdtsc.
+
+[ERR_SYS_STREAMERREAD]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SYS_SETTINGS]
+Il tuo sistema non soddisfa i requisiti minimi.
+
+[ERR_SYS_PURE]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_SYS_PARAM_PREFIX]
+Parametri della commandline non validi. Per ulteriori informazioni visita la pagina https://support.rockstargames.com/hc/articles/202518358
+
+[ERR_SYS_PARAM_FORMAT]
+Formato dei parametri della commandline non valido. Per ulteriori informazioni visita la pagina https://support.rockstargames.com/hc/articles/202518358
+
+[ERR_SYS_PAR_3]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SYS_PAR_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SYS_PAR_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SYS_NOSTREAMINGHANDLES]
+File handle insufficienti. Riavvia il sistema e riprova.
+
+[ERR_SYS_NOFILEHANDLES_3]
+File handle insufficienti. Riavvia il sistema e riprova.
+
+[ERR_SYS_NOFILEHANDLES_2]
+File handle insufficienti. Riavvia il sistema e riprova.
+
+[ERR_SYS_NOFILEHANDLES_1]
+File handle insufficienti. Riavvia il sistema e riprova.
+
+[ERR_SYS_MINREQ_VID_MEM]
+Il sistema non soddisfa i requisiti minimi relativi alla memoria video. Se prosegui, potrebbero verificarsi dei problemi nell'esecuzione del gioco. Per ulteriori informazioni, visita la pagina https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_MINREQ_URL]
+https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_MINREQ_TITLE]
+Controllo requisiti minimi hardware non superato
+
+[ERR_SYS_MINREQ_MEM]
+Il sistema non soddisfa i requisiti minimi relativi alla memoria RAM. Se prosegui, potrebbero verificarsi dei problemi nell'esecuzione del gioco. Per ulteriori informazioni, visita la pagina https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_MINREQ_CPU_CORE]
+Il sistema non soddisfa i requisiti minimi relativi alla CPU. Se prosegui, potrebbero verificarsi dei problemi nell'esecuzione del gioco. Per ulteriori informazioni, visita la pagina https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_SYS_INVALIDRESOURCE_5]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SYS_INVALIDRESOURCE_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SYS_INVALIDRESOURCE_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SYS_INVALIDFILE]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SYS_INSTALLER]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SYS_FILELOAD]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_STR_PACK_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_STR_PACK_1]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_STR_MOD_INFO]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_STR_MOD]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_STR_MISSING]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_STR_INVALID_DATA_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_STR_INVALID_DATA_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_STR_INFO_3]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_STR_INFO_2]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_STR_INFO_1]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_STR_FAILURE_4]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_STR_FAILURE_3]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_STR_FAILURE_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_STR_FAILURE_1]
+Errore di rete. Riavvia il sistema e riprova.
+
+[ERR_STR_CACHE_3]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_STR_CACHE_2]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_STR_CACHE_1]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_SCR_THREAD_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SCR_THREAD_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SCR_TEXT_MEM_4]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_SCR_TEXT_MEM_3]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_SCR_TEXT_MEM_2]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_SCR_TEXT_MEM_1]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_SCR_PROG_9]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SCR_PROG_8]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SCR_PROG_7]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SCR_PROG_6]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SCR_PROG_5]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SCR_PROG_4]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SCR_PROG_3]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SCR_PROG_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SCR_PROG_10]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SCR_PROG_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SCR_LAUNCH_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_SCR_LAUNCH_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PHY_POOL_2]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_PHY_POOL_1]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_PHY_GEOM]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PHY_BOUND]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PHY_ARCH]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PAR_INVALID_9]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PAR_INVALID_8]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PAR_INVALID_7]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PAR_INVALID_6]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PAR_INVALID_5]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PAR_INVALID_4]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PAR_INVALID_3]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PAR_INVALID_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PAR_INVALID_12]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PAR_INVALID_11]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PAR_INVALID_10]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PAR_INVALID_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_PAR_COLL]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_NO_LAUNCHER]
+Avvia Grand Theft Auto V tramite PlayGTAV.exe.
+
+[ERR_NET_WINSOCK_4]
+Errore di ricezione di WinSock. Riavvia il sistema e riprova. Codice errore:
+
+[ERR_NET_WINSOCK_3]
+Errore di invio di WinSock. Riavvia il sistema e riprova. Codice errore:
+
+[ERR_NET_WINSOCK_2]
+Versione WinSock.dll non valida. Prova a reinstallare Windows.
+
+[ERR_NET_WINSOCK_1]
+Errore di WinSock. Riavvia il sistema e riprova. Codice errore:
+
+[ERR_NET_MEM]
+Errore di rete. Riavvia il sistema e riprova.
+
+[ERR_NET_EVENT]
+Errore di rete. Riavvia il sistema e riprova.
+
+[ERR_NET_ARRAY]
+Errore di rete. Versioni di GTA V incompatibili.
+
+[ERR_MEM_VIRTUAL_3]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_VIRTUAL_2]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_VIRTUAL_1]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_TINY_RESIZE_2]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_TINY_RESIZE_1]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_TINY_FREE_2]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_TINY_FREE_1]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_TINY_2]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_TINY_1]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_SYSTEM]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_SPARSEALLOC_FREE_3]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_SPARSEALLOC_FREE_2]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_SPARSEALLOC_FREE_1]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_SPARSEALLOC_ALLOC]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_POOLALLOC_FREE_2]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_POOLALLOC_FREE_1]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_POOLALLOC_ALLOC_5]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_POOLALLOC_ALLOC_4]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_POOLALLOC_ALLOC_3]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_POOLALLOC_ALLOC_2]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_POOLALLOC_ALLOC_1]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_MULTIALLOC_RESIZE]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_MULTIALLOC_FREE]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_MIN_ALLOC]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_EXTALLOC_ALLOC]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_3]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_2]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_1]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_EMBEDDEDALLOC_INIT_1]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_5]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_4]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_3]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_2]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_1]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_3]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_2]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_1]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_EMBEDDEDALLOC_ALLOC]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_CONT_3]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_CONT_2]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_CONT_1]
+Memoria di gioco insufficiente. Riavvia il sistema e riprova.
+
+[ERR_MEM_BESTALLOC_FREE_2]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_MEM_BESTALLOC_FREE_1]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_GUI_SF_MEM_2]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_GUI_SF_MEM_1]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_GUI_MENU_VER]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GUI_CHILD]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GUI_ACTIVE_PANEL]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_WIN]
+Impossibile creare la finestra. Riavvia il sistema e assicurati che la periferica video funzioni correttamente. Errore di sistema:
+
+[ERR_GFX_STATE]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_GFX_SHADER_VAR]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_SHADER_TYP]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_RENDERTHREAD_TXD]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_RENDERTHREAD]
+Impossibile inizializzare il thread. Riavvia il sistema riprova.
+
+[ERR_GFX_RENDERTARGET]
+Impossibile creare il render target. Riavvia il sistema e riprova.
+
+[ERR_GFX_PFX_2]
+Errore dei dati di gioco. Riavvia il sistema e prova.
+
+[ERR_GFX_PFX_1]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_GFX_MORPH_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_MORPH_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_INVALID_SHADER]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_INIT]
+Impossibile inizializzare la periferica video. Riavvia il sistema o reinstalla il runtime di DirectX più recente.
+
+[ERR_GFX_IM]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_GFX_EFFECT_INVALID_STATE_5]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_EFFECT_INVALID_STATE_4]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_EFFECT_INVALID_STATE_3]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_EFFECT_INVALID_STATE_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_EFFECT_INVALID_STATE_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_EFFECT_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_EFFECT_1]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_GFX_DRAW_ROPE_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_DRAW_ROPE_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_DRAW_GLASS_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_DRAW_GLASS_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_DRAW_DATA]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_D3D_VER_1]
+Nessun adattatore o runtime di DirectX 10 o 11 trovato. Installa il runtime di DirectX più recente o installa una scheda video compatibile con DirectX 10 o 11.
+
+[ERR_GFX_D3D_SWAPCHAIN_ALLOC_2]
+Nessun adattatore o runtime di DirectX 10 o 11 trovato. Installa il runtime di DirectX più recente o installa una scheda video compatibile con DirectX 10 o 11.
+
+[ERR_GFX_D3D_SHADER_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_D3D_SHADER_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_D3D_NOFEATURELEVEL_2]
+Nessun adattatore o runtime di DirectX 10 o 11 trovato. Installa il runtime di DirectX più recente o installa una scheda video compatibile con DirectX 10 o 11.
+
+[ERR_GFX_D3D_NOFEATURELEVEL_1]
+Nessun adattatore o runtime di DirectX 10 o 11 trovato. Installa il runtime di DirectX più recente o installa una scheda video compatibile con DirectX 10 o 11.
+
+[ERR_GFX_D3D_NOD3D1X_4]
+Nessun adattatore o runtime di DirectX 10 o 11 trovato. Installa il runtime di DirectX più recente o installa una scheda video compatibile con DirectX 10 o 11.
+
+[ERR_GFX_D3D_NOD3D1X_2]
+Nessun adattatore o runtime di DirectX 10 o 11 trovato. Installa il runtime di DirectX più recente o installa una scheda video compatibile con DirectX 10 o 11.
+
+[ERR_GFX_D3D_INIT]
+Inizializzazione fallita. Riavvia il sistema e riprova. Se il problema persiste, prova a reinstallare il gioco.
+
+[ERR_GFX_D3D_DEFERRED_MEM]
+Errore di DirectX. Memoria insufficiente. Riavvia il sistema, chiudi ogni altra applicazione e assicurati che il tuo sistema soddisfi i requisiti minimi di sistema. Per ulteriori informazioni, visita la pagina https://support.rockstargames.com/hc/articles/203160297
+
+[ERR_GFX_D3D_DEFERRED]
+Errore di DirectX. Assicurati che la tua scheda video sia installata correttamente e che i driver video siano aggiornati. Verifica l'installazione di DirectX e riavvia il sistema. Codice errore:
+
+[ERR_GFX_CHECK_PROC_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GFX_CHECK_PROC_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GEN_ZLIB_2]
+Errore di zlib. Riavvia o reinstalla il gioco.
+
+[ERR_GEN_ZLIB_1]
+Impossibile inizializzare zlib. Riavvia il sistema e riprova.
+
+[ERR_GEN_SCENARIO]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_GEN_POOL_3]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_GEN_POOL_2]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_GEN_POOL_1]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_GEN_PAGE_1]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_GEN_NAV]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GEN_MAP]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_GEN_INVALID]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GEN_INTERIOR_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GEN_INPUT_2]
+Errore DirectInput. Riavvia il sistema e riprova.
+
+[ERR_GEN_INPUT_1]
+Troppe periferiche di input. Rimuovine alcune, riavvia il sistema e riprova.
+
+[ERR_GEN_ENT_TRANS]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_GEN_ENT_CONT_3]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_GEN_ENT_CONT_2]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_GEN_ENT_CONT_1]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_GEN_CUT_2]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GEN_CUT_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_GEN_CODEC_1]
+Errore del codec della chat vocale. Riavvia il sistema e riprova.
+
+[ERR_FIL_ZIP_3]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_FIL_ZIP_2]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_FIL_ZIP_1]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_FIL_PACK_3]
+Dati di gioco danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_FIL_PACK_2]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_FIL_PACK_1]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_FIL_DISK]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_FIL_COMMON]
+Errore dei dati di gioco. Riavvia il sistema e riprova.
+
+[ERR_DEFAULT]
+Errore fatale. Riavvia o reinstalla il gioco.
+
+[ERR_AUD_SOUND_2]
+Errore audio. Riavvia il sistema e riprova.
+
+[ERR_AUD_SOUND_1]
+Errore audio. Riavvia il sistema e riprova.
+
+[ERR_AUD_MUSIC_INIT]
+Impossibile inizializzare l'audio. Riavvia il sistema e riprova.
+
+[ERR_AUD_MIXER_INIT]
+Impossibile inizializzare l'audio. Riavvia il sistema e riprova.
+
+[ERR_AUD_INVALIDRESOURCE]
+Dati audio danneggiati. Riavvia o reinstalla il gioco.
+
+[ERR_AUD_INIT_2]
+Impossibile inizializzare l'audio. Riavvia il sistema e riprova.
+
+[ERR_AUD_INIT_1]
+Impossibile inizializzare l'audio. Riavvia il sistema e riprova.
+
+[ERR_AUD_HARDWARE_DS_INIT]
+Impossibile inizializzare l'hardware audio. Potrebbe essere necessario reinstallare i driver audio o DirectX. Assicurati anche che la periferica audio funzioni correttamente. Codice errore:
+
+[ERR_AUD_HARDWARE_DS_BUFFER]
+Impossibile creare un buffer audio. Potrebbe essere necessario reinstallare i driver audio o DirectX. Assicurati inoltre che la periferica audio funzioni correttamente. Codice errore:
+
+[ERR_AUD_HARDWARE]
+Impossibile inizializzare l'hadware audio. Assicurati che la tua periferica audio funzioni correttamente.
+
+[ERR_AUD_GTA_ONLINE_LOAD]
+Impossibile caricare i dati audio. Riavvia o reinstalla il gioco.
+
+[ERR_ANI_POOL_2]
+Errore della memoria di gioco. Riavvia il sistema e riprova.
+
+[ERR_ANI_POOL_1]
+Errore della memoria di gioco. Riavvia il sistema e riprova.

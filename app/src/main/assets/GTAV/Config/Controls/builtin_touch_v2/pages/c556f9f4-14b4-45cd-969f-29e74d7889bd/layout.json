@@ -1,0 +1,215 @@
+{
+  "version": 3,
+  "id": "c556f9f4-14b4-45cd-969f-29e74d7889bd",
+  "fields": {
+    "id": "c556f9f4-14b4-45cd-969f-29e74d7889bd",
+    "name": "Scene interaction · Drinking",
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {}
+    },
+    {
+      "id": "camera",
+      "source": "camera",
+      "fields": {}
+    },
+    {
+      "id": "phone",
+      "source": "phone",
+      "fields": {}
+    },
+    {
+      "id": "calibrate_steering",
+      "source": "calibrate_steering",
+      "fields": {}
+    },
+    {
+      "id": "character_switch",
+      "source": "character_switch",
+      "fields": {}
+    },
+    {
+      "id": "move",
+      "source": "move",
+      "fields": {}
+    },
+    {
+      "id": "attack",
+      "source": "attack",
+      "fields": {}
+    },
+    {
+      "id": "aim",
+      "source": "aim",
+      "fields": {}
+    },
+    {
+      "id": "jump",
+      "source": "jump",
+      "fields": {}
+    },
+    {
+      "id": "duck",
+      "source": "duck",
+      "fields": {}
+    },
+    {
+      "id": "sprint",
+      "source": "sprint",
+      "fields": {}
+    },
+    {
+      "id": "cover",
+      "source": "cover",
+      "fields": {}
+    },
+    {
+      "id": "reload",
+      "source": "reload",
+      "fields": {}
+    },
+    {
+      "id": "weapon_wheel",
+      "source": "weapon_wheel",
+      "fields": {}
+    },
+    {
+      "id": "ability",
+      "source": "ability",
+      "fields": {}
+    },
+    {
+      "id": "cancel_run",
+      "source": "cancel_run",
+      "fields": {}
+    },
+    {
+      "id": "detonate",
+      "source": "detonate",
+      "fields": {}
+    },
+    {
+      "id": "scope_zoom_in",
+      "source": "scope_zoom_in",
+      "fields": {}
+    },
+    {
+      "id": "scope_zoom_out",
+      "source": "scope_zoom_out",
+      "fields": {}
+    },
+    {
+      "id": "melee_heavy",
+      "source": "melee_heavy",
+      "fields": {}
+    },
+    {
+      "id": "melee_block",
+      "source": "melee_block",
+      "fields": {}
+    },
+    {
+      "id": "weapon_attachment",
+      "source": "weapon_attachment",
+      "fields": {}
+    },
+    {
+      "id": "melee_alternate",
+      "source": "melee_alternate",
+      "fields": {}
+    },
+    {
+      "id": "weapon_prev",
+      "source": "weapon_prev",
+      "fields": {}
+    },
+    {
+      "id": "weapon_next",
+      "source": "weapon_next",
+      "fields": {}
+    },
+    {
+      "id": "weapon_confirm",
+      "source": "weapon_confirm",
+      "fields": {}
+    },
+    {
+      "id": "weapon_cancel",
+      "source": "weapon_cancel",
+      "fields": {}
+    },
+    {
+      "id": "weapon_status",
+      "source": "weapon_status",
+      "fields": {}
+    },
+    {
+      "id": "trainer_shortcut",
+      "source": "trainer_shortcut",
+      "fields": {}
+    },
+    {
+      "id": "input_mode",
+      "source": "input_mode",
+      "fields": {}
+    },
+    {
+      "id": "vehicle_tools",
+      "source": "vehicle_tools",
+      "fields": {}
+    },
+    {
+      "id": "close_vehicle_tools",
+      "source": "close_vehicle_tools",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_0",
+      "source": "interaction_slot_0",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_1",
+      "source": "interaction_slot_1",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_2",
+      "source": "interaction_slot_2",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_3",
+      "source": "interaction_slot_3",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_4",
+      "source": "interaction_slot_4",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_5",
+      "source": "interaction_slot_5",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_6",
+      "source": "interaction_slot_6",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_7",
+      "source": "interaction_slot_7",
+      "fields": {}
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": []
+}

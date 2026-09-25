@@ -1,0 +1,1262 @@
+{
+  "type": "state_collection",
+  "version": 2,
+  "id": "builtin_touch_v2",
+  "name": "Touch layout · Shared base layout",
+  "masterPage": "1538df5a-5525-4175-b3e8-ab41a059fe47",
+  "defaultPage": "a28ce035-9ef4-42d0-a897-1555a616af41",
+  "pages": [
+    {
+      "id": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "name": "On foot",
+      "enabled": true,
+      "fallback": "",
+      "parent": "b133ae79-dd28-4b54-8c97-d65bd01092f6",
+      "template": false,
+      "folder": "movement",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "a8380b98-d16d-420b-a545-1c6c26a78a6b",
+      "name": "Mobile · Car",
+      "enabled": true,
+      "fallback": "",
+      "parent": "c13320f8-b1df-438f-91c1-518b1b1c49f0",
+      "template": false,
+      "folder": "bcb3caf8-b26e-4c7d-94db-9f8b2739efa0",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "62d270fd-f3be-4be9-975c-093bbd5e4b91",
+      "name": "Mobile · Motorcycle",
+      "enabled": true,
+      "fallback": "",
+      "parent": "c13320f8-b1df-438f-91c1-518b1b1c49f0",
+      "template": false,
+      "folder": "bcb3caf8-b26e-4c7d-94db-9f8b2739efa0",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "47aec1a7-d220-41c2-b9bc-6fbf346a0703",
+      "name": "Mobile · Boat",
+      "enabled": true,
+      "fallback": "",
+      "parent": "dfa742b1-279c-4c3e-b33c-d4c9f0ee3896",
+      "template": false,
+      "folder": "e721e209-7aad-4bdd-af0d-4f3fca48a524",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "43c5165a-be92-4305-a8de-8691558f111b",
+      "name": "Mobile · Train",
+      "enabled": true,
+      "fallback": "",
+      "parent": "c13320f8-b1df-438f-91c1-518b1b1c49f0",
+      "template": false,
+      "folder": "bcb3caf8-b26e-4c7d-94db-9f8b2739efa0",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "67f2147b-1463-42bf-97c8-7c43a6b6e1ab",
+      "name": "Mobile · Bicycle",
+      "enabled": true,
+      "fallback": "",
+      "parent": "c13320f8-b1df-438f-91c1-518b1b1c49f0",
+      "template": false,
+      "folder": "bcb3caf8-b26e-4c7d-94db-9f8b2739efa0",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "bed72620-d110-4180-8f9b-a638d53ac491",
+      "name": "Mobile · Aircraft / helicopter",
+      "enabled": true,
+      "fallback": "",
+      "parent": "f88343c0-2b25-4fec-b88b-441e737be514",
+      "template": false,
+      "folder": "ca89ef8c-1602-4991-b563-a747d1d80278",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "04f7d78e-8d89-4280-80fd-ffd8e3067844",
+      "name": "Mobile · Submarine",
+      "enabled": true,
+      "fallback": "",
+      "parent": "dfa742b1-279c-4c3e-b33c-d4c9f0ee3896",
+      "template": false,
+      "folder": "e721e209-7aad-4bdd-af0d-4f3fca48a524",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "5634b34a-792c-4854-8c72-8a4e0a49d912",
+      "name": "Mobile · Passenger",
+      "enabled": true,
+      "fallback": "",
+      "parent": "4772c4a9-18c2-4270-bce4-5f75fbcddbd1",
+      "template": false,
+      "folder": "dd108f08-998d-47d2-85e9-4d4dadb40b35",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "cd4b47dd-2e1a-4aad-99a8-e83b27d11c50",
+      "name": "Mobile · Swimming",
+      "enabled": true,
+      "fallback": "",
+      "parent": "b133ae79-dd28-4b54-8c97-d65bd01092f6",
+      "template": false,
+      "folder": "movement",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "e8eadca5-7e72-4a6d-b734-50e57f0204d2",
+      "name": "Mobile · Parachuting",
+      "enabled": true,
+      "fallback": "",
+      "parent": "b133ae79-dd28-4b54-8c97-d65bd01092f6",
+      "template": false,
+      "folder": "movement",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "8823aafc-b65f-4511-a843-21aeb03a589a",
+      "name": "Mobile · Jetpack",
+      "enabled": true,
+      "fallback": "",
+      "parent": "b133ae79-dd28-4b54-8c97-d65bd01092f6",
+      "template": false,
+      "folder": "movement",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "5dcd705a-e4f9-4442-8a26-ed2374f186fd",
+      "name": "Mobile · Menus",
+      "enabled": true,
+      "fallback": "",
+      "parent": "50f4330f-1137-447f-99a5-75b242e84345",
+      "template": false,
+      "folder": "bdc3bc7a-1833-43e3-af14-c75af3392905",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "67c9859c-11f0-494f-97a4-011c457eea8c",
+      "name": "Phone controls",
+      "enabled": true,
+      "fallback": "",
+      "parent": "15a17ebb-30fd-44f4-b9e5-c46f1295c143",
+      "template": false,
+      "folder": "9cc7e00d-fe8f-406d-81b7-d3367ea48a29",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "5d352a2c-e72f-4bd1-8338-a3ec08a5f17d",
+      "name": "Mobile · Phone browser",
+      "enabled": true,
+      "fallback": "",
+      "parent": "15a17ebb-30fd-44f4-b9e5-c46f1295c143",
+      "template": false,
+      "folder": "9cc7e00d-fe8f-406d-81b7-d3367ea48a29",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "a77d2ffd-6d2a-46b7-9adb-0d02340c2502",
+      "name": "Mobile · Map",
+      "enabled": true,
+      "fallback": "",
+      "parent": "d688be90-3ccf-4a94-91dd-56c3d13d6da3",
+      "template": false,
+      "folder": "b7ec7003-0916-4c28-8ab8-167305bae90d",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "feba22a9-61dc-4011-958c-7aa53091e28f",
+      "name": "Mobile · Taxi",
+      "enabled": true,
+      "fallback": "",
+      "parent": "4772c4a9-18c2-4270-bce4-5f75fbcddbd1",
+      "template": false,
+      "folder": "dd108f08-998d-47d2-85e9-4d4dadb40b35",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "1ce40aa5-5534-4626-ab6a-8587845e7c12",
+      "name": "Mobile · Vehicle entry / exit",
+      "enabled": true,
+      "fallback": "",
+      "parent": "b133ae79-dd28-4b54-8c97-d65bd01092f6",
+      "template": false,
+      "folder": "movement",
+      "followFolder": true,
+      "preview": ""
+    },
+    {
+      "id": "1538df5a-5525-4175-b3e8-ab41a059fe47",
+      "name": "Base layout",
+      "enabled": true,
+      "fallback": "",
+      "parent": "",
+      "template": true,
+      "folder": "",
+      "followFolder": false,
+      "preview": ""
+    },
+    {
+      "id": "b133ae79-dd28-4b54-8c97-d65bd01092f6",
+      "name": "On foot & actions · Category base layout",
+      "enabled": true,
+      "fallback": "",
+      "parent": "1538df5a-5525-4175-b3e8-ab41a059fe47",
+      "template": true,
+      "folder": "movement",
+      "followFolder": true,
+      "preview": "on_foot.weapon.firearm"
+    },
+    {
+      "id": "5b05e504-b9e6-4d77-93bd-48d0d7c86e2a",
+      "name": "Vehicle · Category base layout",
+      "enabled": true,
+      "fallback": "",
+      "parent": "1538df5a-5525-4175-b3e8-ab41a059fe47",
+      "template": true,
+      "folder": "vehicles",
+      "followFolder": true,
+      "preview": "vehicle.special"
+    },
+    {
+      "id": "c8f25ae2-a084-422f-9e4d-702e618962f6",
+      "name": "Menus & phone · Category base layout",
+      "enabled": true,
+      "fallback": "",
+      "parent": "1538df5a-5525-4175-b3e8-ab41a059fe47",
+      "template": true,
+      "folder": "interface",
+      "followFolder": true,
+      "preview": "frontend"
+    },
+    {
+      "id": "c13320f8-b1df-438f-91c1-518b1b1c49f0",
+      "name": "Land vehicles · Category base layout",
+      "enabled": true,
+      "fallback": "",
+      "parent": "5b05e504-b9e6-4d77-93bd-48d0d7c86e2a",
+      "template": true,
+      "folder": "bcb3caf8-b26e-4c7d-94db-9f8b2739efa0",
+      "followFolder": true,
+      "preview": "vehicle.special"
+    },
+    {
+      "id": "dfa742b1-279c-4c3e-b33c-d4c9f0ee3896",
+      "name": "Watercraft · Category base layout",
+      "enabled": true,
+      "fallback": "",
+      "parent": "5b05e504-b9e6-4d77-93bd-48d0d7c86e2a",
+      "template": true,
+      "folder": "e721e209-7aad-4bdd-af0d-4f3fca48a524",
+      "followFolder": true,
+      "preview": "vehicle.boat"
+    },
+    {
+      "id": "f88343c0-2b25-4fec-b88b-441e737be514",
+      "name": "Aircraft · Category base layout",
+      "enabled": true,
+      "fallback": "",
+      "parent": "5b05e504-b9e6-4d77-93bd-48d0d7c86e2a",
+      "template": true,
+      "folder": "ca89ef8c-1602-4991-b563-a747d1d80278",
+      "followFolder": true,
+      "preview": "vehicle.aircraft"
+    },
+    {
+      "id": "4772c4a9-18c2-4270-bce4-5f75fbcddbd1",
+      "name": "Passengers & taxis · Category base layout",
+      "enabled": true,
+      "fallback": "",
+      "parent": "5b05e504-b9e6-4d77-93bd-48d0d7c86e2a",
+      "template": true,
+      "folder": "dd108f08-998d-47d2-85e9-4d4dadb40b35",
+      "followFolder": true,
+      "preview": "vehicle.passenger"
+    },
+    {
+      "id": "50f4330f-1137-447f-99a5-75b242e84345",
+      "name": "Game menus · Category base layout",
+      "enabled": true,
+      "fallback": "",
+      "parent": "c8f25ae2-a084-422f-9e4d-702e618962f6",
+      "template": true,
+      "folder": "bdc3bc7a-1833-43e3-af14-c75af3392905",
+      "followFolder": true,
+      "preview": "frontend"
+    },
+    {
+      "id": "15a17ebb-30fd-44f4-b9e5-c46f1295c143",
+      "name": "Phone & browser · Category base layout",
+      "enabled": true,
+      "fallback": "",
+      "parent": "c8f25ae2-a084-422f-9e4d-702e618962f6",
+      "template": true,
+      "folder": "9cc7e00d-fe8f-406d-81b7-d3367ea48a29",
+      "followFolder": true,
+      "preview": "phone"
+    },
+    {
+      "id": "d688be90-3ccf-4a94-91dd-56c3d13d6da3",
+      "name": "Map · Category base layout",
+      "enabled": true,
+      "fallback": "",
+      "parent": "c8f25ae2-a084-422f-9e4d-702e618962f6",
+      "template": true,
+      "folder": "b7ec7003-0916-4c28-8ab8-167305bae90d",
+      "followFolder": true,
+      "preview": "map"
+    },
+    {
+      "id": "34975047-df32-43a2-a5b3-dbdc6bdd278a",
+      "name": "On foot · Unarmed",
+      "enabled": true,
+      "fallback": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "parent": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "template": false,
+      "folder": "041fb884-85d4-4959-b891-4d9d99d25d15",
+      "followFolder": false,
+      "preview": "on_foot.weapon.unarmed"
+    },
+    {
+      "id": "c01a0552-9bfd-48c5-9dd4-61e2648ef3b8",
+      "name": "On foot · Melee weapons",
+      "enabled": true,
+      "fallback": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "parent": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "template": false,
+      "folder": "041fb884-85d4-4959-b891-4d9d99d25d15",
+      "followFolder": false,
+      "preview": "on_foot.weapon.melee"
+    },
+    {
+      "id": "610b8ec0-378b-4886-8f9d-fc41d41de6f4",
+      "name": "On foot · Firearms",
+      "enabled": true,
+      "fallback": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "parent": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "template": false,
+      "folder": "041fb884-85d4-4959-b891-4d9d99d25d15",
+      "followFolder": false,
+      "preview": "on_foot.weapon.firearm"
+    },
+    {
+      "id": "ae39e803-67db-4ca4-b0aa-7457c973174a",
+      "name": "On foot · Throwables",
+      "enabled": true,
+      "fallback": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "parent": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "template": false,
+      "folder": "041fb884-85d4-4959-b891-4d9d99d25d15",
+      "followFolder": false,
+      "preview": "on_foot.weapon.throwable"
+    },
+    {
+      "id": "3311067b-345d-485e-b525-8705f57a9184",
+      "name": "On foot · Tools",
+      "enabled": true,
+      "fallback": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "parent": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "template": false,
+      "folder": "041fb884-85d4-4959-b891-4d9d99d25d15",
+      "followFolder": false,
+      "preview": "on_foot.weapon.tool"
+    },
+    {
+      "id": "6c45df89-2df7-47c7-ae69-3eb7fbcfdcfe",
+      "name": "Firearms · Aim",
+      "enabled": true,
+      "fallback": "610b8ec0-378b-4886-8f9d-fc41d41de6f4",
+      "parent": "610b8ec0-378b-4886-8f9d-fc41d41de6f4",
+      "template": false,
+      "folder": "041fb884-85d4-4959-b891-4d9d99d25d15",
+      "followFolder": false,
+      "preview": "on_foot.aiming"
+    },
+    {
+      "id": "7c3f8051-8c8e-44a3-955f-3c09ea0009d7",
+      "name": "Firearms · Scope",
+      "enabled": true,
+      "fallback": "6c45df89-2df7-47c7-ae69-3eb7fbcfdcfe",
+      "parent": "6c45df89-2df7-47c7-ae69-3eb7fbcfdcfe",
+      "template": false,
+      "folder": "041fb884-85d4-4959-b891-4d9d99d25d15",
+      "followFolder": false,
+      "preview": "on_foot.scope"
+    },
+    {
+      "id": "0d60208e-0c74-4526-8822-acd3d7caa9ae",
+      "name": "Firearms · Reload",
+      "enabled": true,
+      "fallback": "610b8ec0-378b-4886-8f9d-fc41d41de6f4",
+      "parent": "610b8ec0-378b-4886-8f9d-fc41d41de6f4",
+      "template": false,
+      "folder": "041fb884-85d4-4959-b891-4d9d99d25d15",
+      "followFolder": false,
+      "preview": "on_foot.reloading"
+    },
+    {
+      "id": "8e812bab-bbbf-4d41-99f5-4238d03b9fd8",
+      "name": "Combat · Target locked",
+      "enabled": true,
+      "fallback": "34975047-df32-43a2-a5b3-dbdc6bdd278a",
+      "parent": "34975047-df32-43a2-a5b3-dbdc6bdd278a",
+      "template": false,
+      "folder": "041fb884-85d4-4959-b891-4d9d99d25d15",
+      "followFolder": false,
+      "preview": "on_foot.melee"
+    },
+    {
+      "id": "3676b12b-d456-48f6-b774-b9ca68a8db90",
+      "name": "Swimming · Underwater",
+      "enabled": true,
+      "fallback": "cd4b47dd-2e1a-4aad-99a8-e83b27d11c50",
+      "parent": "cd4b47dd-2e1a-4aad-99a8-e83b27d11c50",
+      "template": false,
+      "folder": "movement",
+      "followFolder": false,
+      "preview": "swimming.underwater"
+    },
+    {
+      "id": "5ceb3023-d8fa-4963-b4f3-0bbd7b1e179b",
+      "name": "Parachuting · Free fall",
+      "enabled": true,
+      "fallback": "e8eadca5-7e72-4a6d-b734-50e57f0204d2",
+      "parent": "e8eadca5-7e72-4a6d-b734-50e57f0204d2",
+      "template": false,
+      "folder": "movement",
+      "followFolder": false,
+      "preview": "parachute.falling"
+    },
+    {
+      "id": "8aec68db-901e-40de-a9ee-d42ec5c85de3",
+      "name": "General scene interaction",
+      "enabled": true,
+      "fallback": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "parent": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "template": false,
+      "folder": "13e84109-7642-4562-9f1a-8f16645ef482",
+      "followFolder": false,
+      "preview": "interaction"
+    },
+    {
+      "id": "8e1db776-8483-4062-b0e4-52d8d4ce9662",
+      "name": "Scene interaction · TV",
+      "enabled": true,
+      "fallback": "8aec68db-901e-40de-a9ee-d42ec5c85de3",
+      "parent": "8aec68db-901e-40de-a9ee-d42ec5c85de3",
+      "template": false,
+      "folder": "13e84109-7642-4562-9f1a-8f16645ef482",
+      "followFolder": false,
+      "preview": "interaction.tv"
+    },
+    {
+      "id": "bf28686a-4096-482d-bbcc-e7c816dc51fc",
+      "name": "Watch TV",
+      "enabled": true,
+      "fallback": "8e1db776-8483-4062-b0e4-52d8d4ce9662",
+      "parent": "8e1db776-8483-4062-b0e4-52d8d4ce9662",
+      "template": false,
+      "folder": "13e84109-7642-4562-9f1a-8f16645ef482",
+      "followFolder": false,
+      "preview": "interaction.tv.watching"
+    },
+    {
+      "id": "c556f9f4-14b4-45cd-969f-29e74d7889bd",
+      "name": "Scene interaction · Drinking",
+      "enabled": true,
+      "fallback": "8aec68db-901e-40de-a9ee-d42ec5c85de3",
+      "parent": "8aec68db-901e-40de-a9ee-d42ec5c85de3",
+      "template": false,
+      "folder": "13e84109-7642-4562-9f1a-8f16645ef482",
+      "followFolder": false,
+      "preview": "interaction.drink"
+    },
+    {
+      "id": "be2433f6-c9f6-4c50-898c-e70a27c645a9",
+      "name": "Drinking",
+      "enabled": true,
+      "fallback": "c556f9f4-14b4-45cd-969f-29e74d7889bd",
+      "parent": "c556f9f4-14b4-45cd-969f-29e74d7889bd",
+      "template": false,
+      "folder": "13e84109-7642-4562-9f1a-8f16645ef482",
+      "followFolder": false,
+      "preview": "interaction.drink.active"
+    },
+    {
+      "id": "2c31d048-1cec-442a-aeb0-49ad9f69cb4c",
+      "name": "Scene interaction · Smoking",
+      "enabled": true,
+      "fallback": "8aec68db-901e-40de-a9ee-d42ec5c85de3",
+      "parent": "8aec68db-901e-40de-a9ee-d42ec5c85de3",
+      "template": false,
+      "folder": "13e84109-7642-4562-9f1a-8f16645ef482",
+      "followFolder": false,
+      "preview": "interaction.smoke"
+    },
+    {
+      "id": "4b92954c-92f3-4952-96bf-98e1e5054d96",
+      "name": "Smoking",
+      "enabled": true,
+      "fallback": "2c31d048-1cec-442a-aeb0-49ad9f69cb4c",
+      "parent": "2c31d048-1cec-442a-aeb0-49ad9f69cb4c",
+      "template": false,
+      "folder": "13e84109-7642-4562-9f1a-8f16645ef482",
+      "followFolder": false,
+      "preview": "interaction.smoke.active"
+    },
+    {
+      "id": "014f133a-b094-43b6-a7a3-dd339deda0df",
+      "name": "Full Xbox gamepad",
+      "enabled": true,
+      "fallback": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "parent": "1538df5a-5525-4175-b3e8-ab41a059fe47",
+      "template": false,
+      "folder": "",
+      "followFolder": false,
+      "preview": ""
+    },
+    {
+      "id": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "name": "General minigame",
+      "enabled": true,
+      "fallback": "014f133a-b094-43b6-a7a3-dd339deda0df",
+      "parent": "014f133a-b094-43b6-a7a3-dd339deda0df",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame"
+    },
+    {
+      "id": "a4858a32-0b2b-4fa4-9376-e5cdc3599354",
+      "name": "Tennis",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.tennis"
+    },
+    {
+      "id": "c2e695df-5d8d-4b89-90ac-c07779234d4a",
+      "name": "Golf",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.golf"
+    },
+    {
+      "id": "f25f58b6-5cc0-4249-90ca-4b090605f710",
+      "name": "Darts",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.darts"
+    },
+    {
+      "id": "fc259885-cadf-4d47-93c7-5576d5973ff4",
+      "name": "Yoga",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.yoga"
+    },
+    {
+      "id": "5bc7af99-438b-481d-b08a-e0856f23c1c3",
+      "name": "Triathlon",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.triathlon"
+    },
+    {
+      "id": "8e01d333-1899-4b38-8481-9880d097fca3",
+      "name": "Arm wrestling",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.arm_wrestling"
+    },
+    {
+      "id": "123e2061-4c24-445f-af96-d2c61ac9061f",
+      "name": "Shooting range",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.shooting_range"
+    },
+    {
+      "id": "1f08b2d1-659d-4ab0-b05c-da311fbc368a",
+      "name": "Flight school",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.flight_school"
+    },
+    {
+      "id": "2c862688-7a88-4566-867e-cc3b54b390cd",
+      "name": "Street racing",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.street_race"
+    },
+    {
+      "id": "51b7cb40-7965-4422-a5ad-d0beb219ae14",
+      "name": "Off-road racing",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.offroad_race"
+    },
+    {
+      "id": "1cae17e1-59b7-4a8b-ad51-5716b07ac012",
+      "name": "Water racing",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.sea_race"
+    },
+    {
+      "id": "1a024c12-94c1-4508-ad5b-d3afa73d028d",
+      "name": "Parachuting challenge",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.parachute"
+    },
+    {
+      "id": "c0aba9ff-9777-40e9-8ad6-be623fe6093c",
+      "name": "Nightclub activity",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.strip_club"
+    },
+    {
+      "id": "a5098057-3966-4b33-b582-d4a5f2a30fd2",
+      "name": "Amusement rides",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.fairground"
+    },
+    {
+      "id": "076707aa-3c79-4cbe-8fe4-a591f6b7c42f",
+      "name": "Cinema",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.cinema"
+    },
+    {
+      "id": "cab78526-075f-4911-a48b-984c5d229010",
+      "name": "Hacking terminal minigame",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.hacking"
+    },
+    {
+      "id": "5b9eeb6f-61b5-4088-a66c-10559c77c9c4",
+      "name": "Arcade minigames",
+      "enabled": true,
+      "fallback": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "parent": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "template": false,
+      "folder": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "followFolder": false,
+      "preview": "minigame.arcade"
+    },
+    {
+      "id": "2effebe8-9394-4742-9459-9b31c39af403",
+      "name": "Taxi · Choose destination",
+      "enabled": true,
+      "fallback": "feba22a9-61dc-4011-958c-7aa53091e28f",
+      "parent": "feba22a9-61dc-4011-958c-7aa53091e28f",
+      "template": false,
+      "folder": "dd108f08-998d-47d2-85e9-4d4dadb40b35",
+      "followFolder": false,
+      "preview": "interaction.taxi.destination"
+    },
+    {
+      "id": "cfc14908-8436-4c56-91cb-75c46fb7fde0",
+      "name": "Taxi · Travelling",
+      "enabled": true,
+      "fallback": "feba22a9-61dc-4011-958c-7aa53091e28f",
+      "parent": "feba22a9-61dc-4011-958c-7aa53091e28f",
+      "template": false,
+      "folder": "dd108f08-998d-47d2-85e9-4d4dadb40b35",
+      "followFolder": false,
+      "preview": "interaction.taxi.journey"
+    }
+  ],
+  "rules": [
+    {
+      "key": "on_foot",
+      "page": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "default",
+      "page": "a28ce035-9ef4-42d0-a897-1555a616af41",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.car",
+      "page": "a8380b98-d16d-420b-a545-1c6c26a78a6b",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle",
+      "page": "a8380b98-d16d-420b-a545-1c6c26a78a6b",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.special",
+      "page": "a8380b98-d16d-420b-a545-1c6c26a78a6b",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.bike",
+      "page": "62d270fd-f3be-4be9-975c-093bbd5e4b91",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.boat",
+      "page": "47aec1a7-d220-41c2-b9bc-6fbf346a0703",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.train",
+      "page": "43c5165a-be92-4305-a8de-8691558f111b",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.bicycle",
+      "page": "67f2147b-1463-42bf-97c8-7c43a6b6e1ab",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.aircraft",
+      "page": "bed72620-d110-4180-8f9b-a638d53ac491",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.submarine",
+      "page": "04f7d78e-8d89-4280-80fd-ffd8e3067844",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.passenger",
+      "page": "5634b34a-792c-4854-8c72-8a4e0a49d912",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.car.passenger",
+      "page": "5634b34a-792c-4854-8c72-8a4e0a49d912",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.bike.passenger",
+      "page": "5634b34a-792c-4854-8c72-8a4e0a49d912",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.bicycle.passenger",
+      "page": "5634b34a-792c-4854-8c72-8a4e0a49d912",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.boat.passenger",
+      "page": "5634b34a-792c-4854-8c72-8a4e0a49d912",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.aircraft.passenger",
+      "page": "5634b34a-792c-4854-8c72-8a4e0a49d912",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.submarine.passenger",
+      "page": "5634b34a-792c-4854-8c72-8a4e0a49d912",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.train.passenger",
+      "page": "5634b34a-792c-4854-8c72-8a4e0a49d912",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "vehicle.special.passenger",
+      "page": "5634b34a-792c-4854-8c72-8a4e0a49d912",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "swimming",
+      "page": "cd4b47dd-2e1a-4aad-99a8-e83b27d11c50",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "parachute",
+      "page": "e8eadca5-7e72-4a6d-b734-50e57f0204d2",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "jetpack",
+      "page": "8823aafc-b65f-4511-a843-21aeb03a589a",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "modal",
+      "page": "5dcd705a-e4f9-4442-8a26-ed2374f186fd",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "frontend",
+      "page": "5dcd705a-e4f9-4442-8a26-ed2374f186fd",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "replay",
+      "page": "5dcd705a-e4f9-4442-8a26-ed2374f186fd",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "phone",
+      "page": "67c9859c-11f0-494f-97a4-011c457eea8c",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "browser",
+      "page": "5d352a2c-e72f-4bd1-8338-a3ec08a5f17d",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "map",
+      "page": "a77d2ffd-6d2a-46b7-9adb-0d02340c2502",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "interaction.taxi",
+      "page": "feba22a9-61dc-4011-958c-7aa53091e28f",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "transition",
+      "page": "1ce40aa5-5534-4626-ab6a-8587845e7c12",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "on_foot.weapon.unarmed",
+      "page": "34975047-df32-43a2-a5b3-dbdc6bdd278a",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "on_foot.weapon.melee",
+      "page": "c01a0552-9bfd-48c5-9dd4-61e2648ef3b8",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "on_foot.weapon.firearm",
+      "page": "610b8ec0-378b-4886-8f9d-fc41d41de6f4",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "on_foot.weapon.throwable",
+      "page": "ae39e803-67db-4ca4-b0aa-7457c973174a",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "on_foot.weapon.tool",
+      "page": "3311067b-345d-485e-b525-8705f57a9184",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "on_foot.aiming",
+      "page": "6c45df89-2df7-47c7-ae69-3eb7fbcfdcfe",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "on_foot.scope",
+      "page": "7c3f8051-8c8e-44a3-955f-3c09ea0009d7",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "on_foot.reloading",
+      "page": "0d60208e-0c74-4526-8822-acd3d7caa9ae",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "on_foot.melee",
+      "page": "8e812bab-bbbf-4d41-99f5-4238d03b9fd8",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "swimming.underwater",
+      "page": "3676b12b-d456-48f6-b774-b9ca68a8db90",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "parachute.falling",
+      "page": "5ceb3023-d8fa-4963-b4f3-0bbd7b1e179b",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "interaction",
+      "page": "8aec68db-901e-40de-a9ee-d42ec5c85de3",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "interaction.tv",
+      "page": "8e1db776-8483-4062-b0e4-52d8d4ce9662",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "interaction.tv.watching",
+      "page": "bf28686a-4096-482d-bbcc-e7c816dc51fc",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "interaction.drink",
+      "page": "c556f9f4-14b4-45cd-969f-29e74d7889bd",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "interaction.drink.active",
+      "page": "be2433f6-c9f6-4c50-898c-e70a27c645a9",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "interaction.smoke",
+      "page": "2c31d048-1cec-442a-aeb0-49ad9f69cb4c",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "interaction.smoke.active",
+      "page": "4b92954c-92f3-4952-96bf-98e1e5054d96",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "controller",
+      "page": "014f133a-b094-43b6-a7a3-dd339deda0df",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame",
+      "page": "01c1e831-8af9-4a41-8520-2cf1c83d4041",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.tennis",
+      "page": "a4858a32-0b2b-4fa4-9376-e5cdc3599354",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.golf",
+      "page": "c2e695df-5d8d-4b89-90ac-c07779234d4a",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.darts",
+      "page": "f25f58b6-5cc0-4249-90ca-4b090605f710",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.yoga",
+      "page": "fc259885-cadf-4d47-93c7-5576d5973ff4",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.triathlon",
+      "page": "5bc7af99-438b-481d-b08a-e0856f23c1c3",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.arm_wrestling",
+      "page": "8e01d333-1899-4b38-8481-9880d097fca3",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.shooting_range",
+      "page": "123e2061-4c24-445f-af96-d2c61ac9061f",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.flight_school",
+      "page": "1f08b2d1-659d-4ab0-b05c-da311fbc368a",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.street_race",
+      "page": "2c862688-7a88-4566-867e-cc3b54b390cd",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.offroad_race",
+      "page": "51b7cb40-7965-4422-a5ad-d0beb219ae14",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.sea_race",
+      "page": "1cae17e1-59b7-4a8b-ad51-5716b07ac012",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.parachute",
+      "page": "1a024c12-94c1-4508-ad5b-d3afa73d028d",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.strip_club",
+      "page": "c0aba9ff-9777-40e9-8ad6-be623fe6093c",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.fairground",
+      "page": "a5098057-3966-4b33-b582-d4a5f2a30fd2",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.cinema",
+      "page": "076707aa-3c79-4cbe-8fe4-a591f6b7c42f",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.hacking",
+      "page": "cab78526-075f-4911-a48b-984c5d229010",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "minigame.arcade",
+      "page": "5b9eeb6f-61b5-4088-a66c-10559c77c9c4",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "interaction.taxi.destination",
+      "page": "2effebe8-9394-4742-9459-9b31c39af403",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "interaction.taxi.journey",
+      "page": "cfc14908-8436-4c56-91cb-75c46fb7fde0",
+      "priority": 100,
+      "enabled": true
+    }
+  ],
+  "folders": [
+    {
+      "id": "movement",
+      "name": "On foot & actions",
+      "parent": "",
+      "masterPage": "b133ae79-dd28-4b54-8c97-d65bd01092f6"
+    },
+    {
+      "id": "vehicles",
+      "name": "Vehicle",
+      "parent": "",
+      "masterPage": "5b05e504-b9e6-4d77-93bd-48d0d7c86e2a"
+    },
+    {
+      "id": "interface",
+      "name": "Menus & phone",
+      "parent": "",
+      "masterPage": "c8f25ae2-a084-422f-9e4d-702e618962f6"
+    },
+    {
+      "id": "bcb3caf8-b26e-4c7d-94db-9f8b2739efa0",
+      "name": "Land vehicles",
+      "parent": "vehicles",
+      "masterPage": "c13320f8-b1df-438f-91c1-518b1b1c49f0"
+    },
+    {
+      "id": "e721e209-7aad-4bdd-af0d-4f3fca48a524",
+      "name": "Watercraft",
+      "parent": "vehicles",
+      "masterPage": "dfa742b1-279c-4c3e-b33c-d4c9f0ee3896"
+    },
+    {
+      "id": "ca89ef8c-1602-4991-b563-a747d1d80278",
+      "name": "Aircraft",
+      "parent": "vehicles",
+      "masterPage": "f88343c0-2b25-4fec-b88b-441e737be514"
+    },
+    {
+      "id": "dd108f08-998d-47d2-85e9-4d4dadb40b35",
+      "name": "Passengers & taxis",
+      "parent": "vehicles",
+      "masterPage": "4772c4a9-18c2-4270-bce4-5f75fbcddbd1"
+    },
+    {
+      "id": "bdc3bc7a-1833-43e3-af14-c75af3392905",
+      "name": "Game menus",
+      "parent": "interface",
+      "masterPage": "50f4330f-1137-447f-99a5-75b242e84345"
+    },
+    {
+      "id": "9cc7e00d-fe8f-406d-81b7-d3367ea48a29",
+      "name": "Phone & browser",
+      "parent": "interface",
+      "masterPage": "15a17ebb-30fd-44f4-b9e5-c46f1295c143"
+    },
+    {
+      "id": "b7ec7003-0916-4c28-8ab8-167305bae90d",
+      "name": "Map",
+      "parent": "interface",
+      "masterPage": "d688be90-3ccf-4a94-91dd-56c3d13d6da3"
+    },
+    {
+      "id": "041fb884-85d4-4959-b891-4d9d99d25d15",
+      "name": "Weapons & combat",
+      "parent": "movement",
+      "masterPage": ""
+    },
+    {
+      "id": "13e84109-7642-4562-9f1a-8f16645ef482",
+      "name": "Activities & scene interactions",
+      "parent": "",
+      "masterPage": ""
+    },
+    {
+      "id": "5f200f7b-a0c2-44e9-87b5-6928ed5c50ef",
+      "name": "Minigame",
+      "parent": "",
+      "masterPage": ""
+    }
+  ],
+  "categoryRevision": 1,
+  "stateRevision": 1
+}

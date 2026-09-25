@@ -1,0 +1,84 @@
+{
+  "version": 3,
+  "id": "15a17ebb-30fd-44f4-b9e5-c46f1295c143",
+  "fields": {
+    "id": "15a17ebb-30fd-44f4-b9e5-c46f1295c143",
+    "name": "Phone & browser · Category base layout",
+    "touch": {
+      "enabled": true
+    },
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "move",
+      "source": "move",
+      "fields": {}
+    },
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {
+        "label": "Pause"
+      }
+    },
+    {
+      "id": "accept",
+      "source": "accept",
+      "fields": {
+        "y": 0.7679592370986938,
+        "radius": 0.06700000166893005,
+        "x": 0.8070041537284851,
+        "anchor": "screen",
+        "anchorX": 0,
+        "anchorY": 0
+      }
+    },
+    {
+      "id": "cancel",
+      "source": "cancel",
+      "fields": {
+        "x": 0.8708972930908203,
+        "y": 0.7679294347763062,
+        "anchor": "screen",
+        "anchorX": 0,
+        "anchorY": 0
+      }
+    },
+    {
+      "id": "up",
+      "source": "up",
+      "fields": {
+        "x": 0.8181818127632141
+      }
+    },
+    {
+      "id": "down",
+      "source": "down",
+      "fields": {
+        "x": 0.8181818127632141
+      }
+    },
+    {
+      "id": "left",
+      "source": "left",
+      "fields": {
+        "x": 0.7272727489471436
+      }
+    },
+    {
+      "id": "right",
+      "source": "right",
+      "fields": {
+        "x": 0.9090908765792847
+      }
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": [
+    "prev_tab",
+    "next_tab"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "id": "bf28686a-4096-482d-bbcc-e7c816dc51fc",
+  "fields": {
+    "id": "bf28686a-4096-482d-bbcc-e7c816dc51fc",
+    "name": "Watch TV",
+    "touch": {
+      "enabled": false
+    },
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {}
+    },
+    {
+      "id": "input_mode",
+      "source": "input_mode",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_0",
+      "source": "interaction_slot_0",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_1",
+      "source": "interaction_slot_1",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_2",
+      "source": "interaction_slot_2",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_3",
+      "source": "interaction_slot_3",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_4",
+      "source": "interaction_slot_4",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_5",
+      "source": "interaction_slot_5",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_6",
+      "source": "interaction_slot_6",
+      "fields": {}
+    },
+    {
+      "id": "interaction_slot_7",
+      "source": "interaction_slot_7",
+      "fields": {}
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": [
+    "camera",
+    "phone",
+    "calibrate_steering",
+    "character_switch",
+    "move",
+    "attack",
+    "aim",
+    "jump",
+    "duck",
+    "sprint",
+    "cover",
+    "reload",
+    "weapon_wheel",
+    "ability",
+    "cancel_run",
+    "detonate",
+    "scope_zoom_in",
+    "scope_zoom_out",
+    "melee_heavy",
+    "melee_block",
+    "weapon_attachment",
+    "melee_alternate",
+    "weapon_prev",
+    "weapon_next",
+    "weapon_confirm",
+    "weapon_cancel",
+    "weapon_status",
+    "trainer_shortcut",
+    "vehicle_tools",
+    "close_vehicle_tools"
+  ]
+}

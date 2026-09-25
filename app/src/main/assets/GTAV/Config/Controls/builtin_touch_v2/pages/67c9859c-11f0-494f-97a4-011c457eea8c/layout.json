@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "id": "67c9859c-11f0-494f-97a4-011c457eea8c",
+  "fields": {
+    "id": "67c9859c-11f0-494f-97a4-011c457eea8c",
+    "name": "Phone controls",
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "move",
+      "source": "move",
+      "fields": {
+        "requiredActions": 0,
+        "type": "stick_left",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [],
+        "tapHold": [],
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:pause"
+        ],
+        "tapHold": [],
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "accept",
+      "source": "accept",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:accept"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "cancel",
+      "source": "cancel",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:cancel"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "up",
+      "source": "up",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:up"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "down",
+      "source": "down",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:down"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "left",
+      "source": "left",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:left"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "right",
+      "source": "right",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:right"
+        ],
+        "tapHold": [],
+        "requiredActions": 134217728,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": []
+}

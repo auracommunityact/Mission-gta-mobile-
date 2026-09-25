@@ -1,0 +1,196 @@
+{
+  "version": 3,
+  "id": "1ce40aa5-5534-4626-ab6a-8587845e7c12",
+  "fields": {
+    "id": "1ce40aa5-5534-4626-ab6a-8587845e7c12",
+    "name": "Mobile · Vehicle entry / exit",
+    "inputMode": "mobile",
+    "mobileRevision": 7,
+    "version": 1
+  },
+  "controls": [
+    {
+      "id": "move",
+      "source": "move",
+      "fields": {
+        "label": "Move",
+        "type": "stick_left",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [],
+        "tapHold": [],
+        "requiredActions": 1,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "pause",
+      "source": "pause",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:pause"
+        ],
+        "tapHold": [],
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "detonate",
+      "source": "detonate",
+      "fields": {
+        "layer": "world",
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "native:detonate"
+        ],
+        "tapHold": [],
+        "requiredActions": 4398046511104,
+        "excludedActions": 0
+      }
+    },
+    {
+      "id": "interact",
+      "source": "interact",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "action:interact_primary"
+        ],
+        "tapHold": [],
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "interaction_more",
+      "source": "interaction_more",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "action:interact_more"
+        ],
+        "tapHold": [],
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "activity_panel",
+      "source": "activity_panel",
+      "fields": {
+        "type": "panel",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [],
+        "tapHold": [],
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "activity"
+      }
+    },
+    {
+      "id": "character_switch",
+      "source": "character_switch",
+      "fields": {
+        "anchorX": 2.4493119716644287,
+        "anchorY": 0.46959221363067627,
+        "x": 0.07146227359771729,
+        "y": 0.4867848753929138,
+        "radius": 0.04421122744679451,
+        "anchor": "screen",
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "action:character_switch"
+        ],
+        "tapHold": [],
+        "requiredActions": 2199023255552,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "trainer_shortcut",
+      "source": "trainer_shortcut",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "action:trainer"
+        ],
+        "tapHold": [],
+        "requiredActions": 0,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    },
+    {
+      "id": "calibrate_steering",
+      "source": "calibrate_steering",
+      "fields": {
+        "type": "button",
+        "output": "mouse",
+        "mouseMode": "relative",
+        "bindings": [
+          "action:calibrate_steering"
+        ],
+        "tapHold": [],
+        "requiredActions": 512,
+        "excludedActions": 0,
+        "layer": "world"
+      }
+    }
+  ],
+  "inheritControls": true,
+  "removedControls": [
+    "camera",
+    "phone",
+    "attack",
+    "aim",
+    "jump",
+    "duck",
+    "sprint",
+    "cover",
+    "reload",
+    "weapon_wheel",
+    "ability",
+    "cancel_run",
+    "scope_zoom_in",
+    "scope_zoom_out",
+    "melee_heavy",
+    "melee_block",
+    "weapon_attachment",
+    "melee_alternate",
+    "weapon_prev",
+    "weapon_next",
+    "weapon_confirm",
+    "weapon_cancel",
+    "weapon_status",
+    "dive",
+    "deploy",
+    "detach",
+    "chute_brake_left",
+    "chute_brake_right",
+    "chute_brake_both",
+    "jetpack_thrust",
+    "yaw_left",
+    "yaw_right",
+    "jetpack_mode"
+  ]
+}

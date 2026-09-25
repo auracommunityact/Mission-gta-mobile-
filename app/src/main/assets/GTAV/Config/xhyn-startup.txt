@@ -1,0 +1,5 @@
+XHYN V r20 launch setup
+Java locale: en-US
+Renderer selection: bundled
+Native libraries loaded. Engine startup locale bridge installed.
+Phone language and selected game language are unchanged.
